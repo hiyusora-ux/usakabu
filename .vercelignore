@@ -1,10 +1,11 @@
 # Vercel には静的サイト（public/）だけを渡す。
 # Python のデータ生成は GitHub Actions 側で実行するため、Vercel では不要。
-app/
-data/
-.github/
-.claude/
-.venv/
+# 先頭の "/" でルート直下のみを指定（public/data/ を巻き込まないため重要）。
+/app/
+/data/
+/.github/
+/.claude/
+/.venv/
+/requirements.txt
+/run.ps1
 __pycache__/
-requirements.txt
-run.ps1
