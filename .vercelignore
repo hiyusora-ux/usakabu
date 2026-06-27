@@ -1,0 +1,10 @@
+# Vercel には静的サイト（public/）だけを渡す。
+# Python のデータ生成は GitHub Actions 側で実行するため、Vercel では不要。
+app/
+data/
+.github/
+.claude/
+.venv/
+__pycache__/
+requirements.txt
+run.ps1
