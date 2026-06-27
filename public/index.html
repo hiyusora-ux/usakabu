@@ -32,18 +32,26 @@
 
   <section id="sectors-wrap" class="outlook-wrap" hidden>
     <div class="outlook-head">
-      <h2>セクター相対比較 <small>3Mモメンタム順・数値ベース</small></h2>
+      <h2>セクター相対比較 <small>相対強度（0-100）順・数値ベース</small></h2>
     </div>
     <div class="table-wrap">
       <table id="sectors-table">
         <thead>
           <tr>
-            <th>#</th><th>セクター</th><th>3Mモメンタム</th><th>6M</th>
-            <th>平均スコア</th><th>ブレッド</th><th>売上成長</th><th>銘柄数</th><th>推移(3M)</th>
+            <th>#</th><th>セクター</th><th>相対強度</th><th>3Mモメンタム</th><th>6M</th>
+            <th>平均スコア</th><th>ブレッド</th><th>売上成長</th><th>銘柄数</th><th>推移</th>
           </tr>
         </thead>
         <tbody id="sectors-body"></tbody>
       </table>
+    </div>
+
+    <div id="trend-wrap" class="trend-wrap">
+      <div class="trend-head">
+        <span class="trend-title">相対強度の推移</span>
+        <span id="trend-legend" class="trend-legend"></span>
+      </div>
+      <div id="trend-chart" class="trend-chart"></div>
     </div>
   </section>
 

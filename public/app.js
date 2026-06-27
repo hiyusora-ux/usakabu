@@ -145,18 +145,18 @@ function renderSectors() {
   wrap.hidden = false;
 
   const points = (store.history && store.history.points) || [];
-  const seriesFor = (theme) => points.map((p) => (p[theme] ? p[theme].m3 : null));
-  const barColor = (v) => (v == null ? "#888" : v >= 0 ? "var(--good)" : "var(--bad)");
-  const maxAbs = Math.max(0.01, ...sectors.map((s) => Math.abs(s.avg_mom_3m || 0)));
+  const seriesFor = (theme) => points.map((p) => (p[theme] ? p[theme].st : null));
 
   body.innerHTML = sectors.map((s) => {
-    const m3 = s.avg_mom_3m;
-    const barW = m3 == null ? 0 : Math.round((Math.abs(m3) / maxAbs) * 80);
-    const bar = `<span class="sbar" style="width:${barW}px;background:${barColor(m3)}"></span>`;
+    const st = s.strength;
+    const stW = st == null ? 0 : Math.round((st / 100) * 80);
+    const stColor = `hsl(${(st / 100) * 130}, 90%, 55%)`;
+    const stBar = `<span class="sbar" style="width:${stW}px;background:${stColor}"></span>`;
     return `<tr>
       <td>${s.rank}</td>
       <td style="text-align:left"><span class="tk">${s.label}</span></td>
-      <td><span class="${cls(m3)}">${pct(m3)}</span> ${bar}</td>
+      <td><b style="color:${stColor}">${num(st, 1)}</b> ${stBar}</td>
+      <td class="${cls(s.avg_mom_3m)}">${pct(s.avg_mom_3m)}</td>
       <td class="${cls(s.avg_mom_6m)}">${pct(s.avg_mom_6m)}</td>
       <td>${num(s.avg_score, 1)}</td>
       <td>${s.breadth == null ? "—" : Math.round(s.breadth * 100) + "%"}</td>
@@ -165,6 +165,49 @@ function renderSectors() {
       <td>${sparkline(seriesFor(s.theme), "#00f0ff")}</td>
     </tr>`;
   }).join("");
+
+  renderTrendChart(sectors);
+}
+
+const THEME_LINE = { semiconductor: "#00f0ff", ai: "#ff2bd6", physical_ai: "#2bff88" };
+
+function renderTrendChart(sectors) {
+  const chart = document.getElementById("trend-chart");
+  const legend = document.getElementById("trend-legend");
+  const points = (store.history && store.history.points) || [];
+
+  legend.innerHTML = sectors.map((s) =>
+    `<span class="lg"><i style="background:${THEME_LINE[s.theme] || "#888"}"></i>${s.label}</span>`
+  ).join("");
+
+  if (points.length < 2) {
+    chart.innerHTML = `<div class="trend-empty">データ蓄積中… 更新のたびに点が増えてグラフになります（現在 ${points.length} 点）</div>`;
+    return;
+  }
+
+  const W = 660, H = 200, padL = 34, padR = 12, padT = 12, padB = 22;
+  const innerW = W - padL - padR, innerH = H - padT - padB;
+  const n = points.length;
+  const x = (i) => padL + (i / (n - 1)) * innerW;
+  const y = (v) => padT + (1 - v / 100) * innerH; // 0-100スケール固定
+
+  const grid = [0, 25, 50, 75, 100].map((g) =>
+    `<line x1="${padL}" y1="${y(g)}" x2="${W - padR}" y2="${y(g)}" stroke="rgba(120,150,200,0.15)" stroke-width="1"/>
+     <text x="${padL - 6}" y="${y(g) + 4}" text-anchor="end" fill="#6b7da6" font-size="10">${g}</text>`
+  ).join("");
+
+  const lines = sectors.map((s) => {
+    const col = THEME_LINE[s.theme] || "#888";
+    const pts = points.map((p, i) => {
+      const v = p[s.theme] ? p[s.theme].st : null;
+      return v == null ? null : `${x(i).toFixed(1)},${y(v).toFixed(1)}`;
+    }).filter(Boolean).join(" ");
+    return `<polyline points="${pts}" fill="none" stroke="${col}" stroke-width="2" style="filter:drop-shadow(0 0 4px ${col})"/>`;
+  }).join("");
+
+  chart.innerHTML = `<svg viewBox="0 0 ${W} ${H}" width="100%" preserveAspectRatio="xMidYMid meet">
+    ${grid}${lines}
+  </svg>`;
 }
 
 function renderStatus() {

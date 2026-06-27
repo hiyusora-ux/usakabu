@@ -40,6 +40,7 @@ def _append_history(sectors: list[dict]):
         point[s["theme"]] = {
             "m3": round(s["avg_mom_3m"] * 100, 2) if s["avg_mom_3m"] is not None else None,
             "sc": round(s["avg_score"], 1) if s["avg_score"] is not None else None,
+            "st": s.get("strength"),
         }
     points.append(point)
     points = points[-HISTORY_KEEP:]

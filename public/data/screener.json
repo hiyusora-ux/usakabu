@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-27T13:38:54.186789+00:00",
+  "updated_at": "2026-06-27T13:47:57.641116+00:00",
   "stocks": [
     {
       "ticker": "MU",
@@ -482,7 +482,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 53.0,
       "mom_3m": 0.2305589129903174,
-      "mom_6m": 0.0773988715159768,
+      "mom_6m": 0.07739876652044209,
       "name": "Alphabet",
       "tags": [
         "ai"
@@ -693,7 +693,7 @@
       "recommendation": "buy",
       "num_analysts": 39.0,
       "mom_3m": 0.06722580727213168,
-      "mom_6m": -0.23511751605091824,
+      "mom_6m": -0.2351174559480279,
       "name": "Oracle",
       "tags": [
         "ai"
@@ -764,7 +764,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 13.0,
       "mom_3m": 0.24969909557923153,
-      "mom_6m": 0.41732769856431684,
+      "mom_6m": 0.41732760520663903,
       "name": "Monolithic Power",
       "tags": [
         "semiconductor"
