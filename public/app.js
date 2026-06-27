@@ -2,7 +2,7 @@ let currentTheme = "all";
 let THEMES = { semiconductor: "半導体", ai: "AI（ソフト/プラットフォーム）", physical_ai: "フィジカルAI（ロボ/自律）" };
 
 // 静的JSONをまとめて保持（テーマ切替時の再取得を避ける）
-const store = { screener: null, topics: null, outlook: null, status: null };
+const store = { screener: null, topics: null, outlook: null, status: null, sectors: null, history: null };
 
 const pct = (v) => (v == null ? "—" : (v * 100).toFixed(1) + "%");
 const num = (v, d = 1) => (v == null ? "—" : Number(v).toFixed(d));
@@ -122,6 +122,51 @@ function renderOutlook() {
   }).join("");
 }
 
+function sparkline(series, color) {
+  const xs = series.filter((v) => typeof v === "number");
+  if (xs.length < 2) return `<span class="spark-empty">蓄積中…</span>`;
+  const w = 90, h = 22, min = Math.min(...xs), max = Math.max(...xs);
+  const span = max - min || 1;
+  const pts = xs.map((v, i) => {
+    const x = (i / (xs.length - 1)) * w;
+    const y = h - 2 - ((v - min) / span) * (h - 4);
+    return `${x.toFixed(1)},${y.toFixed(1)}`;
+  }).join(" ");
+  return `<svg class="spark" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}">
+    <polyline points="${pts}" fill="none" stroke="${color}" stroke-width="1.5"/>
+  </svg>`;
+}
+
+function renderSectors() {
+  const wrap = document.getElementById("sectors-wrap");
+  const body = document.getElementById("sectors-body");
+  const sectors = (store.sectors && store.sectors.sectors) || [];
+  if (!sectors.length) { wrap.hidden = true; return; }
+  wrap.hidden = false;
+
+  const points = (store.history && store.history.points) || [];
+  const seriesFor = (theme) => points.map((p) => (p[theme] ? p[theme].m3 : null));
+  const barColor = (v) => (v == null ? "#888" : v >= 0 ? "var(--good)" : "var(--bad)");
+  const maxAbs = Math.max(0.01, ...sectors.map((s) => Math.abs(s.avg_mom_3m || 0)));
+
+  body.innerHTML = sectors.map((s) => {
+    const m3 = s.avg_mom_3m;
+    const barW = m3 == null ? 0 : Math.round((Math.abs(m3) / maxAbs) * 80);
+    const bar = `<span class="sbar" style="width:${barW}px;background:${barColor(m3)}"></span>`;
+    return `<tr>
+      <td>${s.rank}</td>
+      <td style="text-align:left"><span class="tk">${s.label}</span></td>
+      <td><span class="${cls(m3)}">${pct(m3)}</span> ${bar}</td>
+      <td class="${cls(s.avg_mom_6m)}">${pct(s.avg_mom_6m)}</td>
+      <td>${num(s.avg_score, 1)}</td>
+      <td>${s.breadth == null ? "—" : Math.round(s.breadth * 100) + "%"}</td>
+      <td class="${cls(s.avg_revenue_growth)}">${pct(s.avg_revenue_growth)}</td>
+      <td>${s.count}</td>
+      <td>${sparkline(seriesFor(s.theme), "#00f0ff")}</td>
+    </tr>`;
+  }).join("");
+}
+
 function renderStatus() {
   const st = store.status || {};
   const el = document.getElementById("status");
@@ -133,15 +178,18 @@ function renderStatus() {
 function renderAll() {
   renderScreener();
   renderTopics();
+  renderSectors();
   renderOutlook();
   renderStatus();
 }
 
 async function init() {
-  const [sc, tp, ol, st] = await Promise.all([
+  const [sc, tp, ol, st, se, hi] = await Promise.all([
     getJSON("screener"), getJSON("topics"), getJSON("outlook"), getJSON("status"),
+    getJSON("sectors"), getJSON("history"),
   ]);
   store.screener = sc; store.topics = tp; store.outlook = ol; store.status = st;
+  store.sectors = se; store.history = hi;
   if (st && st.themes) THEMES = st.themes;
   renderThemes();
   renderAll();

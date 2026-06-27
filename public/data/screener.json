@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-27T11:52:21.167708+00:00",
+  "updated_at": "2026-06-27T13:38:54.186789+00:00",
   "stocks": [
     {
       "ticker": "MU",
@@ -482,7 +482,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 53.0,
       "mom_3m": 0.2305589129903174,
-      "mom_6m": 0.07739876652044209,
+      "mom_6m": 0.0773988715159768,
       "name": "Alphabet",
       "tags": [
         "ai"
@@ -517,7 +517,7 @@
       "recommendation": "buy",
       "num_analysts": 31.0,
       "mom_3m": 0.7944138526435094,
-      "mom_6m": 1.159615518850576,
+      "mom_6m": 1.159615331121913,
       "name": "Lam Research",
       "tags": [
         "semiconductor"
@@ -1045,7 +1045,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 35.0,
       "mom_3m": 0.8614327262557671,
-      "mom_6m": 1.388907116224483,
+      "mom_6m": 1.3889073940626617,
       "name": "Applied Materials",
       "tags": [
         "semiconductor"

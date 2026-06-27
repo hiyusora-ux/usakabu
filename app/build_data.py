@@ -7,13 +7,15 @@ GitHub Actions の定期実行（python -m app.build_data）と、
 from __future__ import annotations
 
 import json
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
-from app import data, outlook, screener, translate
+from app import data, outlook, screener, sector, translate
 from app.universe import THEME_LABELS, all_tickers, meta
 
 PUBLIC_DATA = Path(__file__).resolve().parent.parent / "public" / "data"
+HISTORY_KEEP = 120  # 直近120ポイントを保持
 
 
 def _write(name: str, payload: dict):
@@ -23,6 +25,25 @@ def _write(name: str, payload: dict):
         json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8"
     )
     return payload
+
+
+def _append_history(sectors: list[dict]):
+    """セクター集計を history.json に1ポイント追記（時系列トレンド用）。"""
+    path = PUBLIC_DATA / "history.json"
+    try:
+        hist = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    except Exception:
+        hist = {}
+    points = hist.get("points", [])
+    point = {"t": int(time.time())}
+    for s in sectors:
+        point[s["theme"]] = {
+            "m3": round(s["avg_mom_3m"] * 100, 2) if s["avg_mom_3m"] is not None else None,
+            "sc": round(s["avg_score"], 1) if s["avg_score"] is not None else None,
+        }
+    points.append(point)
+    points = points[-HISTORY_KEEP:]
+    _write("history", {"points": points})
 
 
 def build() -> None:
@@ -40,11 +61,16 @@ def build() -> None:
         n["tags"] = meta(n.get("ticker", "")).get("tags", [])
     tp = _write("topics", {"items": news})
 
-    # 3) 市場見通し
+    # 3) セクター相対比較＋時系列トレンド
+    sectors = sector.compute_sectors(stocks)
+    _write("sectors", {"sectors": sectors})
+    _append_history(sectors)
+
+    # 4) 市場見通し
     items = outlook.generate_outlook(stocks, news)
     ol = _write("outlook", {"items": items, "enabled": outlook._has_key()})
 
-    # 4) ステータス（フロントのヘッダ表示用）
+    # 5) ステータス（フロントのヘッダ表示用）
     _write("status", {
         "screener_updated": sc["updated_at"],
         "topics_updated": tp["updated_at"],

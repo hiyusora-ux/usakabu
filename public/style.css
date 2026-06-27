@@ -162,3 +162,17 @@ tbody tr:hover { background: rgba(0, 240, 255, 0.06); }
 .topic-tk { background: var(--chip); border: 1px solid var(--line); border-radius: 3px; padding: 0 6px; color: var(--magenta); }
 
 .empty { color: var(--muted); font-size: 13px; padding: 20px 0; text-align: center; letter-spacing: 1px; }
+
+/* ---- セクター相対比較 ---- */
+#sectors-wrap { padding: 0 24px 4px; }
+#sectors-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+#sectors-table th, #sectors-table td { padding: 8px 10px; text-align: right; white-space: nowrap; }
+#sectors-table th {
+  color: var(--cyan); font-weight: 400; font-size: 11px; letter-spacing: 1px; text-transform: uppercase;
+  border-bottom: 1px solid var(--line);
+}
+#sectors-table tbody tr { border-bottom: 1px solid var(--line-soft); }
+#sectors-table tbody tr:hover { background: rgba(0, 240, 255, 0.06); }
+.sbar { display: inline-block; height: 8px; border-radius: 2px; vertical-align: middle; margin-left: 6px; box-shadow: 0 0 6px currentColor; }
+.spark { vertical-align: middle; }
+.spark-empty { color: var(--muted); font-size: 11px; }
