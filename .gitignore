@@ -1,0 +1,12 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 注: public/data/ と data/translations.json は意図的にコミットします。
+#  - public/data/*.json : Vercel が配信する生成データ（初回デプロイの種にもなる）
+#  - data/translations.json : 和訳キャッシュ（再翻訳コストを避けるため Actions 間で共有）

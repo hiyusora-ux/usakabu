@@ -1,0 +1,46 @@
+name: Refresh data
+
+on:
+  schedule:
+    # 米東部の取引時間中（おおよそ 13:00–21:00 UTC）に毎時5分。平日のみ。
+    - cron: "5 13-21 * * 1-5"
+  workflow_dispatch: {}   # 手動実行ボタン
+
+permissions:
+  contents: write   # public/data の自動コミット用
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build data
+        env:
+          # Anthropic APIキー（ニュース和訳・市場見通し用）。未設定なら原文＋見通し非表示。
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python -m app.build_data
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data data/translations.json 2>/dev/null || git add public/data
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "chore: refresh market data [skip ci]"
+            git push
+          fi
