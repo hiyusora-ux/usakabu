@@ -11,7 +11,7 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 
-from app import data, outlook, screener, sector, translate
+from app import data, free_outlook, outlook, screener, sector, translate
 from app.universe import THEME_LABELS, all_tickers, meta
 
 PUBLIC_DATA = Path(__file__).resolve().parent.parent / "public" / "data"
@@ -67,9 +67,14 @@ def build() -> None:
     _write("sectors", {"sectors": sectors})
     _append_history(sectors)
 
-    # 4) 市場見通し
-    items = outlook.generate_outlook(stocks, news)
-    ol = _write("outlook", {"items": items, "enabled": outlook._has_key()})
+    # 4) 市場見通し（APIキーがあれば Claude、無ければルールベース＝無料）
+    if outlook._has_key():
+        items = outlook.generate_outlook(stocks, news)
+        mode = "ai"
+    else:
+        items = free_outlook.rule_outlook(sectors, news)
+        mode = "rule"
+    ol = _write("outlook", {"items": items, "enabled": bool(items), "mode": mode})
 
     # 5) ステータス（フロントのヘッダ表示用）
     _write("status", {

@@ -103,6 +103,8 @@ function renderOutlook() {
   const items = data.items || [];
   if (!data.enabled || !items.length) { wrap.hidden = true; return; }
   wrap.hidden = false;
+  const modeEl = document.getElementById("outlook-mode");
+  if (modeEl) modeEl.textContent = data.mode === "ai" ? "AIによるニュース材料の整理" : "数値ベースの自動分析（AIではありません）";
   box.innerHTML = items.map((o) => {
     const c = SENT_COLOR[o.sentiment_score] || "#888";
     const ul = (arr) => (arr || []).map((x) => `<li>${x}</li>`).join("");
