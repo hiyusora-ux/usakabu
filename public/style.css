@@ -137,7 +137,8 @@ td:nth-child(2), th:nth-child(2) { text-align: left; }
 tbody tr { border-bottom: 1px solid var(--line-soft); }
 tbody tr:hover { background: rgba(0, 240, 255, 0.06); }
 
-.tk { font-weight: 700; color: #eafdff; letter-spacing: 0.5px; }
+.tk { font-weight: 700; color: #eafdff; letter-spacing: 0.5px; text-decoration: none; }
+a.tk:hover { color: var(--cyan); text-shadow: 0 0 6px rgba(0, 240, 255, 0.6); }
 .nm { color: var(--muted); font-size: 11px; }
 .tags { display: inline-flex; gap: 4px; margin-left: 6px; }
 .tag { font-size: 9px; padding: 1px 5px; border-radius: 3px; background: var(--chip); color: var(--cyan); border: 1px solid var(--line); }

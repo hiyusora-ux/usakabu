@@ -56,7 +56,7 @@ function renderScreener() {
     const tags = (s.tags || []).map((t) => `<span class="tag">${t}</span>`).join("");
     return `<tr>
       <td>${i + 1}</td>
-      <td><span class="tk">${s.ticker}</span><span class="tags">${tags}</span><br><span class="nm">${s.name || ""}</span></td>
+      <td><a class="tk" href="https://www.moomoo.com/stock/${s.ticker}-US" target="_blank" rel="noopener" title="moomooで${s.ticker}を開く">${s.ticker}</a><span class="tags">${tags}</span><br><span class="nm">${s.name || ""}</span></td>
       <td>${money(s.price)}</td>
       <td class="score-col"><span class="score" style="background:${scoreColor(s.score)}">${num(s.score, 1)}</span></td>
       <td class="${cls(s.revenue_growth)}">${pct(s.revenue_growth)}</td>
