@@ -40,6 +40,12 @@
   width: 90px; font-family: "Orbitron", sans-serif; font-size: 18px; font-weight: 700;
 }
 .rate-unit { color: var(--muted); font-size: 12px; }
+.rate-row button { padding: 4px 11px; font-size: 11px; letter-spacing: 1px; }
+
+/* パネル見出し＋右寄せボタン */
+.panel-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.panel-head h2 { margin-bottom: 12px; }
+.panel-head button { padding: 5px 12px; font-size: 11px; white-space: nowrap; }
 
 /* ---- 縦並びパネル ---- */
 .pf-main {

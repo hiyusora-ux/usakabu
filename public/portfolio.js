@@ -445,16 +445,42 @@ document.getElementById("rakuten-file").addEventListener("change", (e) => {
   e.target.value = "";
 });
 
-// 全データ削除（2段階確認）
-document.getElementById("reset-btn").addEventListener("click", () => {
-  if (!confirm("資金移動・保有銘柄・売買メモ・資産推移グラフのデータをすべて削除します。\nこの操作は取り消せません。よろしいですか？")) return;
-  if (!confirm("本当に全部消してよいですか？（再取り込みする前提ならOK）")) return;
-  data = defaultData();
-  save();
-  fxInput.value = data.fxRate;
-  renderAll();
-  alert("すべてのデータを削除しました。楽天CSV取込から再取り込みできます。");
+// 保有銘柄のみ全削除（資金移動履歴・売買メモ・資産推移は残す）
+document.getElementById("reset-holdings").addEventListener("click", () => {
+  if (!data.holdings.length) { alert("保有銘柄の記録はありません。"); return; }
+  if (!confirm(`保有銘柄の記録（${data.holdings.length}件）をすべて削除します。\n※ 資金移動履歴・売買メモ・資産推移グラフは残ります。\nよろしいですか？`)) return;
+  data.holdings = [];
+  save(); renderAll();
+  alert("保有銘柄を削除しました。楽天CSV取込から再取り込みできます。");
 });
+
+// USD/JPY レートをWebから同期（frankfurter.dev → 予備 open.er-api.com）
+async function syncFxRate(manual) {
+  const sub = document.getElementById("fx-sub");
+  const apply = (rate, dateStr) => {
+    data.fxRate = Math.round(rate * 100) / 100;
+    fxInput.value = data.fxRate;
+    save(); renderSummary(); renderChart();
+    sub.textContent = `Web同期 ${dateStr}（1ドル=${data.fxRate}円）`;
+  };
+  try {
+    const r = await fetch("https://api.frankfurter.dev/v1/latest?base=USD&symbols=JPY");
+    const j = await r.json();
+    if (j && j.rates && j.rates.JPY) return apply(j.rates.JPY, j.date || "");
+    throw new Error("no rate");
+  } catch {
+    try {
+      const r = await fetch("https://open.er-api.com/v6/latest/USD");
+      const j = await r.json();
+      if (j && j.rates && j.rates.JPY) return apply(j.rates.JPY, (j.time_last_update_utc || "").slice(0, 16));
+      throw new Error("no rate");
+    } catch {
+      if (manual) alert("レートの取得に失敗しました。ネット接続を確認するか、手入力してください。");
+    }
+  }
+}
+document.getElementById("fx-sync").addEventListener("click", () => syncFxRate(true));
+syncFxRate(false); // 起動時にベストエフォートで最新化（失敗時は保存値を使用）
 
 // 日付入力の既定値を今日に
 for (const f of ["transfer-form", "trade-form"]) {
