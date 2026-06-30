@@ -9,13 +9,19 @@ const defaultData = () => ({
   snapshots: [],               // {date, valueJPY, costJPY}
 });
 
+// 残高を集計する口座（「入金（外部）」は外部ソースなので残高対象外）
+const ACCOUNTS = ["長男　中銀", "長男　楽天", "長女　中銀", "長女　楽天", "父NISA口座"];
+
 let data = load();
 
 function load() {
   try {
     const raw = localStorage.getItem(STORE_KEY);
     if (!raw) return defaultData();
-    return Object.assign(defaultData(), JSON.parse(raw));
+    const d = Object.assign(defaultData(), JSON.parse(raw));
+    // 旧データ移行：移動先(to)が無い資金移動は 父NISA口座 を既定にする
+    for (const t of d.transfers) if (!t.to) t.to = "父NISA口座";
+    return d;
   } catch {
     return defaultData();
   }
@@ -61,14 +67,30 @@ function portfolioTotals() {
   return { valueJPY, costJPY, depositTotal, hasValue, plJPY: valueJPY - costJPY };
 }
 
+// 口座ごとの残高 = その口座への入金 − その口座からの出金
+function accountBalances() {
+  const bal = {};
+  ACCOUNTS.forEach((a) => (bal[a] = 0));
+  for (const t of data.transfers) {
+    const amt = Number(t.amount) || 0;
+    if (bal[t.to] !== undefined) bal[t.to] += amt;
+    if (bal[t.from] !== undefined) bal[t.from] -= amt;
+  }
+  return bal;
+}
+
 // ---- レンダリング ----
 function renderSummary() {
   const t = portfolioTotals();
-  document.getElementById("sum-deposit").textContent = yen(t.depositTotal);
-  const byPerson = {};
-  for (const tr of data.transfers) byPerson[tr.from] = (byPerson[tr.from] || 0) + (Number(tr.amount) || 0);
+  const bal = accountBalances();
+  document.getElementById("sum-deposit").textContent = yen(bal["父NISA口座"]);
+  const byFrom = {};
+  for (const tr of data.transfers) {
+    if (tr.to !== "父NISA口座") continue;
+    byFrom[tr.from] = (byFrom[tr.from] || 0) + (Number(tr.amount) || 0);
+  }
   document.getElementById("sum-deposit-sub").textContent =
-    Object.keys(byPerson).length ? Object.entries(byPerson).map(([k, v]) => `${k} ${yen(v)}`).join(" / ") : "—";
+    Object.keys(byFrom).length ? Object.entries(byFrom).map(([k, v]) => `${k} ${yen(v)}`).join(" / ") : "—";
 
   document.getElementById("sum-value").textContent = yen(t.valueJPY);
   document.getElementById("sum-value-sub").textContent = "取得額 " + yen(t.costJPY);
@@ -83,14 +105,32 @@ function renderSummary() {
 function renderTransfers() {
   const body = document.getElementById("transfer-body");
   const rows = [...data.transfers].sort((a, b) => (a.date < b.date ? 1 : -1));
-  if (!rows.length) { body.innerHTML = `<tr><td colspan="5" class="empty">まだ記録がありません</td></tr>`; return; }
+  if (!rows.length) { body.innerHTML = `<tr><td colspan="6" class="empty">まだ記録がありません</td></tr>`; return; }
   body.innerHTML = rows.map((t) => `<tr>
     <td>${t.date || "—"}</td>
-    <td style="text-align:left"><span class="badge">${t.from || ""}</span></td>
+    <td style="text-align:left"><span class="badge">${esc(t.from)}</span></td>
+    <td style="text-align:left"><span class="badge to">${esc(t.to)}</span></td>
     <td>${yen(t.amount)}</td>
     <td style="text-align:left" class="memo">${esc(t.memo)}</td>
     <td><button class="del" data-kind="transfers" data-id="${t.id}">×</button></td>
   </tr>`).join("");
+}
+
+// 口座残高の横棒グラフ
+function renderBalanceChart() {
+  const el = document.getElementById("balance-chart");
+  const bal = accountBalances();
+  const max = Math.max(1, ...ACCOUNTS.map((a) => Math.abs(bal[a])));
+  el.innerHTML = ACCOUNTS.map((name) => {
+    const v = bal[name];
+    const w = Math.round((Math.abs(v) / max) * 100);
+    const color = v < 0 ? "var(--bad)" : name === "父NISA口座" ? "var(--magenta)" : "var(--cyan)";
+    return `<div class="bal-row">
+      <div class="bal-name">${name}</div>
+      <div class="bal-track"><span class="bal-bar" style="width:${w}%;background:${color};box-shadow:0 0 8px ${color}"></span></div>
+      <div class="bal-val ${v < 0 ? "neg" : ""}">${yen(v)}</div>
+    </div>`;
+  }).join("");
 }
 
 function renderHoldings() {
@@ -177,7 +217,7 @@ function esc(s) {
   return (s == null ? "" : String(s)).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 }
 
-function renderAll() { renderSummary(); renderTransfers(); renderHoldings(); renderTrades(); renderChart(); }
+function renderAll() { renderSummary(); renderTransfers(); renderBalanceChart(); renderHoldings(); renderTrades(); renderChart(); }
 
 // ---- 入力ハンドリング ----
 function formData(form) {
@@ -189,7 +229,7 @@ function formData(form) {
 document.getElementById("transfer-form").addEventListener("submit", (e) => {
   e.preventDefault();
   const o = formData(e.target);
-  data.transfers.push({ id: uid(), date: o.date, from: o.from, amount: Number(o.amount), memo: o.memo });
+  data.transfers.push({ id: uid(), date: o.date, from: o.from, to: o.to, amount: Number(o.amount), memo: o.memo });
   save(); renderAll(); e.target.reset();
 });
 

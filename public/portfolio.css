@@ -81,6 +81,30 @@
 }
 .badge.buy { color: var(--good); border-color: rgba(43,255,136,0.4); background: rgba(43,255,136,0.08); }
 .badge.sell { color: var(--bad); border-color: rgba(255,59,107,0.4); background: rgba(255,59,107,0.08); }
+.badge.to { color: var(--magenta); border-color: rgba(255,43,214,0.4); background: rgba(255,43,214,0.08); }
+
+.pf-form .arrow { color: var(--muted); font-size: 16px; padding: 0 2px; }
+.pf-form select[name="from"], .pf-form select[name="to"] { min-width: 112px; }
+
+/* 口座残高 横棒グラフ */
+.bal-wrap {
+  margin-bottom: 14px; padding: 12px 14px;
+  border: 1px solid var(--line-soft); border-radius: 6px; background: rgba(0,240,255,0.03);
+}
+.bal-title { font-family: "Orbitron", sans-serif; font-size: 12px; letter-spacing: 1.5px; text-transform: uppercase; color: #eafdff; margin-bottom: 10px; }
+.bal-title small { color: var(--muted); font-size: 11px; letter-spacing: 0; margin-left: 6px; font-family: "Share Tech Mono", monospace; }
+.balance-chart { display: flex; flex-direction: column; gap: 8px; }
+.bal-row { display: grid; grid-template-columns: 96px 1fr 110px; align-items: center; gap: 10px; }
+.bal-name { font-size: 12px; color: var(--text); white-space: nowrap; }
+.bal-track { height: 14px; background: rgba(120,150,200,0.10); border-radius: 3px; overflow: hidden; }
+.bal-bar { display: block; height: 100%; border-radius: 3px; min-width: 2px; transition: width .25s ease; }
+.bal-val { text-align: right; font-size: 13px; color: #eafdff; }
+.bal-val.neg { color: var(--bad); }
+
+@media (max-width: 600px) {
+  .bal-row { grid-template-columns: 80px 1fr 92px; gap: 7px; }
+  .bal-name { font-size: 11px; }
+}
 
 .memo { color: #aec4e8; font-size: 12px; white-space: normal; }
 
