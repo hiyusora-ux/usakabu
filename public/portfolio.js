@@ -10,10 +10,12 @@ const defaultData = () => ({
   snapshots: [],               // {date, valueJPY, costJPY}
 });
 
-// 移動元の4口座と、移動先（固定）の父NISA口座
-const CHILD_ACCOUNTS = ["長男　中銀", "長男　楽天", "長女　中銀", "長女　楽天"];
+// 移動元の口座と、移動先（固定）の父NISA口座
+const CHILD_ACCOUNTS = ["子育て支援金口座中銀", "長男　楽天", "長女　楽天"];
 const NISA = "父の楽天証券NISA口座";
 const DISPLAY_ACCOUNTS = [...CHILD_ACCOUNTS, NISA]; // 残高グラフの表示順
+// 旧口座名の統合（長男　中銀 / 長女　中銀 は同一口座だった）
+const ACCOUNT_RENAME = { "長男　中銀": "子育て支援金口座中銀", "長女　中銀": "子育て支援金口座中銀" };
 
 let data = load();
 
@@ -24,8 +26,16 @@ function load() {
     const d = Object.assign(defaultData(), JSON.parse(raw));
     // 旧データ移行：移動先は常に父の楽天証券NISA口座に統一
     for (const t of d.transfers) if (!t.to || t.to === "父NISA口座") t.to = NISA;
-    // 残高オブジェクトに4口座のキーを用意
+    // 旧口座名を統合（残高は合算、移動履歴の移動元も付け替え）
     if (!d.balances) d.balances = {};
+    const nb = {};
+    for (const [k, v] of Object.entries(d.balances)) {
+      const nk = ACCOUNT_RENAME[k] || k;
+      nb[nk] = (nb[nk] || 0) + (Number(v) || 0);
+    }
+    d.balances = nb;
+    for (const t of d.transfers) if (ACCOUNT_RENAME[t.from]) t.from = ACCOUNT_RENAME[t.from];
+    // 残高オブジェクトに対象口座のキーを用意
     for (const a of CHILD_ACCOUNTS) if (!(a in d.balances)) d.balances[a] = 0;
     return d;
   } catch {
