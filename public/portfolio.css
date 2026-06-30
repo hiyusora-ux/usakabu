@@ -78,6 +78,26 @@
 
 .memo { color: #aec4e8; font-size: 12px; white-space: normal; }
 
+/* 保有銘柄テーブルの現在値インライン入力 */
+.price-edit {
+  width: 96px; text-align: right;
+  background: rgba(5,6,10,0.6); color: var(--text);
+  border: 1px solid var(--line); border-radius: 4px; padding: 4px 7px;
+  font-family: "Share Tech Mono", monospace; font-size: 12px;
+}
+.price-edit::placeholder { color: var(--muted); }
+
+/* 全削除ボタン（危険操作） */
+button.danger {
+  color: var(--bad); border-color: rgba(255,59,107,0.5);
+  box-shadow: 0 0 8px rgba(255,59,107,0.2), inset 0 0 8px rgba(255,59,107,0.05);
+}
+button.danger:hover {
+  background: rgba(255,59,107,0.12);
+  box-shadow: 0 0 16px rgba(255,59,107,0.55), inset 0 0 12px rgba(255,59,107,0.12);
+}
+.price-edit:focus { outline: none; border-color: var(--cyan); box-shadow: 0 0 8px rgba(0,240,255,0.3); }
+
 /* ---- 削除ボタン ---- */
 button.del {
   background: transparent; border: 1px solid var(--line-soft); color: var(--muted);

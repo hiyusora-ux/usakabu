@@ -100,12 +100,15 @@ function renderHoldings() {
   body.innerHTML = data.holdings.map((h) => {
     const s = holdingStats(h);
     const c = cur(h.currency);
+    const isFund = h.ticker === "投信";          // 投信は基準価額(1万口あたり)で入出力
+    const mult = isFund ? 10000 : 1;
+    const priceVal = s.price == null ? "" : s.price * mult;
     return `<tr>
       <td style="text-align:left"><span class="tk">${esc(h.ticker) || "—"}</span><br><span class="nm">${esc(h.name)}</span></td>
       <td>${h.currency}</td>
       <td>${numFmt(s.shares, 4)}</td>
-      <td>${c}${numFmt(s.cost)}</td>
-      <td>${s.price == null ? "—" : c + numFmt(s.price)}</td>
+      <td>${c}${numFmt(s.cost * mult)}</td>
+      <td><input class="price-edit" type="number" step="any" min="0" data-id="${h.id}" data-mult="${mult}" value="${priceVal}" placeholder="${isFund ? "基準価額" : "現在値"}" /></td>
       <td>${c}${numFmt(s.costTotal)}</td>
       <td>${s.valueTotal == null ? "—" : c + numFmt(s.valueTotal)}</td>
       <td class="${plClass(s.pl)}">${s.pl == null ? "—" : sign(s.pl) + c + numFmt(s.pl)}</td>
@@ -216,6 +219,17 @@ document.querySelector("main").addEventListener("click", (e) => {
   if (!btn) return;
   const { kind, id } = btn.dataset;
   data[kind] = data[kind].filter((x) => x.id !== id);
+  save(); renderAll();
+});
+
+// 保有銘柄テーブルの現在値を直接編集（投信は基準価額÷mult を内部保存）
+document.getElementById("holding-body").addEventListener("change", (e) => {
+  const inp = e.target.closest(".price-edit");
+  if (!inp) return;
+  const h = data.holdings.find((x) => x.id === inp.dataset.id);
+  if (!h) return;
+  const mult = Number(inp.dataset.mult) || 1;
+  h.price = inp.value === "" ? null : Number(inp.value) / mult;
   save(); renderAll();
 });
 
@@ -429,6 +443,17 @@ document.getElementById("rakuten-file").addEventListener("change", (e) => {
   };
   reader.readAsArrayBuffer(file);
   e.target.value = "";
+});
+
+// 全データ削除（2段階確認）
+document.getElementById("reset-btn").addEventListener("click", () => {
+  if (!confirm("資金移動・保有銘柄・売買メモ・資産推移グラフのデータをすべて削除します。\nこの操作は取り消せません。よろしいですか？")) return;
+  if (!confirm("本当に全部消してよいですか？（再取り込みする前提ならOK）")) return;
+  data = defaultData();
+  save();
+  fxInput.value = data.fxRate;
+  renderAll();
+  alert("すべてのデータを削除しました。楽天CSV取込から再取り込みできます。");
 });
 
 // 日付入力の既定値を今日に
