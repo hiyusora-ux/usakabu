@@ -62,32 +62,29 @@
   <main class="pf-main">
     <!-- 資金移動履歴 -->
     <section class="panel">
-      <h2>資金移動履歴 <small>移動元 → 移動先 と 各口座の残高</small></h2>
+      <h2>資金移動履歴 <small>4口座 → 父の楽天証券NISA口座</small></h2>
+
+      <div class="bal-input-wrap">
+        <div class="bal-title">口座残高を記録 <small>各口座の現時点の残高（円）</small></div>
+        <div id="balance-inputs" class="balance-inputs"></div>
+      </div>
+
       <form id="transfer-form" class="pf-form">
         <input name="date" type="date" required title="日付" />
-        <select name="from" title="移動元">
-          <option value="入金（外部）">入金（外部）</option>
+        <select name="from" title="移動元（どの口座から）">
           <option value="長男　中銀" selected>長男　中銀</option>
           <option value="長男　楽天">長男　楽天</option>
           <option value="長女　中銀">長女　中銀</option>
           <option value="長女　楽天">長女　楽天</option>
-          <option value="父NISA口座">父NISA口座</option>
         </select>
-        <span class="arrow">→</span>
-        <select name="to" title="移動先">
-          <option value="長男　中銀">長男　中銀</option>
-          <option value="長男　楽天">長男　楽天</option>
-          <option value="長女　中銀">長女　中銀</option>
-          <option value="長女　楽天">長女　楽天</option>
-          <option value="父NISA口座" selected>父NISA口座</option>
-        </select>
+        <span class="arrow">→ 父の楽天証券NISA口座</span>
         <input name="amount" type="number" step="1" min="0" placeholder="金額(円)" required />
         <input name="memo" type="text" placeholder="メモ（任意）" />
         <button type="submit">追加</button>
       </form>
 
       <div class="bal-wrap">
-        <div class="bal-title">口座残高 <small>入金 − 出金の累計</small></div>
+        <div class="bal-title">口座残高 <small>記録残高 − NISAへの移動</small></div>
         <div id="balance-chart" class="balance-chart"></div>
       </div>
 

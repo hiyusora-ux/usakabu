@@ -3,14 +3,17 @@ const STORE_KEY = "usakabu_portfolio_v1";
 
 const defaultData = () => ({
   fxRate: 155,                 // USD/JPY 換算レート
-  transfers: [],               // {id, date, from, amount, memo}
+  balances: {},                // 各口座の記録残高 {口座名: 円}
+  transfers: [],               // {id, date, from, to, amount, memo}（移動先は常に父の楽天証券NISA口座）
   holdings: [],                // {id, ticker, name, currency, shares, cost, price}
   trades: [],                  // {id, date, side, ticker, shares, price, memo}
   snapshots: [],               // {date, valueJPY, costJPY}
 });
 
-// 残高を集計する口座（「入金（外部）」は外部ソースなので残高対象外）
-const ACCOUNTS = ["長男　中銀", "長男　楽天", "長女　中銀", "長女　楽天", "父NISA口座"];
+// 移動元の4口座と、移動先（固定）の父NISA口座
+const CHILD_ACCOUNTS = ["長男　中銀", "長男　楽天", "長女　中銀", "長女　楽天"];
+const NISA = "父の楽天証券NISA口座";
+const DISPLAY_ACCOUNTS = [...CHILD_ACCOUNTS, NISA]; // 残高グラフの表示順
 
 let data = load();
 
@@ -19,8 +22,11 @@ function load() {
     const raw = localStorage.getItem(STORE_KEY);
     if (!raw) return defaultData();
     const d = Object.assign(defaultData(), JSON.parse(raw));
-    // 旧データ移行：移動先(to)が無い資金移動は 父NISA口座 を既定にする
-    for (const t of d.transfers) if (!t.to) t.to = "父NISA口座";
+    // 旧データ移行：移動先は常に父の楽天証券NISA口座に統一
+    for (const t of d.transfers) if (!t.to || t.to === "父NISA口座") t.to = NISA;
+    // 残高オブジェクトに4口座のキーを用意
+    if (!d.balances) d.balances = {};
+    for (const a of CHILD_ACCOUNTS) if (!(a in d.balances)) d.balances[a] = 0;
     return d;
   } catch {
     return defaultData();
@@ -67,15 +73,17 @@ function portfolioTotals() {
   return { valueJPY, costJPY, depositTotal, hasValue, plJPY: valueJPY - costJPY };
 }
 
-// 口座ごとの残高 = その口座への入金 − その口座からの出金
+// 4口座の残高 = 記録残高 − NISAへ移動した額／NISAは受入累計
 function accountBalances() {
   const bal = {};
-  ACCOUNTS.forEach((a) => (bal[a] = 0));
+  CHILD_ACCOUNTS.forEach((a) => (bal[a] = Number(data.balances[a]) || 0));
+  let nisa = 0;
   for (const t of data.transfers) {
     const amt = Number(t.amount) || 0;
-    if (bal[t.to] !== undefined) bal[t.to] += amt;
     if (bal[t.from] !== undefined) bal[t.from] -= amt;
+    if (t.to === NISA) nisa += amt;
   }
+  bal[NISA] = nisa;
   return bal;
 }
 
@@ -83,10 +91,10 @@ function accountBalances() {
 function renderSummary() {
   const t = portfolioTotals();
   const bal = accountBalances();
-  document.getElementById("sum-deposit").textContent = yen(bal["父NISA口座"]);
+  document.getElementById("sum-deposit").textContent = yen(bal[NISA]);
   const byFrom = {};
   for (const tr of data.transfers) {
-    if (tr.to !== "父NISA口座") continue;
+    if (tr.to !== NISA) continue;
     byFrom[tr.from] = (byFrom[tr.from] || 0) + (Number(tr.amount) || 0);
   }
   document.getElementById("sum-deposit-sub").textContent =
@@ -116,15 +124,24 @@ function renderTransfers() {
   </tr>`).join("");
 }
 
+// 各口座の記録残高を入力する欄
+function renderBalanceInputs() {
+  const el = document.getElementById("balance-inputs");
+  el.innerHTML = CHILD_ACCOUNTS.map((a) => `<label class="bal-in">
+      <span>${a}</span>
+      <input class="bal-edit" type="number" step="1" min="0" data-acct="${a}" value="${data.balances[a] || data.balances[a] === 0 ? data.balances[a] : ""}" placeholder="0" />
+    </label>`).join("");
+}
+
 // 口座残高の横棒グラフ
 function renderBalanceChart() {
   const el = document.getElementById("balance-chart");
   const bal = accountBalances();
-  const max = Math.max(1, ...ACCOUNTS.map((a) => Math.abs(bal[a])));
-  el.innerHTML = ACCOUNTS.map((name) => {
+  const max = Math.max(1, ...DISPLAY_ACCOUNTS.map((a) => Math.abs(bal[a])));
+  el.innerHTML = DISPLAY_ACCOUNTS.map((name) => {
     const v = bal[name];
     const w = Math.round((Math.abs(v) / max) * 100);
-    const color = v < 0 ? "var(--bad)" : name === "父NISA口座" ? "var(--magenta)" : "var(--cyan)";
+    const color = v < 0 ? "var(--bad)" : name === NISA ? "var(--magenta)" : "var(--cyan)";
     return `<div class="bal-row">
       <div class="bal-name">${name}</div>
       <div class="bal-track"><span class="bal-bar" style="width:${w}%;background:${color};box-shadow:0 0 8px ${color}"></span></div>
@@ -217,7 +234,7 @@ function esc(s) {
   return (s == null ? "" : String(s)).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 }
 
-function renderAll() { renderSummary(); renderTransfers(); renderBalanceChart(); renderHoldings(); renderTrades(); renderChart(); }
+function renderAll() { renderSummary(); renderBalanceInputs(); renderTransfers(); renderBalanceChart(); renderHoldings(); renderTrades(); renderChart(); }
 
 // ---- 入力ハンドリング ----
 function formData(form) {
@@ -229,7 +246,7 @@ function formData(form) {
 document.getElementById("transfer-form").addEventListener("submit", (e) => {
   e.preventDefault();
   const o = formData(e.target);
-  data.transfers.push({ id: uid(), date: o.date, from: o.from, to: o.to, amount: Number(o.amount), memo: o.memo });
+  data.transfers.push({ id: uid(), date: o.date, from: o.from, to: NISA, amount: Number(o.amount), memo: o.memo });
   save(); renderAll(); e.target.reset();
 });
 
@@ -260,6 +277,14 @@ document.querySelector("main").addEventListener("click", (e) => {
   const { kind, id } = btn.dataset;
   data[kind] = data[kind].filter((x) => x.id !== id);
   save(); renderAll();
+});
+
+// 口座残高の記録欄を編集（入力中はグラフ/サマリーだけ更新してフォーカス維持）
+document.getElementById("balance-inputs").addEventListener("input", (e) => {
+  const inp = e.target.closest(".bal-edit");
+  if (!inp) return;
+  data.balances[inp.dataset.acct] = inp.value === "" ? 0 : Number(inp.value);
+  save(); renderSummary(); renderBalanceChart();
 });
 
 // 保有銘柄テーブルの現在値を直接編集（投信は基準価額÷mult を内部保存）

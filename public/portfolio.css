@@ -86,6 +86,22 @@
 .pf-form .arrow { color: var(--muted); font-size: 16px; padding: 0 2px; }
 .pf-form select[name="from"], .pf-form select[name="to"] { min-width: 112px; }
 
+/* 口座残高の記録欄 */
+.bal-input-wrap {
+  margin-bottom: 14px; padding: 12px 14px;
+  border: 1px solid var(--line-soft); border-radius: 6px; background: rgba(255,43,214,0.04);
+}
+.balance-inputs { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 10px; }
+.bal-in { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.bal-in span { font-size: 12px; color: var(--text); white-space: nowrap; }
+.bal-edit {
+  width: 120px; text-align: right;
+  background: rgba(5,6,10,0.6); color: var(--text);
+  border: 1px solid var(--line); border-radius: 4px; padding: 5px 8px;
+  font-family: "Share Tech Mono", monospace; font-size: 13px;
+}
+.bal-edit:focus { outline: none; border-color: var(--cyan); box-shadow: 0 0 8px rgba(0,240,255,0.3); }
+
 /* 口座残高 横棒グラフ */
 .bal-wrap {
   margin-bottom: 14px; padding: 12px 14px;
