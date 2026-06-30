@@ -46,6 +46,8 @@
 .panel-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
 .panel-head h2 { margin-bottom: 12px; }
 .panel-head button { padding: 5px 12px; font-size: 11px; white-space: nowrap; }
+.panel-head-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.nav-info { color: var(--muted); font-size: 11px; margin: -4px 0 10px; letter-spacing: 0.3px; }
 
 /* ---- 縦並びパネル ---- */
 .pf-main {

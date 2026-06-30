@@ -547,6 +547,39 @@ async function syncFxRate(manual) {
 document.getElementById("fx-sync").addEventListener("click", () => syncFxRate(true));
 syncFxRate(false); // 起動時にベストエフォートで最新化（失敗時は保存値を使用）
 
+// 投信の基準価額をWebから同期（ログイン不要・投資信託協会の公開データ）
+const normName = (s) =>
+  (s || "").replace(/[\s　]/g, "").replace(/（/g, "(").replace(/）/g, ")").replace(/＆/g, "&");
+
+async function syncFundNav(manual) {
+  const info = document.getElementById("nav-info");
+  try {
+    const r = await fetch("./data/fund_nav.json", { cache: "no-store" });
+    if (!r.ok) throw new Error("not found");
+    const funds = (await r.json()).funds || [];
+    if (!funds.length) throw new Error("empty");
+    let n = 0;
+    for (const h of data.holdings) {
+      if (h.ticker !== "投信") continue;
+      const hn = normName(h.name);
+      const fund = funds.find((f) => (f.names || [f.name]).some((nm) => {
+        const x = normName(nm);
+        return x === hn || x.includes(hn) || hn.includes(x);
+      }));
+      if (fund && fund.nav) { h.price = fund.nav / 10000; n++; } // 基準価額→1口あたりに換算
+    }
+    if (n) { save(); renderAll(); }
+    info.textContent = `基準価額 同期: ${funds[0].date || ""}（${n}件反映）`;
+    if (manual && n === 0) {
+      alert("一致する投信が見つかりませんでした。\n対応ファンド: eMAXIS Slim 米国株式(S&P500) / 同 全世界株式(オルカン) / 楽天(プラス)NASDAQ-100。\nファンド名が異なる場合は現在値を手入力してください。");
+    }
+  } catch {
+    if (manual) alert("基準価額の取得に失敗しました。時間をおいて再試行してください。");
+  }
+}
+document.getElementById("sync-nav").addEventListener("click", () => syncFundNav(true));
+syncFundNav(false); // 起動時にも自動反映（保有に投信があれば現在値を最新化）
+
 // 日付入力の既定値を今日に
 for (const f of ["transfer-form", "trade-form"]) {
   const d = document.querySelector(`#${f} input[name="date"]`);

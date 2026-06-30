@@ -11,7 +11,7 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 
-from app import data, free_outlook, outlook, screener, sector, translate
+from app import data, free_outlook, fund_nav, outlook, screener, sector, translate
 from app.universe import THEME_LABELS, all_tickers, meta
 
 PUBLIC_DATA = Path(__file__).resolve().parent.parent / "public" / "data"
@@ -75,6 +75,9 @@ def build() -> None:
         items = free_outlook.rule_outlook(sectors, news)
         mode = "rule"
     ol = _write("outlook", {"items": items, "enabled": bool(items), "mode": mode})
+
+    # 5.5) 投資信託の基準価額（ログイン不要・投資信託協会の公開CSV）
+    _write("fund_nav", {"funds": fund_nav.build_fund_nav()})
 
     # 5) ステータス（フロントのヘッダ表示用）
     _write("status", {

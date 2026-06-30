@@ -102,8 +102,12 @@
     <section class="panel">
       <div class="panel-head">
         <h2>保有銘柄 <small>損益は自動計算</small></h2>
-        <button id="reset-holdings" class="danger" type="button" title="保有銘柄の記録だけを全削除（資金移動・売買メモは残ります）">保有を全削除</button>
+        <div class="panel-head-actions">
+          <button id="sync-nav" type="button" title="投信の基準価額をWebから取得して現在値に反映（ログイン不要）">基準価額を同期</button>
+          <button id="reset-holdings" class="danger" type="button" title="保有銘柄の記録だけを全削除（資金移動・売買メモは残ります）">保有を全削除</button>
+        </div>
       </div>
+      <div id="nav-info" class="nav-info"></div>
       <form id="holding-form" class="pf-form">
         <input name="ticker" type="text" placeholder="銘柄コード" title="例: NVDA / 7203" />
         <input name="name" type="text" placeholder="名称（任意）" />
