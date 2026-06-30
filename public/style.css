@@ -56,6 +56,12 @@ header {
 .title .sub { color: var(--muted); font-size: 12px; letter-spacing: 1px; }
 .actions { display: flex; align-items: center; gap: 12px; }
 .status { color: var(--cyan); font-size: 12px; letter-spacing: 0.5px; opacity: 0.85; }
+.navlink {
+  color: var(--muted); text-decoration: none; font-size: 12px; letter-spacing: 1px;
+  border: 1px solid var(--line); border-radius: 4px; padding: 7px 12px;
+  transition: all .15s ease;
+}
+.navlink:hover { color: var(--cyan); border-color: var(--cyan); box-shadow: 0 0 10px rgba(0,240,255,0.3); }
 
 button {
   background: transparent; color: var(--cyan);
