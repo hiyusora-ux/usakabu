@@ -18,7 +18,9 @@
     </div>
     <div class="actions">
       <a class="navlink" href="./index.html">← レーダーに戻る</a>
-      <button id="rakuten-btn" title="楽天証券の取引履歴CSVを取り込む">楽天CSV取込</button>
+      <button id="holdings-csv-btn" title="楽天証券の資産残高CSV（保有商品一覧）を取り込む→評価額・評価損益を反映">保有CSV取込</button>
+      <input id="holdings-csv-file" type="file" accept=".csv,text/csv" hidden />
+      <button id="rakuten-btn" title="楽天証券の取引履歴CSVを取り込む→売買メモへ">取引履歴CSV</button>
       <input id="rakuten-file" type="file" accept=".csv,text/csv" hidden />
       <button id="export-btn" title="全データをJSONで保存">書き出し</button>
       <button id="import-btn" title="JSONから復元">読み込み</button>

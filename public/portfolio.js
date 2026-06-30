@@ -378,11 +378,11 @@ function decodeCsvBuffer(buf) {
   const hasBom = bytes[0] === 0xef && bytes[1] === 0xbb && bytes[2] === 0xbf;
   const tryDecode = (enc) => { try { return new TextDecoder(enc).decode(buf); } catch { return null; } };
   if (hasBom) return tryDecode("utf-8");
+  const ok = (t) => t && (t.includes("ファンド名") || t.includes("銘柄") || t.includes("区分") || t.includes("基準価額"));
   const sjis = tryDecode("shift_jis");
-  // 期待ヘッダが含まれていれば Shift_JIS 成功とみなす
-  if (sjis && sjis.includes("ファンド名")) return sjis;
+  if (ok(sjis)) return sjis;
   const utf8 = tryDecode("utf-8");
-  if (utf8 && utf8.includes("ファンド名")) return utf8;
+  if (ok(utf8)) return utf8;
   return sjis || utf8 || "";
 }
 
@@ -438,7 +438,6 @@ function importRakuten(text) {
   };
 
   const sigSet = new Set(data.trades.map((t) => t._sig).filter(Boolean));
-  const funds = {}; // ファンド名 -> {buyQty, buyYen, sellQty, sellYen}
   let added = 0, skipped = 0;
 
   for (let i = headerIdx + 1; i < rows.length; i++) {
@@ -457,44 +456,20 @@ function importRakuten(text) {
 
     // 売買メモへ（重複は約定日+ファンド+取引+金額で判定してスキップ）
     const sig = `${date}|${name}|${deal}|${qty}|${yen}`;
-    if (sigSet.has(sig)) { skipped++; }
-    else {
-      sigSet.add(sig);
-      const memoParts = [acct, method].filter(Boolean);
-      if (yen) memoParts.push(`受渡¥${Math.round(yen).toLocaleString("ja-JP")}`);
-      if (dist) memoParts.push(`分配¥${Math.round(dist).toLocaleString("ja-JP")}`);
-      data.trades.push({
-        id: uid(), _sig: sig, date, side: isSell ? "売" : "買", ticker: name,
-        shares: qty, price, memo: memoParts.join(" / "),
-      });
-      added++;
-    }
-
-    // ファンド集計（取得額は受渡金額[円]ベース）
-    const f = (funds[name] = funds[name] || { buyQty: 0, buyYen: 0, sellQty: 0 });
-    if (isSell) f.sellQty += qty;
-    else { f.buyQty += qty; f.buyYen += yen; }
-  }
-
-  // 保有銘柄へ反映（同名ファンドはUPSERT）。取得単価=受渡金額合計/口数（1口あたり円）
-  for (const [name, f] of Object.entries(funds)) {
-    const netQty = f.buyQty - f.sellQty;
-    if (netQty <= 0 || f.buyQty <= 0) continue;
-    const costPerUnit = f.buyYen / f.buyQty; // 1口あたり取得単価（円）
-    const existing = data.holdings.find((h) => h.name === name && h.currency === "JPY");
-    if (existing) {
-      existing.shares = netQty;
-      existing.cost = costPerUnit;
-    } else {
-      data.holdings.push({
-        id: uid(), ticker: "投信", name, currency: "JPY",
-        shares: netQty, cost: costPerUnit, price: null,
-      });
-    }
+    if (sigSet.has(sig)) { skipped++; continue; }
+    sigSet.add(sig);
+    const memoParts = [acct, method].filter(Boolean);
+    if (yen) memoParts.push(`受渡¥${Math.round(yen).toLocaleString("ja-JP")}`);
+    if (dist) memoParts.push(`分配¥${Math.round(dist).toLocaleString("ja-JP")}`);
+    data.trades.push({
+      id: uid(), _sig: sig, date, side: isSell ? "売" : "買", ticker: name,
+      shares: qty, price, memo: memoParts.join(" / "),
+    });
+    added++;
   }
 
   save(); renderAll();
-  alert(`取り込み完了：売買メモに ${added} 件追加（重複 ${skipped} 件スキップ）、保有ファンド ${Object.keys(funds).length} 件を更新しました。\n\n投資信託の「現在値」は1口あたりの円で空欄です。評価額を出すには各ファンドの最新「基準価額 ÷ 10000」を現在値欄に入れてください。`);
+  alert(`取引履歴を取り込みました：売買メモに ${added} 件追加（重複 ${skipped} 件スキップ）。\n\n保有銘柄・評価額は「保有CSV取込」（資産残高CSV）から取り込んでください。`);
 }
 
 document.getElementById("rakuten-btn").addEventListener("click", () => document.getElementById("rakuten-file").click());
@@ -504,6 +479,91 @@ document.getElementById("rakuten-file").addEventListener("change", (e) => {
   const reader = new FileReader();
   reader.onload = () => {
     try { importRakuten(decodeCsvBuffer(reader.result)); }
+    catch (err) { alert("CSVの取り込みに失敗しました：" + err.message); }
+  };
+  reader.readAsArrayBuffer(file);
+  e.target.value = "";
+});
+
+// ---- 楽天証券 資産残高CSV（保有商品一覧）取り込み ----
+// 明細ヘッダ: 区分 / 銘柄コード・ティッカー / 銘柄 / 口座 / 保有数量 /【単位】/ 平均取得価額 /【単位】/
+//             現在値 /【単位】/ 現在値(更新日) / (参考為替) / 前日比 /【単位】/ 時価評価額[円] / 時価評価額[外貨] / 評価損益[円] / 評価損益[％]
+const SKIP_KUBUN = ["外貨預り", "預り金", "ＭＲＦ", "MRF", "マネーファンド", "ＭＭＦ", "MMF", "保護預り"];
+
+function importRakutenHoldings(text) {
+  const rows = parseCSV(text);
+  // 明細ヘッダ行（区分＋銘柄を含む）を探す
+  const hIdx = rows.findIndex((r) => r.some((c) => c.trim() === "区分") && r.some((c) => c.includes("銘柄")));
+  if (hIdx < 0) { alert("楽天証券の資産残高CSV（保有商品一覧）として認識できませんでした。"); return; }
+  const header = rows[hIdx].map((h) => h.trim());
+  const find = (fn) => header.findIndex(fn);
+  const qtyCol = find((h) => h.includes("保有数量"));
+  const idx = {
+    kubun: 0,
+    code: find((h) => h.includes("コード") || h.includes("ティッカー")),
+    name: find((h) => h.includes("銘柄") && !h.includes("コード")),
+    qty: qtyCol,
+    unit: find((h, i) => i > qtyCol && h.includes("単位")),       // 保有数量直後の【単位】= 口/株
+    value: find((h) => h.includes("時価評価額") && h.includes("円")),
+    pl: find((h) => h.includes("評価損益") && h.includes("円")),  // [％]ではなく[円]
+  };
+
+  // 評価額・取得額はすべて円建てで集計し、楽天の数値（時価評価額[円]・評価損益[円]）に一致させる。
+  // 取得額[円] = 時価評価額[円] − 評価損益[円]。USD銘柄も取得時の円コストを反映できるよう円で保持。
+  const merged = {}; // key -> 集計
+  let fxFromCsv = null;
+
+  for (let i = hIdx + 1; i < rows.length; i++) {
+    const r = rows[i];
+    if (!r || r.length < 6) continue;
+    const kubun = (r[idx.kubun] || "").trim();
+    const name = (r[idx.name] || "").trim();
+    // 参考為替レート（米ドル）を拾う（USD/JPYカード表示用）
+    if (kubun.includes("米ドル") && /円\s*\/\s*USD/.test(r[2] || "")) fxFromCsv = cleanNum(r[1]) || fxFromCsv;
+    if (kubun.startsWith("■") || kubun.includes("参考為替")) break; // 明細セクション終わり
+    if (!name || SKIP_KUBUN.some((k) => kubun.includes(k))) continue;
+
+    const qty = cleanNum(r[idx.qty]);
+    const valueYen = cleanNum(r[idx.value]);
+    if (qty <= 0 || valueYen <= 0) continue;
+    const plYen = cleanNum(r[idx.pl]);          // '-' は0扱い
+    const acqYen = valueYen - plYen;            // 取得額[円]
+    const isFund = (r[idx.unit] || "").includes("口");
+
+    const key = `${isFund ? "F" : "S"}|${name}`;
+    const m = (merged[key] = merged[key] || { name, isFund, code: (r[idx.code] || "").trim(), qty: 0, valueYen: 0, acqYen: 0 });
+    m.qty += qty;
+    m.valueYen += valueYen;
+    m.acqYen += acqYen;
+  }
+
+  const holdings = Object.values(merged).map((m) => ({
+    id: uid(),
+    ticker: m.isFund ? "投信" : (m.code || "—"),
+    name: m.name,
+    currency: "JPY",
+    shares: m.qty,
+    cost: m.qty ? m.acqYen / m.qty : 0,     // 1単位あたり取得額（円）。投信は ×10000 表示で基準価額相当
+    price: m.qty ? m.valueYen / m.qty : 0,  // 1単位あたり評価額（円）
+  }));
+
+  if (!holdings.length) { alert("保有銘柄が見つかりませんでした。"); return; }
+  if (!confirm(`保有銘柄を、この資産残高CSVの内容（${holdings.length}件）で置き換えます。\n※ 資金移動履歴・売買メモは残ります。\nよろしいですか？`)) return;
+
+  data.holdings = holdings;
+  if (fxFromCsv) { data.fxRate = fxFromCsv; fxInput.value = fxFromCsv; }
+  save(); renderAll();
+  const t = portfolioTotals();
+  alert(`取り込み完了：保有銘柄 ${holdings.length} 件。\n評価額合計 ¥${Math.round(t.valueJPY).toLocaleString("ja-JP")} ／ 評価損益 ¥${Math.round(t.plJPY).toLocaleString("ja-JP")}`);
+}
+
+document.getElementById("holdings-csv-btn").addEventListener("click", () => document.getElementById("holdings-csv-file").click());
+document.getElementById("holdings-csv-file").addEventListener("change", (e) => {
+  const file = e.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = () => {
+    try { importRakutenHoldings(decodeCsvBuffer(reader.result)); }
     catch (err) { alert("CSVの取り込みに失敗しました：" + err.message); }
   };
   reader.readAsArrayBuffer(file);
