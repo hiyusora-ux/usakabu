@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T20:05:15.649190+00:00",
+  "updated_at": "2026-07-01T21:44:44.463539+00:00",
   "stocks": [
     {
       "ticker": "MU",
@@ -228,8 +228,8 @@
       "roe": 0.2875,
       "forward_pe": 43.84566,
       "trailing_pe": 79.57915,
-      "target_mean": 398.70587,
-      "upside": -0.06700549113884036,
+      "target_mean": 416.64706,
+      "upside": -0.02502208178388221,
       "recommendation": "buy",
       "num_analysts": 17.0,
       "mom_3m": 0.36931891744312795,
@@ -239,7 +239,7 @@
         "semiconductor",
         "physical_ai"
       ],
-      "score": 63.0,
+      "score": 63.7,
       "subscores": {
         "revenue_growth": 87.0,
         "earnings_growth": 88.0,
@@ -248,28 +248,28 @@
         "roe": 63.0,
         "mom_3m": 57.0,
         "mom_6m": 80.0,
-        "upside": 17.0,
+        "upside": 24.0,
         "forward_pe": 30.0
       },
       "rank": 7
     },
     {
       "ticker": "TSM",
-      "price": 444.3550109863281,
-      "market_cap": 2304635830272.0,
+      "price": 444.2300109863281,
+      "market_cap": 2303987286016.0,
       "revenue_growth": 0.351,
       "earnings_growth": 0.584,
       "gross_margin": 0.61873,
       "profit_margin": 0.46505,
       "roe": 0.3621,
-      "forward_pe": 22.078138,
-      "trailing_pe": 38.605995,
+      "forward_pe": 22.071928,
+      "trailing_pe": 38.595135,
       "target_mean": 487.5625,
-      "upside": 0.09723641670601357,
+      "upside": 0.09754516341086528,
       "recommendation": "strong_buy",
       "num_analysts": 18.0,
-      "mom_3m": 0.304271395044698,
-      "mom_6m": 0.39748657088407957,
+      "mom_3m": 0.30390449488525406,
+      "mom_6m": 0.3970934486798925,
       "name": "TSMC",
       "tags": [
         "semiconductor"
@@ -299,10 +299,10 @@
       "roe": 0.32930002,
       "forward_pe": 16.909746,
       "trailing_pe": 22.295744,
-      "target_mean": 827.3183,
-      "upside": 0.3498202611314154,
+      "target_mean": 828.13416,
+      "upside": 0.35115138647730304,
       "recommendation": "strong_buy",
-      "num_analysts": 59.0,
+      "num_analysts": 58.0,
       "mom_3m": 0.05912680696152228,
       "mom_6m": -0.055975068210172396,
       "name": "Meta Platforms",
@@ -395,42 +395,6 @@
       "rank": 11
     },
     {
-      "ticker": "AMD",
-      "price": 540.8800048828125,
-      "market_cap": 881959239680.0,
-      "revenue_growth": 0.378,
-      "earnings_growth": 0.912,
-      "gross_margin": 0.5306,
-      "profit_margin": 0.13374,
-      "roe": 0.08063,
-      "forward_pe": 41.047153,
-      "trailing_pe": 179.09933,
-      "target_mean": 506.02084,
-      "upside": -0.06444898049127379,
-      "recommendation": "strong_buy",
-      "num_analysts": 48.0,
-      "mom_3m": 1.573045942665543,
-      "mom_6m": 1.4203696331868247,
-      "name": "AMD",
-      "tags": [
-        "semiconductor",
-        "ai"
-      ],
-      "score": 57.0,
-      "subscores": {
-        "revenue_growth": 73.0,
-        "earnings_growth": 64.0,
-        "gross_margin": 37.0,
-        "profit_margin": 41.0,
-        "roe": 30.0,
-        "mom_3m": 91.0,
-        "mom_6m": 89.0,
-        "upside": 20.0,
-        "forward_pe": 33.0
-      },
-      "rank": 12
-    },
-    {
       "ticker": "SMCI",
       "price": 27.649999618530273,
       "market_cap": 17886038016.0,
@@ -464,6 +428,42 @@
         "upside": 70.0,
         "forward_pe": 89.0
       },
+      "rank": 12
+    },
+    {
+      "ticker": "AMD",
+      "price": 540.8800048828125,
+      "market_cap": 881959239680.0,
+      "revenue_growth": 0.378,
+      "earnings_growth": 0.912,
+      "gross_margin": 0.5306,
+      "profit_margin": 0.13374,
+      "roe": 0.08063,
+      "forward_pe": 41.047153,
+      "trailing_pe": 179.09933,
+      "target_mean": 506.02084,
+      "upside": -0.06444898049127379,
+      "recommendation": "strong_buy",
+      "num_analysts": 48.0,
+      "mom_3m": 1.573045942665543,
+      "mom_6m": 1.4203696331868247,
+      "name": "AMD",
+      "tags": [
+        "semiconductor",
+        "ai"
+      ],
+      "score": 56.7,
+      "subscores": {
+        "revenue_growth": 73.0,
+        "earnings_growth": 64.0,
+        "gross_margin": 37.0,
+        "profit_margin": 41.0,
+        "roe": 30.0,
+        "mom_3m": 91.0,
+        "mom_6m": 89.0,
+        "upside": 17.0,
+        "forward_pe": 33.0
+      },
       "rank": 13
     },
     {
@@ -477,8 +477,8 @@
       "roe": 0.66762,
       "forward_pe": 48.72369,
       "trailing_pe": 73.9622,
-      "target_mean": 345.74194,
-      "upside": -0.11633713803997381,
+      "target_mean": 348.64517,
+      "upside": -0.10891693171288419,
       "recommendation": "buy",
       "num_analysts": 31.0,
       "mom_3m": 0.7635945900124523,
@@ -487,7 +487,7 @@
       "tags": [
         "semiconductor"
       ],
-      "score": 54.8,
+      "score": 55.0,
       "subscores": {
         "revenue_growth": 49.0,
         "earnings_growth": 39.0,
@@ -496,7 +496,7 @@
         "roe": 96.0,
         "mom_3m": 80.0,
         "mom_6m": 85.0,
-        "upside": 9.0,
+        "upside": 11.0,
         "forward_pe": 22.0
       },
       "rank": 14
@@ -517,12 +517,12 @@
       "recommendation": "strong_buy",
       "num_analysts": 53.0,
       "mom_3m": 0.21532573116150133,
-      "mom_6m": 0.14764457148508603,
+      "mom_6m": 0.14764446020816968,
       "name": "Alphabet",
       "tags": [
         "ai"
       ],
-      "score": 54.7,
+      "score": 54.9,
       "subscores": {
         "revenue_growth": 40.0,
         "earnings_growth": 58.0,
@@ -531,7 +531,7 @@
         "roe": 85.0,
         "mom_3m": 39.0,
         "mom_6m": 43.0,
-        "upside": 54.0,
+        "upside": 57.0,
         "forward_pe": 52.0
       },
       "rank": 15
@@ -714,21 +714,21 @@
     },
     {
       "ticker": "ORCL",
-      "price": 142.72940063476562,
-      "market_cap": 411127906304.0,
+      "price": 142.5,
+      "market_cap": 410467106816.0,
       "revenue_growth": 0.206,
       "earnings_growth": 0.219,
       "gross_margin": 0.65822,
       "profit_margin": 0.25368,
       "roe": 0.53376,
-      "forward_pe": 13.07156,
-      "trailing_pe": 24.481888,
+      "forward_pe": 13.05055,
+      "trailing_pe": 24.44254,
       "target_mean": 252.6405,
-      "upside": 0.7700662854073708,
+      "upside": 0.7729157894736842,
       "recommendation": "buy",
       "num_analysts": 39.0,
-      "mom_3m": -0.013785723842492326,
-      "mom_6m": -0.26622806773262,
+      "mom_3m": -0.015370808484894583,
+      "mom_6m": -0.26740747399886755,
       "name": "Oracle",
       "tags": [
         "ai"
@@ -750,7 +750,7 @@
     {
       "ticker": "MRVL",
       "price": 272.04998779296875,
-      "market_cap": 237989330944.0,
+      "market_cap": 238194229248.0,
       "revenue_growth": 0.276,
       "earnings_growth": -0.804,
       "gross_margin": 0.51502997,
@@ -782,6 +782,41 @@
         "forward_pe": 26.0
       },
       "rank": 22
+    },
+    {
+      "ticker": "RKLB",
+      "price": 100.06999969482422,
+      "market_cap": 62525612032.0,
+      "revenue_growth": 0.635,
+      "earnings_growth": null,
+      "gross_margin": 0.36556,
+      "profit_margin": -0.26872,
+      "roe": -0.13549,
+      "forward_pe": -5003.5,
+      "trailing_pe": null,
+      "target_mean": 111.85588,
+      "upside": 0.11777635995921121,
+      "recommendation": "buy",
+      "num_analysts": 17.0,
+      "mom_3m": 0.5273199759147733,
+      "mom_6m": 0.31688383350429783,
+      "name": "Rocket Lab",
+      "tags": [
+        "physical_ai"
+      ],
+      "score": 48.5,
+      "subscores": {
+        "revenue_growth": 80.0,
+        "earnings_growth": 50.0,
+        "gross_margin": 13.0,
+        "profit_margin": 2.0,
+        "roe": 9.0,
+        "mom_3m": 70.0,
+        "mom_6m": 54.0,
+        "upside": 43.0,
+        "forward_pe": 100.0
+      },
+      "rank": 23
     },
     {
       "ticker": "TXN",
@@ -816,7 +851,7 @@
         "upside": 30.0,
         "forward_pe": 46.0
       },
-      "rank": 23
+      "rank": 24
     },
     {
       "ticker": "MPWR",
@@ -851,7 +886,7 @@
         "upside": 67.0,
         "forward_pe": 28.0
       },
-      "rank": 24
+      "rank": 25
     },
     {
       "ticker": "MSFT",
@@ -886,41 +921,6 @@
         "upside": 85.0,
         "forward_pe": 65.0
       },
-      "rank": 25
-    },
-    {
-      "ticker": "RKLB",
-      "price": 100.06999969482422,
-      "market_cap": 62525612032.0,
-      "revenue_growth": 0.635,
-      "earnings_growth": null,
-      "gross_margin": 0.36556,
-      "profit_margin": -0.26872,
-      "roe": -0.13549,
-      "forward_pe": -5003.5,
-      "trailing_pe": null,
-      "target_mean": 109.80833,
-      "upside": 0.09731518272083561,
-      "recommendation": "none",
-      "num_analysts": 18.0,
-      "mom_3m": 0.5273199759147733,
-      "mom_6m": 0.31688383350429783,
-      "name": "Rocket Lab",
-      "tags": [
-        "physical_ai"
-      ],
-      "score": 48.1,
-      "subscores": {
-        "revenue_growth": 80.0,
-        "earnings_growth": 50.0,
-        "gross_margin": 13.0,
-        "profit_margin": 2.0,
-        "roe": 9.0,
-        "mom_3m": 70.0,
-        "mom_6m": 54.0,
-        "upside": 39.0,
-        "forward_pe": 100.0
-      },
       "rank": 26
     },
     {
@@ -945,7 +945,7 @@
         "semiconductor",
         "physical_ai"
       ],
-      "score": 47.2,
+      "score": 47.0,
       "subscores": {
         "revenue_growth": 11.0,
         "earnings_growth": 73.0,
@@ -954,7 +954,7 @@
         "roe": 59.0,
         "mom_3m": 59.0,
         "mom_6m": 52.0,
-        "upside": 43.0,
+        "upside": 41.0,
         "forward_pe": 74.0
       },
       "rank": 27
@@ -1050,7 +1050,7 @@
       "tags": [
         "semiconductor"
       ],
-      "score": 45.2,
+      "score": 45.0,
       "subscores": {
         "revenue_growth": 4.0,
         "earnings_growth": 30.0,
@@ -1059,28 +1059,28 @@
         "roe": 87.0,
         "mom_3m": 83.0,
         "mom_6m": 91.0,
-        "upside": 11.0,
+        "upside": 9.0,
         "forward_pe": 35.0
       },
       "rank": 30
     },
     {
       "ticker": "SNOW",
-      "price": 260.989990234375,
-      "market_cap": 90459127808.0,
+      "price": 261.19000244140625,
+      "market_cap": 90528456704.0,
       "revenue_growth": 0.335,
       "earnings_growth": null,
       "gross_margin": 0.67144996,
       "profit_margin": -0.23786,
       "roe": -0.54869,
-      "forward_pe": 97.14328,
+      "forward_pe": 97.21773,
       "trailing_pe": null,
       "target_mean": 292.53418,
-      "upside": 0.12086359993077744,
+      "upside": 0.12000527304112762,
       "recommendation": "strong_buy",
       "num_analysts": 48.0,
-      "mom_3m": 0.7044801368667184,
-      "mom_6m": 0.20432828272195502,
+      "mom_3m": 0.7057863817296324,
+      "mom_6m": 0.20525123136684775,
       "name": "Snowflake",
       "tags": [
         "ai"
@@ -1101,21 +1101,21 @@
     },
     {
       "ticker": "PATH",
-      "price": 11.524999618530273,
-      "market_cap": 5971335680.0,
+      "price": 11.550000190734863,
+      "market_cap": 5984289280.0,
       "revenue_growth": 0.173,
       "earnings_growth": null,
       "gross_margin": 0.8305,
       "profit_margin": 0.19578,
       "roe": 0.18181999,
-      "forward_pe": 12.706446,
-      "trailing_pe": 19.208332,
+      "forward_pe": 12.734009,
+      "trailing_pe": 19.25,
       "target_mean": 13.24875,
-      "upside": 0.14956619857047304,
-      "recommendation": "none",
+      "upside": 0.14707790313526004,
+      "recommendation": "hold",
       "num_analysts": 16.0,
-      "mom_3m": 0.04582569326581343,
-      "mom_6m": -0.27424436174596145,
+      "mom_3m": 0.048094347636601364,
+      "mom_6m": -0.27267001841948657,
       "name": "UiPath",
       "tags": [
         "ai",
@@ -1172,21 +1172,21 @@
     },
     {
       "ticker": "CRM",
-      "price": 163.32000732421875,
-      "market_cap": 133759082496.0,
+      "price": 163.22999572753906,
+      "market_cap": 133685362688.0,
       "revenue_growth": 0.133,
       "earnings_growth": 0.522,
       "gross_margin": 0.77643996,
       "profit_margin": 0.18733,
       "roe": 0.16908,
-      "forward_pe": 10.527354,
-      "trailing_pe": 18.924683,
-      "target_mean": 246.79654,
-      "upside": 0.5111225136676962,
+      "forward_pe": 10.521552,
+      "trailing_pe": 18.914251,
+      "target_mean": 246.4419,
+      "upside": 0.5097831676192466,
       "recommendation": "buy",
-      "num_analysts": 52.0,
-      "mom_3m": -0.11860478655769657,
-      "mom_6m": -0.3527677446090435,
+      "num_analysts": 53.0,
+      "mom_3m": -0.11909055551991732,
+      "mom_6m": -0.35312441873093525,
       "name": "Salesforce",
       "tags": [
         "ai"
@@ -1216,8 +1216,8 @@
       "roe": 0.52236,
       "forward_pe": 37.498306,
       "trailing_pe": 62.60326,
-      "target_mean": 1744.767,
-      "upside": -0.05332116339289539,
+      "target_mean": 1744.9656,
+      "upside": -0.05321340664546148,
       "recommendation": "strong_buy",
       "num_analysts": 15.0,
       "mom_3m": 0.35837616556620455,
@@ -1226,7 +1226,7 @@
       "tags": [
         "semiconductor"
       ],
-      "score": 41.8,
+      "score": 41.6,
       "subscores": {
         "revenue_growth": 13.0,
         "earnings_growth": 18.0,
@@ -1235,7 +1235,7 @@
         "roe": 89.0,
         "mom_3m": 52.0,
         "mom_6m": 65.0,
-        "upside": 22.0,
+        "upside": 20.0,
         "forward_pe": 37.0
       },
       "rank": 35
@@ -1261,7 +1261,7 @@
       "tags": [
         "ai"
       ],
-      "score": 41.7,
+      "score": 41.5,
       "subscores": {
         "revenue_growth": 51.0,
         "earnings_growth": 50.0,
@@ -1270,28 +1270,28 @@
         "roe": 17.0,
         "mom_3m": 63.0,
         "mom_6m": 26.0,
-        "upside": 41.0,
+        "upside": 39.0,
         "forward_pe": 20.0
       },
       "rank": 36
     },
     {
       "ticker": "NET",
-      "price": 246.36500549316406,
-      "market_cap": 87444684800.0,
+      "price": 246.30999755859375,
+      "market_cap": 87425163264.0,
       "revenue_growth": 0.335,
       "earnings_growth": null,
       "gross_margin": 0.73327005,
       "profit_margin": -0.037249997,
       "roe": -0.05876,
-      "forward_pe": 156.06255,
+      "forward_pe": 156.0277,
       "trailing_pe": null,
       "target_mean": 243.64871,
-      "upside": -0.011025492389743818,
+      "upside": -0.010804626628932001,
       "recommendation": "buy",
       "num_analysts": 31.0,
-      "mom_3m": 0.199265025930212,
-      "mom_6m": 0.25683603776849906,
+      "mom_3m": 0.19899725619584263,
+      "mom_6m": 0.25655541368232737,
       "name": "Cloudflare",
       "tags": [
         "ai"
@@ -1393,7 +1393,7 @@
       "trailing_pe": 48.89186,
       "target_mean": 565.0786,
       "upside": 0.4043406559542422,
-      "recommendation": "buy",
+      "recommendation": "none",
       "num_analysts": 29.0,
       "mom_3m": -0.13364195433921244,
       "mom_6m": -0.2839958381663604,
@@ -1417,21 +1417,21 @@
     },
     {
       "ticker": "COHR",
-      "price": 368.6700134277344,
-      "market_cap": 72126357504.0,
+      "price": 368.6499938964844,
+      "market_cap": 72122433536.0,
       "revenue_growth": 0.205,
       "earnings_growth": null,
       "gross_margin": 0.36990002,
       "profit_margin": 0.07102,
       "roe": 0.04718,
-      "forward_pe": 45.087376,
-      "trailing_pe": 176.39714,
+      "forward_pe": 45.084927,
+      "trailing_pe": 176.38756,
       "target_mean": 384.45267,
-      "upside": 0.04280971057430283,
+      "upside": 0.042866340336771946,
       "recommendation": "buy",
       "num_analysts": 22.0,
-      "mom_3m": 0.4877724329596982,
-      "mom_6m": 0.89713379279565,
+      "mom_3m": 0.4876916438918877,
+      "mom_6m": 0.8970307745737522,
       "name": "Coherent",
       "tags": [
         "semiconductor",
@@ -1453,21 +1453,21 @@
     },
     {
       "ticker": "NOW",
-      "price": 105.7699966430664,
-      "market_cap": 109081444352.0,
+      "price": 105.80000305175781,
+      "market_cap": 109112393728.0,
       "revenue_growth": 0.221,
       "earnings_growth": 0.023,
       "gross_margin": 0.76562,
       "profit_margin": 0.12586,
       "roe": 0.1607,
-      "forward_pe": 21.04168,
-      "trailing_pe": 62.958332,
-      "target_mean": 141.48067,
-      "upside": 0.3376257397212894,
+      "forward_pe": 21.047647,
+      "trailing_pe": 62.976192,
+      "target_mean": 141.12239,
+      "upside": 0.33385998042894505,
       "recommendation": "strong_buy",
-      "num_analysts": 45.0,
-      "mom_3m": 0.016628178703532503,
-      "mom_6m": -0.2826721001547817,
+      "num_analysts": 46.0,
+      "mom_3m": 0.01691659093370701,
+      "mom_6m": -0.2824685978874881,
       "name": "ServiceNow",
       "tags": [
         "ai"
@@ -1497,8 +1497,8 @@
       "roe": 0.074939996,
       "forward_pe": 21.937592,
       "trailing_pe": 69.58088,
-      "target_mean": 114.12,
-      "upside": 0.2059600899531684,
+      "target_mean": 113.12,
+      "upside": 0.1953926163293236,
       "recommendation": "buy",
       "num_analysts": 25.0,
       "mom_3m": 0.521382573837543,
@@ -1508,7 +1508,7 @@
         "semiconductor",
         "physical_ai"
       ],
-      "score": 38.3,
+      "score": 38.1,
       "subscores": {
         "revenue_growth": 2.0,
         "earnings_growth": 50.0,
@@ -1517,33 +1517,33 @@
         "roe": 28.0,
         "mom_3m": 67.0,
         "mom_6m": 67.0,
-        "upside": 57.0,
+        "upside": 54.0,
         "forward_pe": 59.0
       },
       "rank": 43
     },
     {
       "ticker": "ROK",
-      "price": 482.8949890136719,
-      "market_cap": 53733634048.0,
+      "price": 482.82000732421875,
+      "market_cap": 53725290496.0,
       "revenue_growth": 0.119,
       "earnings_growth": 0.396,
       "gross_margin": 0.48921,
       "profit_margin": 0.12358,
       "roe": 0.27183,
-      "forward_pe": 33.053448,
-      "trailing_pe": 50.04093,
-      "target_mean": 465.4084,
-      "upside": -0.03621199103637174,
+      "forward_pe": 33.048313,
+      "trailing_pe": 50.033165,
+      "target_mean": 466.3284,
+      "upside": -0.03415684328330759,
       "recommendation": "buy",
       "num_analysts": 25.0,
-      "mom_3m": 0.31298009209404176,
-      "mom_6m": 0.21958762092016082,
+      "mom_3m": 0.31277621864792327,
+      "mom_6m": 0.21939824902288874,
       "name": "Rockwell Automation",
       "tags": [
         "physical_ai"
       ],
-      "score": 34.0,
+      "score": 33.8,
       "subscores": {
         "revenue_growth": 9.0,
         "earnings_growth": 36.0,
@@ -1552,7 +1552,7 @@
         "roe": 61.0,
         "mom_3m": 50.0,
         "mom_6m": 48.0,
-        "upside": 24.0,
+        "upside": 22.0,
         "forward_pe": 41.0
       },
       "rank": 44
