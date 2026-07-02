@@ -104,7 +104,7 @@
       <div class="panel-head">
         <h2>保有銘柄 <small>損益は自動計算</small></h2>
         <div class="panel-head-actions">
-          <button id="sync-nav" type="button" title="投信の基準価額をWebから取得して現在値に反映（ログイン不要）">基準価額を同期</button>
+          <button id="sync-nav" type="button" title="投信の基準価額・株価をWebから取得して現在値に反映（ログイン不要）">現在値を同期</button>
           <button id="reset-holdings" class="danger" type="button" title="保有銘柄の記録だけを全削除（資金移動・売買メモは残ります）">保有を全削除</button>
         </div>
       </div>
@@ -126,8 +126,8 @@
         <table>
           <thead>
             <tr>
-              <th>銘柄</th><th>通貨</th><th>株数</th><th>取得単価</th><th>現在値</th>
-              <th>取得額</th><th>評価額</th><th>損益</th><th>損益率</th><th></th>
+              <th>銘柄</th><th>数量</th><th>取得単価</th><th>現在値</th>
+              <th>取得額</th><th>評価額 / 構成比</th><th>評価損益</th><th></th>
             </tr>
           </thead>
           <tbody id="holding-body"></tbody>

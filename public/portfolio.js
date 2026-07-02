@@ -160,29 +160,60 @@ function renderBalanceChart() {
   }).join("");
 }
 
+const kindCls = (k) => (k === "投信" ? "k-fund" : k === "米国株" ? "k-us" : "k-jp");
+
 function renderHoldings() {
   const body = document.getElementById("holding-body");
-  if (!data.holdings.length) { body.innerHTML = `<tr><td colspan="10" class="empty">まだ保有銘柄がありません</td></tr>`; return; }
-  const cur = (c) => (c === "USD" ? "$" : "¥");
-  body.innerHTML = data.holdings.map((h) => {
-    const s = holdingStats(h);
-    const c = cur(h.currency);
-    const isFund = h.ticker === "投信";          // 投信は基準価額(1万口あたり)で入出力
-    const mult = isFund ? 10000 : 1;
+  if (!data.holdings.length) {
+    body.innerHTML = `<tr><td colspan="8" class="empty">まだ保有銘柄がありません（右上「保有CSV取込」から取り込めます）</td></tr>`;
+    return;
+  }
+  // 評価額の大きい順に並べる
+  const list = data.holdings.map((h) => ({ h, s: holdingStats(h) }))
+    .sort((a, b) => (b.s.valueTotal || 0) - (a.s.valueTotal || 0));
+  const sumValue = list.reduce((a, x) => a + (x.s.valueTotal || 0), 0) || 1;
+
+  let costSum = 0, valSum = 0;
+  body.innerHTML = list.map(({ h, s }) => {
+    const isFund = h.ticker === "投信";
+    const mult = isFund ? 10000 : 1;                    // 投信は基準価額(1万口)表示
     const priceVal = s.price == null ? "" : s.price * mult;
+    const kind = h.kind || (isFund ? "投信" : "株式");
+    const w = Math.round(((s.valueTotal || 0) / sumValue) * 100);
+    costSum += s.costTotal || 0; valSum += s.valueTotal || 0;
     return `<tr>
-      <td style="text-align:left"><span class="tk">${esc(h.ticker) || "—"}</span><br><span class="nm">${esc(h.name)}</span></td>
-      <td>${h.currency}</td>
-      <td>${numFmt(s.shares, 4)}</td>
-      <td>${c}${numFmt(s.cost * mult)}</td>
+      <td class="cell-name">
+        <span class="kind ${kindCls(kind)}">${esc(kind)}</span>
+        <span class="nm2">${esc(h.name)}</span>
+        ${isFund ? "" : `<span class="tk2">${esc(h.ticker)}</span>`}
+      </td>
+      <td>${numFmt(s.shares, isFund ? 0 : 2)}</td>
+      <td class="muted2">¥${numFmt(s.cost * mult, 0)}</td>
       <td><input class="price-edit" type="number" step="any" min="0" data-id="${h.id}" data-mult="${mult}" value="${priceVal}" placeholder="${isFund ? "基準価額" : "現在値"}" /></td>
-      <td>${c}${numFmt(s.costTotal)}</td>
-      <td>${s.valueTotal == null ? "—" : c + numFmt(s.valueTotal)}</td>
-      <td class="${plClass(s.pl)}">${s.pl == null ? "—" : sign(s.pl) + c + numFmt(s.pl)}</td>
-      <td class="${plClass(s.plPct)}">${s.plPct == null ? "—" : sign(s.plPct * 100) + (s.plPct * 100).toFixed(2) + "%"}</td>
+      <td class="muted2">¥${numFmt(s.costTotal, 0)}</td>
+      <td class="cell-val">
+        <div class="val-main">¥${numFmt(s.valueTotal, 0)}</div>
+        <div class="wbar"><span style="width:${w}%"></span></div>
+        <div class="wpct">${w}%</div>
+      </td>
+      <td class="cell-pl ${plClass(s.pl)}">
+        <div class="pl-amt">${s.pl == null ? "—" : sign(s.pl) + "¥" + numFmt(s.pl, 0)}</div>
+        <div class="pl-pct">${s.plPct == null ? "" : sign(s.plPct * 100) + (s.plPct * 100).toFixed(1) + "%"}</div>
+      </td>
       <td><button class="del" data-kind="holdings" data-id="${h.id}">×</button></td>
     </tr>`;
   }).join("");
+
+  const plSum = valSum - costSum;
+  const plPctSum = costSum ? plSum / costSum : 0;
+  body.innerHTML += `<tr class="total-row">
+    <td class="cell-name">合計 <span class="muted2">${list.length}銘柄</span></td>
+    <td></td><td></td><td></td>
+    <td>¥${numFmt(costSum, 0)}</td>
+    <td>¥${numFmt(valSum, 0)}</td>
+    <td class="${plClass(plSum)}">${sign(plSum)}¥${numFmt(plSum, 0)}<br><span class="pl-pct">${sign(plPctSum * 100) + (plPctSum * 100).toFixed(1)}%</span></td>
+    <td></td>
+  </tr>`;
 }
 
 function renderTrades() {
@@ -541,8 +572,9 @@ function importRakutenHoldings(text) {
     const acqYen = valueYen - plYen;            // 取得額[円]
     const isFund = (r[idx.unit] || "").includes("口");
 
+    const kind = isFund ? "投信" : (kubun.includes("米国") ? "米国株" : kubun.includes("国内") ? "国内株" : (kubun || "株式"));
     const key = `${isFund ? "F" : "S"}|${name}`;
-    const m = (merged[key] = merged[key] || { name, isFund, code: (r[idx.code] || "").trim(), qty: 0, valueYen: 0, acqYen: 0 });
+    const m = (merged[key] = merged[key] || { name, isFund, kind, code: (r[idx.code] || "").trim(), qty: 0, valueYen: 0, acqYen: 0 });
     m.qty += qty;
     m.valueYen += valueYen;
     m.acqYen += acqYen;
@@ -552,6 +584,7 @@ function importRakutenHoldings(text) {
     id: uid(),
     ticker: m.isFund ? "投信" : (m.code || "—"),
     name: m.name,
+    kind: m.kind,                           // 種別（投信 / 国内株 / 米国株）
     currency: "JPY",
     shares: m.qty,
     cost: m.qty ? m.acqYen / m.qty : 0,     // 1単位あたり取得額（円）。投信は ×10000 表示で基準価額相当
@@ -618,38 +651,52 @@ async function syncFxRate(manual) {
 document.getElementById("fx-sync").addEventListener("click", () => syncFxRate(true));
 syncFxRate(false); // 起動時にベストエフォートで最新化（失敗時は保存値を使用）
 
-// 投信の基準価額をWebから同期（ログイン不要・投資信託協会の公開データ）
+// 現在値をWebから同期（ログイン不要）
+//  ・投信 → 投資信託協会の基準価額（fund_nav.json）
+//  ・株  → Yahooの現在値（holdings_price.json、USDは為替換算）
+// 取得額(cost)は更新せず、現在値(price)だけ最新化する。
 const normName = (s) =>
   (s || "").replace(/[\s　]/g, "").replace(/（/g, "(").replace(/）/g, ")").replace(/＆/g, "&");
 
-async function syncFundNav(manual) {
+async function syncPrices(manual) {
   const info = document.getElementById("nav-info");
-  try {
-    const r = await fetch("./data/fund_nav.json", { cache: "no-store" });
-    if (!r.ok) throw new Error("not found");
-    const funds = (await r.json()).funds || [];
-    if (!funds.length) throw new Error("empty");
-    let n = 0;
-    for (const h of data.holdings) {
-      if (h.ticker !== "投信") continue;
+  const getJSON = async (name) => {
+    try { const r = await fetch(`./data/${name}.json`, { cache: "no-store" }); return r.ok ? await r.json() : null; }
+    catch { return null; }
+  };
+  const [nav, quote] = await Promise.all([getJSON("fund_nav"), getJSON("holdings_price")]);
+  if (!nav && !quote) { if (manual) alert("現在値データの取得に失敗しました。時間をおいて再試行してください。"); return; }
+
+  const funds = (nav && nav.funds) || [];
+  const quotes = (quote && quote.quotes) || [];
+  let nF = 0, nS = 0;
+
+  for (const h of data.holdings) {
+    if (h.ticker === "投信") {
       const hn = normName(h.name);
-      const fund = funds.find((f) => (f.names || [f.name]).some((nm) => {
-        const x = normName(nm);
-        return x === hn || x.includes(hn) || hn.includes(x);
+      const f = funds.find((f) => (f.names || [f.name]).some((nm) => {
+        const x = normName(nm); return x === hn || x.includes(hn) || hn.includes(x);
       }));
-      if (fund && fund.nav) { h.price = fund.nav / 10000; n++; } // 基準価額→1口あたりに換算
+      if (f && f.nav) { h.price = f.nav / 10000; nF++; }
+    } else if (h.ticker && h.ticker !== "—") {
+      const q = quotes.find((q) => (q.ticker || "").toUpperCase() === h.ticker.toUpperCase());
+      if (q && q.price) {
+        const p = (q.currency === "USD") ? q.price * (data.fxRate || 0) : q.price;
+        h.price = Math.round(p * 100) / 100;
+        nS++;
+      }
     }
-    if (n) { save(); renderAll(); }
-    info.textContent = `基準価額 同期: ${funds[0].date || ""}（${n}件反映）`;
-    if (manual && n === 0) {
-      alert("一致する投信が見つかりませんでした。\n対応ファンド: eMAXIS Slim 米国株式(S&P500) / 同 全世界株式(オルカン) / 楽天(プラス)NASDAQ-100。\nファンド名が異なる場合は現在値を手入力してください。");
-    }
-  } catch {
-    if (manual) alert("基準価額の取得に失敗しました。時間をおいて再試行してください。");
+  }
+  if (nF + nS) { save(); renderAll(); }
+
+  const date = (funds[0] && funds[0].date) || (quotes[0] && quotes[0].date) || "";
+  info.textContent = `現在値 自動同期: ${date}（投信 ${nF}件 / 株 ${nS}件）`;
+  if (manual && nF + nS === 0) {
+    alert("一致する銘柄が見つかりませんでした。\n投信・株の名称やコードが対応リストと異なる場合は現在値を手入力してください。");
   }
 }
-document.getElementById("sync-nav").addEventListener("click", () => syncFundNav(true));
-syncFundNav(false); // 起動時にも自動反映（保有に投信があれば現在値を最新化）
+document.getElementById("sync-nav").addEventListener("click", () => syncPrices(true));
+syncPrices(false); // 起動時にも自動反映（現在値を最新化）
 
 // 日付入力の既定値を今日に
 for (const f of ["transfer-form", "trade-form"]) {

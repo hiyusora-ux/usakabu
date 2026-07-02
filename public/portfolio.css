@@ -135,6 +135,32 @@
 }
 .price-edit::placeholder { color: var(--muted); }
 
+/* 保有銘柄テーブル 視認性強化 */
+#holding-body .cell-name { text-align: left; white-space: normal; max-width: 260px; }
+.kind {
+  display: inline-block; font-size: 10px; padding: 1px 6px; border-radius: 3px; margin-right: 6px;
+  border: 1px solid var(--line); vertical-align: middle;
+}
+.kind.k-fund { color: var(--cyan); border-color: rgba(0,240,255,0.4); background: rgba(0,240,255,0.08); }
+.kind.k-jp   { color: var(--good); border-color: rgba(43,255,136,0.4); background: rgba(43,255,136,0.08); }
+.kind.k-us   { color: var(--magenta); border-color: rgba(255,43,214,0.4); background: rgba(255,43,214,0.08); }
+.nm2 { color: #eafdff; font-size: 12.5px; }
+.tk2 { color: var(--muted); font-size: 11px; margin-left: 6px; }
+.muted2 { color: var(--muted); }
+
+.cell-val { min-width: 130px; }
+.val-main { color: #eafdff; font-size: 13px; }
+.wbar { height: 5px; background: rgba(120,150,200,0.14); border-radius: 3px; overflow: hidden; margin: 3px 0 1px; }
+.wbar span { display: block; height: 100%; background: linear-gradient(90deg, var(--cyan), var(--magenta)); border-radius: 3px; }
+.wpct { color: var(--muted); font-size: 10px; }
+
+.cell-pl .pl-amt { font-size: 13px; }
+.pl-pct { font-size: 10.5px; opacity: 0.85; }
+
+#holding-body .total-row { border-top: 2px solid var(--line); background: rgba(0,240,255,0.04); }
+#holding-body .total-row td { font-weight: 700; color: #eafdff; padding-top: 10px; }
+#holding-body .total-row .muted2 { font-weight: 400; font-size: 11px; }
+
 /* 全削除ボタン（危険操作） */
 button.danger {
   color: var(--bad); border-color: rgba(255,59,107,0.5);
