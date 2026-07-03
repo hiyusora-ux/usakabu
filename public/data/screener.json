@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-03T19:36:09.138006+00:00",
+  "updated_at": "2026-07-03T21:12:40.684362+00:00",
   "stocks": [
     {
       "ticker": "MU",
@@ -229,8 +229,8 @@
       "roe": 0.32587,
       "forward_pe": 61.7337,
       "trailing_pe": 145.2809,
-      "target_mean": 182.75407,
-      "upside": 0.4134111808709311,
+      "target_mean": 183.12444,
+      "upside": 0.4162756046238967,
       "recommendation": "buy",
       "num_analysts": 27.0,
       "mom_3m": -0.1290583510415516,
@@ -375,7 +375,7 @@
       "recommendation": "buy",
       "num_analysts": 30.0,
       "mom_3m": 0.18801628781288238,
-      "mom_6m": 0.368160555554633,
+      "mom_6m": 0.36816070701486336,
       "name": "Analog Devices",
       "tags": [
         "semiconductor"
@@ -512,8 +512,8 @@
       "roe": 0.38884997,
       "forward_pe": 24.722982,
       "trailing_pe": 27.474045,
-      "target_mean": 432.64584,
-      "upside": 0.2020945113995123,
+      "target_mean": 432.28735,
+      "upside": 0.20109845684044925,
       "recommendation": "strong_buy",
       "num_analysts": 53.0,
       "mom_3m": 0.2175845234867706,
@@ -547,8 +547,8 @@
       "roe": 0.039300002,
       "forward_pe": 91.14076,
       "trailing_pe": 667.5897,
-      "target_mean": 242.11635,
-      "upside": -0.07007081109997848,
+      "target_mean": 243.63809,
+      "upside": -0.06422605735279563,
       "recommendation": "strong_buy",
       "num_analysts": 46.0,
       "mom_3m": 1.1631770025861088,
@@ -587,12 +587,12 @@
       "recommendation": "buy",
       "num_analysts": 24.0,
       "mom_3m": 0.2967197377370481,
-      "mom_6m": 0.2759570942785394,
+      "mom_6m": 0.27595694752569955,
       "name": "Microchip",
       "tags": [
         "semiconductor"
       ],
-      "score": 51.8,
+      "score": 51.6,
       "subscores": {
         "revenue_growth": 69.0,
         "earnings_growth": 50.0,
@@ -601,7 +601,7 @@
         "roe": 20.0,
         "mom_3m": 54.0,
         "mom_6m": 54.0,
-        "upside": 70.0,
+        "upside": 67.0,
         "forward_pe": 63.0
       },
       "rank": 17
@@ -619,7 +619,7 @@
       "trailing_pe": null,
       "target_mean": 46.85714,
       "upside": -0.0598487187691753,
-      "recommendation": "strong_buy",
+      "recommendation": "none",
       "num_analysts": 7.0,
       "mom_3m": 1.5572088628982326,
       "mom_6m": 1.0096774873326666,
@@ -627,7 +627,7 @@
       "tags": [
         "physical_ai"
       ],
-      "score": 51.1,
+      "score": 50.9,
       "subscores": {
         "revenue_growth": 78.0,
         "earnings_growth": 50.0,
@@ -636,7 +636,7 @@
         "roe": 7.0,
         "mom_3m": 96.0,
         "mom_6m": 87.0,
-        "upside": 9.0,
+        "upside": 7.0,
         "forward_pe": 98.0
       },
       "rank": 18
@@ -652,8 +652,8 @@
       "roe": 0.119540006,
       "forward_pe": 102.33274,
       "trailing_pe": 370.91763,
-      "target_mean": 295.9465,
-      "upside": -0.06132167867975269,
+      "target_mean": 297.02756,
+      "upside": -0.05789279005952419,
       "recommendation": "buy",
       "num_analysts": 37.0,
       "mom_3m": 1.1144121620867957,
@@ -663,7 +663,7 @@
         "semiconductor",
         "ai"
       ],
-      "score": 50.0,
+      "score": 50.2,
       "subscores": {
         "revenue_growth": 31.0,
         "earnings_growth": 42.0,
@@ -672,7 +672,7 @@
         "roe": 37.0,
         "mom_3m": 85.0,
         "mom_6m": 96.0,
-        "upside": 7.0,
+        "upside": 9.0,
         "forward_pe": 4.0
       },
       "rank": 19
@@ -796,7 +796,7 @@
       "trailing_pe": 92.60676,
       "target_mean": 1789.2307,
       "upside": 0.3889816890176996,
-      "recommendation": "strong_buy",
+      "recommendation": "none",
       "num_analysts": 13.0,
       "mom_3m": 0.15345287439946453,
       "mom_6m": 0.3535751208937803,
@@ -834,7 +834,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 55.0,
       "mom_3m": 0.047865264105437344,
-      "mom_6m": -0.17050031262853993,
+      "mom_6m": -0.17050025885450304,
       "name": "Microsoft",
       "tags": [
         "ai"
@@ -1010,7 +1010,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 35.0,
       "mom_3m": 0.7326876693357622,
-      "mom_6m": 1.1262755233799324,
+      "mom_6m": 1.126275752173119,
       "name": "Applied Materials",
       "tags": [
         "semiconductor"
@@ -1181,8 +1181,8 @@
       "roe": 0.52236,
       "forward_pe": 36.010296,
       "trailing_pe": 60.24242,
-      "target_mean": 1753.9498,
-      "upside": -0.008687036124415792,
+      "target_mean": 1753.749,
+      "upside": -0.00880052605619508,
       "recommendation": "strong_buy",
       "num_analysts": 15.0,
       "mom_3m": 0.3461465019322518,
@@ -1220,7 +1220,7 @@
       "upside": 0.483606640746965,
       "recommendation": "buy",
       "num_analysts": 53.0,
-      "mom_3m": -0.10804982414885789,
+      "mom_3m": -0.10804975106768377,
       "mom_6m": -0.348492797275183,
       "name": "Salesforce",
       "tags": [
@@ -1331,7 +1331,7 @@
       "tags": [
         "physical_ai"
       ],
-      "score": 40.2,
+      "score": 40.0,
       "subscores": {
         "revenue_growth": 44.0,
         "earnings_growth": 15.0,
@@ -1340,7 +1340,7 @@
         "roe": 46.0,
         "mom_3m": 11.0,
         "mom_6m": 20.0,
-        "upside": 65.0,
+        "upside": 63.0,
         "forward_pe": 39.0
       },
       "rank": 38
@@ -1437,7 +1437,7 @@
       "tags": [
         "ai"
       ],
-      "score": 39.3,
+      "score": 39.1,
       "subscores": {
         "revenue_growth": 42.0,
         "earnings_growth": 3.0,
@@ -1446,7 +1446,7 @@
         "roe": 41.0,
         "mom_3m": 22.0,
         "mom_6m": 11.0,
-        "upside": 67.0,
+        "upside": 65.0,
         "forward_pe": 59.0
       },
       "rank": 41
@@ -1498,17 +1498,17 @@
       "roe": -0.10029,
       "forward_pe": 41.292976,
       "trailing_pe": null,
-      "target_mean": 247.34766,
-      "upside": 0.2957601801606644,
+      "target_mean": 258.6061,
+      "upside": 0.354738859169506,
       "recommendation": "buy",
-      "num_analysts": 17.0,
+      "num_analysts": 18.0,
       "mom_3m": 0.035419824027328684,
       "mom_6m": -0.3581587806759837,
       "name": "AeroVironment",
       "tags": [
         "physical_ai"
       ],
-      "score": 37.9,
+      "score": 38.5,
       "subscores": {
         "revenue_growth": 93.0,
         "earnings_growth": 50.0,
@@ -1517,7 +1517,7 @@
         "roe": 11.0,
         "mom_3m": 17.0,
         "mom_6m": 4.0,
-        "upside": 63.0,
+        "upside": 70.0,
         "forward_pe": 26.0
       },
       "rank": 43
