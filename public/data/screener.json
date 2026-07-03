@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-03T15:14:36.414037+00:00",
+  "updated_at": "2026-07-03T17:37:34.697390+00:00",
   "stocks": [
     {
       "ticker": "MU",
@@ -375,7 +375,7 @@
       "recommendation": "buy",
       "num_analysts": 30.0,
       "mom_3m": 0.18801628781288238,
-      "mom_6m": 0.36816070701486336,
+      "mom_6m": 0.368160555554633,
       "name": "Analog Devices",
       "tags": [
         "semiconductor"
@@ -834,7 +834,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 55.0,
       "mom_3m": 0.047865264105437344,
-      "mom_6m": -0.17050025885450304,
+      "mom_6m": -0.17050031262853993,
       "name": "Microsoft",
       "tags": [
         "ai"
@@ -1010,7 +1010,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 35.0,
       "mom_3m": 0.7326876693357622,
-      "mom_6m": 1.126275752173119,
+      "mom_6m": 1.1262755233799324,
       "name": "Applied Materials",
       "tags": [
         "semiconductor"
@@ -1181,12 +1181,12 @@
       "roe": 0.52236,
       "forward_pe": 36.010296,
       "trailing_pe": 60.24242,
-      "target_mean": 1754.552,
-      "upside": -0.008346679366858734,
+      "target_mean": 1754.1505,
+      "upside": -0.008573602711526851,
       "recommendation": "strong_buy",
       "num_analysts": 15.0,
       "mom_3m": 0.3461465019322518,
-      "mom_6m": 0.4456422086976297,
+      "mom_6m": 0.44564235288438403,
       "name": "ASML",
       "tags": [
         "semiconductor"
@@ -1220,7 +1220,7 @@
       "upside": 0.483606640746965,
       "recommendation": "buy",
       "num_analysts": 53.0,
-      "mom_3m": -0.10804975106768377,
+      "mom_3m": -0.10804982414885789,
       "mom_6m": -0.348492797275183,
       "name": "Salesforce",
       "tags": [
