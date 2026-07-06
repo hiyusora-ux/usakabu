@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T20:54:43.207194+00:00",
+  "updated_at": "2026-07-06T22:17:29.104017+00:00",
   "stocks": [
     {
       "ticker": "MU",
@@ -269,7 +269,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 18.0,
       "mom_3m": 0.3250469204780577,
-      "mom_6m": 0.42501603163550405,
+      "mom_6m": 0.425015894467474,
       "name": "TSMC",
       "tags": [
         "semiconductor"
@@ -304,7 +304,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 58.0,
       "mom_3m": 0.04856078579335499,
-      "mom_6m": -0.07296121521560694,
+      "mom_6m": -0.07296130259614919,
       "name": "Meta Platforms",
       "tags": [
         "ai"
@@ -1181,8 +1181,8 @@
       "roe": 0.52236,
       "forward_pe": 36.91511,
       "trailing_pe": 62.140617,
-      "target_mean": 1783.4387,
-      "upside": -0.022810767540012322,
+      "target_mean": 1783.8468,
+      "upside": -0.02258715967181535,
       "recommendation": "strong_buy",
       "num_analysts": 14.0,
       "mom_3m": 0.4026397745114816,
