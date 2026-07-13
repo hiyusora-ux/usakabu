@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-13T21:00:58.755726+00:00",
+  "updated_at": "2026-07-13T22:01:02.752975+00:00",
   "stocks": [
     {
       "ticker": "MU",
@@ -517,7 +517,7 @@
       "recommendation": "buy",
       "num_analysts": 31.0,
       "mom_3m": 0.2350456555276501,
-      "mom_6m": 0.5831601715277546,
+      "mom_6m": 0.58316005560703,
       "name": "Lam Research",
       "tags": [
         "semiconductor"
@@ -693,7 +693,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 41.0,
       "mom_3m": 0.6571489017181125,
-      "mom_6m": 1.6806131055346039,
+      "mom_6m": 1.680612853512201,
       "name": "Marvell",
       "tags": [
         "semiconductor",
@@ -834,7 +834,7 @@
       "recommendation": "buy",
       "num_analysts": 32.0,
       "mom_3m": 0.38474020999526637,
-      "mom_6m": 0.5613637580516575,
+      "mom_6m": 0.5613636334619849,
       "name": "Texas Instruments",
       "tags": [
         "semiconductor"
@@ -897,14 +897,14 @@
       "gross_margin": 0.55632,
       "profit_margin": 0.21031,
       "roe": 0.25812998,
-      "forward_pe": 15.719528,
+      "forward_pe": 15.69436,
       "trailing_pe": 26.614723,
       "target_mean": 308.06897,
       "upside": 0.1066092668195815,
       "recommendation": "buy",
       "num_analysts": 29.0,
       "mom_3m": 0.34295355935284966,
-      "mom_6m": 0.16599823891431842,
+      "mom_6m": 0.16599816439614923,
       "name": "NXP Semiconductors",
       "tags": [
         "semiconductor",
@@ -1286,8 +1286,8 @@
       "roe": 0.52236,
       "forward_pe": 34.349155,
       "trailing_pe": 58.549526,
-      "target_mean": 1873.0293,
-      "upside": 0.08515982109971065,
+      "target_mean": 1871.7498,
+      "upside": 0.0844185289100492,
       "recommendation": "strong_buy",
       "num_analysts": 15.0,
       "mom_3m": 0.1530530456493282,
@@ -1566,7 +1566,7 @@
       "gross_margin": 0.48921,
       "profit_margin": 0.12358,
       "roe": 0.27183,
-      "forward_pe": 31.50095,
+      "forward_pe": 31.476507,
       "trailing_pe": 47.814125,
       "target_mean": 468.8084,
       "upside": 0.01815264973695041,
