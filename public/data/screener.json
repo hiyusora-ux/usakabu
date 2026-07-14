@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14T20:16:31.962744+00:00",
+  "updated_at": "2026-07-14T22:02:56.369271+00:00",
   "stocks": [
     {
       "ticker": "MU",
@@ -10,7 +10,7 @@
       "gross_margin": 0.72569,
       "profit_margin": 0.55906,
       "roe": 0.66638,
-      "forward_pe": 6.5699687,
+      "forward_pe": 6.5338573,
       "trailing_pe": 22.227448,
       "target_mean": 1486.0,
       "upside": 0.5115143699451148,
@@ -59,7 +59,7 @@
         "semiconductor",
         "ai"
       ],
-      "score": 77.2,
+      "score": 77.1,
       "subscores": {
         "revenue_growth": 96.0,
         "earnings_growth": 97.0,
@@ -69,7 +69,7 @@
         "mom_3m": 78.0,
         "mom_6m": 78.0,
         "upside": 37.0,
-        "forward_pe": 52.0
+        "forward_pe": 50.0
       },
       "rank": 2
     },
@@ -192,7 +192,7 @@
       "profit_margin": 0.43673,
       "roe": 0.32587,
       "forward_pe": 63.84401,
-      "trailing_pe": 151.95454,
+      "trailing_pe": 146.94505,
       "target_mean": 183.12444,
       "upside": 0.3694618481027043,
       "recommendation": "buy",
@@ -396,6 +396,41 @@
       "rank": 11
     },
     {
+      "ticker": "ADI",
+      "price": 392.75,
+      "market_cap": 191303434240.0,
+      "revenue_growth": 0.372,
+      "earnings_growth": 1.105,
+      "gross_margin": 0.64491,
+      "profit_margin": 0.26007998,
+      "roe": 0.09639,
+      "forward_pe": 26.361183,
+      "trailing_pe": 58.444942,
+      "target_mean": 454.0,
+      "upside": 0.15595162316995537,
+      "recommendation": "buy",
+      "num_analysts": 30.0,
+      "mom_3m": 0.12973543420388944,
+      "mom_6m": 0.3077090893054688,
+      "name": "Analog Devices",
+      "tags": [
+        "semiconductor"
+      ],
+      "score": 56.2,
+      "subscores": {
+        "revenue_growth": 71.0,
+        "earnings_growth": 70.0,
+        "gross_margin": 59.0,
+        "profit_margin": 61.0,
+        "roe": 33.0,
+        "mom_3m": 46.0,
+        "mom_6m": 57.0,
+        "upside": 41.0,
+        "forward_pe": 52.0
+      },
+      "rank": 12
+    },
+    {
       "ticker": "SMCI",
       "price": 27.649999618530273,
       "market_cap": 17886038016.0,
@@ -428,41 +463,6 @@
         "mom_6m": 30.0,
         "upside": 72.0,
         "forward_pe": 91.0
-      },
-      "rank": 12
-    },
-    {
-      "ticker": "ADI",
-      "price": 392.75,
-      "market_cap": 191303434240.0,
-      "revenue_growth": 0.372,
-      "earnings_growth": 1.105,
-      "gross_margin": 0.64491,
-      "profit_margin": 0.26007998,
-      "roe": 0.09639,
-      "forward_pe": 26.541233,
-      "trailing_pe": 58.444942,
-      "target_mean": 454.0,
-      "upside": 0.15595162316995537,
-      "recommendation": "buy",
-      "num_analysts": 30.0,
-      "mom_3m": 0.12973543420388944,
-      "mom_6m": 0.3077090893054688,
-      "name": "Analog Devices",
-      "tags": [
-        "semiconductor"
-      ],
-      "score": 56.1,
-      "subscores": {
-        "revenue_growth": 71.0,
-        "earnings_growth": 70.0,
-        "gross_margin": 59.0,
-        "profit_margin": 61.0,
-        "roe": 33.0,
-        "mom_3m": 46.0,
-        "mom_6m": 57.0,
-        "upside": 41.0,
-        "forward_pe": 50.0
       },
       "rank": 13
     },
@@ -552,7 +552,7 @@
       "recommendation": "buy",
       "num_analysts": 31.0,
       "mom_3m": 0.2714064174773967,
-      "mom_6m": 0.594513139437659,
+      "mom_6m": 0.5945130273456545,
       "name": "Lam Research",
       "tags": [
         "semiconductor"
@@ -926,21 +926,21 @@
     },
     {
       "ticker": "ORCL",
-      "price": 127.95999908447266,
-      "market_cap": 368585080832.0,
+      "price": 127.94000244140625,
+      "market_cap": 368527474688.0,
       "revenue_growth": 0.206,
       "earnings_growth": 0.219,
       "gross_margin": 0.65822,
       "profit_margin": 0.25368,
       "roe": 0.53376,
-      "forward_pe": 11.716231,
-      "trailing_pe": 21.948542,
+      "forward_pe": 11.7144,
+      "trailing_pe": 21.945112,
       "target_mean": 251.8495,
-      "upside": 0.9681892919813311,
+      "upside": 0.9684969141324007,
       "recommendation": "buy",
       "num_analysts": 40.0,
-      "mom_3m": -0.21223821744232896,
-      "mom_6m": -0.3212872141344715,
+      "mom_3m": -0.2123613230323561,
+      "mom_6m": -0.32139322343066823,
       "name": "Oracle",
       "tags": [
         "ai"
@@ -997,21 +997,21 @@
     },
     {
       "ticker": "NET",
-      "price": 281.739990234375,
-      "market_cap": 100000669696.0,
+      "price": 281.75,
+      "market_cap": 100004216832.0,
       "revenue_growth": 0.335,
       "earnings_growth": null,
       "gross_margin": 0.73327005,
       "profit_margin": -0.037249997,
       "roe": -0.05876,
-      "forward_pe": 178.4712,
+      "forward_pe": 178.47754,
       "trailing_pe": null,
       "target_mean": 250.26161,
-      "upside": -0.11172847776486627,
+      "upside": -0.11176003549245783,
       "recommendation": "buy",
       "num_analysts": 31.0,
-      "mom_3m": 0.5770500971728234,
-      "mom_6m": 0.5300314498111875,
+      "mom_3m": 0.5771061272090225,
+      "mom_6m": 0.5300858093509844,
       "name": "Cloudflare",
       "tags": [
         "ai"
@@ -1286,8 +1286,8 @@
       "roe": 0.52236,
       "forward_pe": 35.367523,
       "trailing_pe": 60.150406,
-      "target_mean": 1901.8732,
-      "upside": 0.07109165388827732,
+      "target_mean": 1901.6559,
+      "upside": 0.0709692754792488,
       "recommendation": "strong_buy",
       "num_analysts": 15.0,
       "mom_3m": 0.1720466019692839,
@@ -1319,7 +1319,7 @@
       "gross_margin": 0.66292,
       "profit_margin": 0.28152,
       "roe": 0.17232999,
-      "forward_pe": 32.198208,
+      "forward_pe": 32.19624,
       "trailing_pe": 46.16788,
       "target_mean": 558.00934,
       "upside": 0.4703803425559947,
