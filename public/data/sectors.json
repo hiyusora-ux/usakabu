@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-07-15T16:27:22.624229+00:00",
+  "updated_at": "2026-07-15T18:12:22.591857+00:00",
   "sectors": [
     {
       "theme": "semiconductor",
       "label": "半導体",
       "count": 23,
-      "avg_mom_3m": 0.2946634096191893,
-      "avg_mom_6m": 0.546602502211053,
+      "avg_mom_3m": 0.3342110090037077,
+      "avg_mom_6m": 0.594835990938122,
       "avg_revenue_growth": 0.552304347826087,
-      "avg_score": 55.83043478260869,
+      "avg_score": 55.76521739130435,
       "breadth": 0.782608695652174,
-      "strength": 80.4,
+      "strength": 82.0,
       "rank": 1
     },
     {
       "theme": "ai",
       "label": "AI（ソフト/プラットフォーム）",
       "count": 25,
-      "avg_mom_3m": 0.281336710051135,
-      "avg_mom_6m": 0.3326253293813359,
+      "avg_mom_3m": 0.3020573700362289,
+      "avg_mom_6m": 0.35794544703381265,
       "avg_revenue_growth": 0.54704,
-      "avg_score": 53.876000000000005,
-      "breadth": 0.64,
-      "strength": 72.9,
+      "avg_score": 53.864000000000004,
+      "breadth": 0.68,
+      "strength": 75.2,
       "rank": 2
     },
     {
       "theme": "physical_ai",
       "label": "フィジカルAI（ロボ/自律）",
       "count": 16,
-      "avg_mom_3m": 0.02089038462857451,
-      "avg_mom_6m": -0.04160887805507266,
+      "avg_mom_3m": 0.03972717822860842,
+      "avg_mom_6m": -0.0217838094358326,
       "avg_revenue_growth": 0.7600666666666667,
-      "avg_score": 44.05,
-      "breadth": 0.5625,
-      "strength": 51.8,
+      "avg_score": 44.1,
+      "breadth": 0.625,
+      "strength": 55.0,
       "rank": 3
     }
   ]
