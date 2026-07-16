@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-16T21:05:52.355486+00:00",
+  "updated_at": "2026-07-16T22:13:03.896007+00:00",
   "stocks": [
     {
       "ticker": "MU",
@@ -17,7 +17,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 42.0,
       "mom_3m": 0.8663062711608362,
-      "mom_6m": 1.3388759688722738,
+      "mom_6m": 1.338875773207088,
       "name": "Micron",
       "tags": [
         "semiconductor",
@@ -262,7 +262,7 @@
       "gross_margin": 0.61873,
       "profit_margin": 0.46505,
       "roe": 0.3621,
-      "forward_pe": 19.764154,
+      "forward_pe": 19.577675,
       "trailing_pe": 35.660576,
       "target_mean": 498.24393,
       "upside": 0.21600024863328549,
@@ -274,7 +274,7 @@
       "tags": [
         "semiconductor"
       ],
-      "score": 61.5,
+      "score": 61.7,
       "subscores": {
         "revenue_growth": 67.0,
         "earnings_growth": 47.0,
@@ -284,7 +284,7 @@
         "mom_3m": 52.0,
         "mom_6m": 54.0,
         "upside": 37.0,
-        "forward_pe": 65.0
+        "forward_pe": 67.0
       },
       "rank": 8
     },
@@ -552,7 +552,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 31.0,
       "mom_3m": 0.23078663161819413,
-      "mom_6m": 0.4458472170936665,
+      "mom_6m": 0.4458473164771022,
       "name": "Lam Research",
       "tags": [
         "semiconductor"
@@ -587,7 +587,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 40.0,
       "mom_3m": 0.4122101579468964,
-      "mom_6m": 1.3614127569645382,
+      "mom_6m": 1.3614125310295373,
       "name": "Marvell",
       "tags": [
         "semiconductor",
@@ -652,7 +652,7 @@
       "gross_margin": 0.60368,
       "profit_margin": 0.37919,
       "roe": 0.38884997,
-      "forward_pe": 24.237309,
+      "forward_pe": 24.252151,
       "trailing_pe": 27.078686,
       "target_mean": 431.7213,
       "upside": 0.21796905266447664,
@@ -689,8 +689,8 @@
       "roe": 0.53942,
       "forward_pe": 31.550293,
       "trailing_pe": 56.842995,
-      "target_mean": 2033.6877,
-      "upside": 0.13940382524413275,
+      "target_mean": 2033.9207,
+      "upside": 0.1395343669646152,
       "recommendation": "strong_buy",
       "num_analysts": 15.0,
       "mom_3m": 0.2678838534797392,
@@ -734,7 +734,7 @@
       "tags": [
         "semiconductor"
       ],
-      "score": 49.5,
+      "score": 49.3,
       "subscores": {
         "revenue_growth": 69.0,
         "earnings_growth": 50.0,
@@ -744,7 +744,7 @@
         "mom_3m": 43.0,
         "mom_6m": 43.0,
         "upside": 67.0,
-        "forward_pe": 67.0
+        "forward_pe": 65.0
       },
       "rank": 21
     },
@@ -834,7 +834,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 55.0,
       "mom_3m": -0.04352369983723536,
-      "mom_6m": -0.11360071164201013,
+      "mom_6m": -0.1136006518619671,
       "name": "Microsoft",
       "tags": [
         "ai"
@@ -1010,7 +1010,7 @@
       "recommendation": "buy",
       "num_analysts": 40.0,
       "mom_3m": -0.3010983354754846,
-      "mom_6m": -0.30481635279229735,
+      "mom_6m": -0.3048162934228996,
       "name": "Oracle",
       "tags": [
         "ai"
@@ -1045,12 +1045,12 @@
       "recommendation": "strong_buy",
       "num_analysts": 13.0,
       "mom_3m": -0.0678408430936861,
-      "mom_6m": 0.26657258056398847,
+      "mom_6m": 0.2665724305805217,
       "name": "Monolithic Power",
       "tags": [
         "semiconductor"
       ],
-      "score": 45.4,
+      "score": 45.6,
       "subscores": {
         "revenue_growth": 53.0,
         "earnings_growth": 31.0,
@@ -1059,7 +1059,7 @@
         "roe": 52.0,
         "mom_3m": 22.0,
         "mom_6m": 57.0,
-        "upside": 63.0,
+        "upside": 65.0,
         "forward_pe": 24.0
       },
       "rank": 30
@@ -1311,41 +1311,6 @@
       "rank": 37
     },
     {
-      "ticker": "ISRG",
-      "price": 402.3299865722656,
-      "market_cap": 142490337280.0,
-      "revenue_growth": 0.23,
-      "earnings_growth": 0.188,
-      "gross_margin": 0.66292,
-      "profit_margin": 0.28152,
-      "roe": 0.17232999,
-      "forward_pe": 34.15168,
-      "trailing_pe": 48.767273,
-      "target_mean": 552.0786,
-      "upside": 0.3722034609041922,
-      "recommendation": "buy",
-      "num_analysts": 29.0,
-      "mom_3m": -0.12170363612077384,
-      "mom_6m": -0.2372023647998508,
-      "name": "Intuitive Surgical",
-      "tags": [
-        "physical_ai"
-      ],
-      "score": 39.4,
-      "subscores": {
-        "revenue_growth": 44.0,
-        "earnings_growth": 16.0,
-        "gross_margin": 63.0,
-        "profit_margin": 65.0,
-        "roe": 46.0,
-        "mom_3m": 15.0,
-        "mom_6m": 11.0,
-        "upside": 65.0,
-        "forward_pe": 30.0
-      },
-      "rank": 38
-    },
-    {
       "ticker": "AVAV",
       "price": 149.2899932861328,
       "market_cap": 7555272704.0,
@@ -1377,6 +1342,41 @@
         "mom_6m": 2.0,
         "upside": 87.0,
         "forward_pe": 37.0
+      },
+      "rank": 38
+    },
+    {
+      "ticker": "ISRG",
+      "price": 402.3299865722656,
+      "market_cap": 142490337280.0,
+      "revenue_growth": 0.23,
+      "earnings_growth": 0.188,
+      "gross_margin": 0.66292,
+      "profit_margin": 0.28152,
+      "roe": 0.17232999,
+      "forward_pe": 34.15168,
+      "trailing_pe": 48.767273,
+      "target_mean": 549.66486,
+      "upside": 0.3662040572292027,
+      "recommendation": "buy",
+      "num_analysts": 29.0,
+      "mom_3m": -0.12170363612077384,
+      "mom_6m": -0.2372023647998508,
+      "name": "Intuitive Surgical",
+      "tags": [
+        "physical_ai"
+      ],
+      "score": 39.2,
+      "subscores": {
+        "revenue_growth": 44.0,
+        "earnings_growth": 16.0,
+        "gross_margin": 63.0,
+        "profit_margin": 65.0,
+        "roe": 46.0,
+        "mom_3m": 15.0,
+        "mom_6m": 11.0,
+        "upside": 63.0,
+        "forward_pe": 30.0
       },
       "rank": 39
     },
