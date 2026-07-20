@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-07-20T20:25:34.414199+00:00",
+  "updated_at": "2026-07-20T22:04:15.960621+00:00",
   "stocks": [
     {
       "ticker": "MU",
       "price": 865.4600219726562,
-      "market_cap": null,
+      "market_cap": 977444601856.0,
       "revenue_growth": 3.457,
       "earnings_growth": 13.685,
       "gross_margin": 0.72569,
@@ -23,11 +23,11 @@
         "semiconductor",
         "ai"
       ],
-      "score": 94.0,
+      "score": 94.1,
       "subscores": {
         "revenue_growth": 98.0,
         "earnings_growth": 100.0,
-        "gross_margin": 73.0,
+        "gross_margin": 74.0,
         "profit_margin": 98.0,
         "roe": 93.0,
         "mom_3m": 98.0,
@@ -59,17 +59,17 @@
         "semiconductor",
         "ai"
       ],
-      "score": 78.8,
+      "score": 79.1,
       "subscores": {
-        "revenue_growth": 95.0,
+        "revenue_growth": 96.0,
         "earnings_growth": 97.0,
         "gross_margin": 67.0,
         "profit_margin": 80.0,
         "roe": 76.0,
         "mom_3m": 72.0,
         "mom_6m": 83.0,
-        "upside": 56.0,
-        "forward_pe": 58.0
+        "upside": 57.0,
+        "forward_pe": 57.0
       },
       "rank": 2
     },
@@ -96,7 +96,7 @@
         "ai",
         "physical_ai"
       ],
-      "score": 77.0,
+      "score": 77.2,
       "subscores": {
         "revenue_growth": 84.0,
         "earnings_growth": 82.0,
@@ -105,8 +105,8 @@
         "roe": 100.0,
         "mom_3m": 43.0,
         "mom_6m": 48.0,
-        "upside": 82.0,
-        "forward_pe": 73.0
+        "upside": 83.0,
+        "forward_pe": 74.0
       },
       "rank": 3
     },
@@ -132,13 +132,13 @@
         "semiconductor",
         "ai"
       ],
-      "score": 67.3,
+      "score": 67.5,
       "subscores": {
         "revenue_growth": 89.0,
         "earnings_growth": 76.0,
         "gross_margin": 80.0,
-        "profit_margin": 62.0,
-        "roe": 53.0,
+        "profit_margin": 63.0,
+        "roe": 54.0,
         "mom_3m": 91.0,
         "mom_6m": 89.0,
         "upside": 2.0,
@@ -168,17 +168,17 @@
         "semiconductor",
         "ai"
       ],
-      "score": 66.8,
+      "score": 67.1,
       "subscores": {
-        "revenue_growth": 75.0,
+        "revenue_growth": 76.0,
         "earnings_growth": 61.0,
-        "gross_margin": 82.0,
+        "gross_margin": 83.0,
         "profit_margin": 87.0,
         "roe": 80.0,
         "mom_3m": 30.0,
         "mom_6m": 52.0,
-        "upside": 69.0,
-        "forward_pe": 64.0
+        "upside": 70.0,
+        "forward_pe": 65.0
       },
       "rank": 5
     },
@@ -203,17 +203,17 @@
       "tags": [
         "semiconductor"
       ],
-      "score": 64.9,
+      "score": 65.1,
       "subscores": {
-        "revenue_growth": 68.0,
+        "revenue_growth": 69.0,
         "earnings_growth": 55.0,
-        "gross_margin": 56.0,
+        "gross_margin": 57.0,
         "profit_margin": 96.0,
         "roe": 87.0,
         "mom_3m": 52.0,
         "mom_6m": 57.0,
-        "upside": 49.0,
-        "forward_pe": 69.0
+        "upside": 48.0,
+        "forward_pe": 70.0
       },
       "rank": 6
     },
@@ -238,7 +238,7 @@
       "tags": [
         "ai"
       ],
-      "score": 64.8,
+      "score": 65.0,
       "subscores": {
         "revenue_growth": 82.0,
         "earnings_growth": 91.0,
@@ -247,15 +247,15 @@
         "roe": 67.0,
         "mom_3m": 24.0,
         "mom_6m": 20.0,
-        "upside": 62.0,
-        "forward_pe": 16.0
+        "upside": 63.0,
+        "forward_pe": 15.0
       },
       "rank": 7
     },
     {
       "ticker": "TER",
       "price": 333.760009765625,
-      "market_cap": null,
+      "market_cap": 52247511040.0,
       "revenue_growth": 0.87,
       "earnings_growth": 3.148,
       "gross_margin": 0.58702,
@@ -274,16 +274,16 @@
         "semiconductor",
         "physical_ai"
       ],
-      "score": 61.1,
+      "score": 61.3,
       "subscores": {
-        "revenue_growth": 86.0,
+        "revenue_growth": 87.0,
         "earnings_growth": 88.0,
-        "gross_margin": 49.0,
-        "profit_margin": 53.0,
-        "roe": 62.0,
+        "gross_margin": 50.0,
+        "profit_margin": 54.0,
+        "roe": 63.0,
         "mom_3m": 20.0,
         "mom_6m": 78.0,
-        "upside": 47.0,
+        "upside": 46.0,
         "forward_pe": 33.0
       },
       "rank": 8
@@ -310,13 +310,13 @@
         "physical_ai",
         "ai"
       ],
-      "score": 60.3,
+      "score": 60.7,
       "subscores": {
-        "revenue_growth": 39.0,
+        "revenue_growth": 40.0,
         "earnings_growth": 85.0,
         "gross_margin": 98.0,
         "profit_margin": 91.0,
-        "roe": 73.0,
+        "roe": 74.0,
         "mom_3m": 17.0,
         "mom_6m": 15.0,
         "upside": 78.0,
@@ -345,24 +345,24 @@
       "tags": [
         "ai"
       ],
-      "score": 57.3,
+      "score": 57.6,
       "subscores": {
-        "revenue_growth": 59.0,
+        "revenue_growth": 60.0,
         "earnings_growth": 48.0,
         "gross_margin": 91.0,
         "profit_margin": 78.0,
-        "roe": 69.0,
+        "roe": 70.0,
         "mom_3m": 33.0,
         "mom_6m": 33.0,
-        "upside": 44.0,
-        "forward_pe": 71.0
+        "upside": 43.0,
+        "forward_pe": 72.0
       },
       "rank": 10
     },
     {
       "ticker": "AMD",
       "price": 503.57000732421875,
-      "market_cap": null,
+      "market_cap": 821121515520.0,
       "revenue_growth": 0.378,
       "earnings_growth": 0.912,
       "gross_margin": 0.5306,
@@ -381,17 +381,17 @@
         "semiconductor",
         "ai"
       ],
-      "score": 56.1,
+      "score": 56.6,
       "subscores": {
         "revenue_growth": 73.0,
         "earnings_growth": 64.0,
-        "gross_margin": 36.0,
-        "profit_margin": 40.0,
-        "roe": 29.0,
+        "gross_margin": 37.0,
+        "profit_margin": 41.0,
+        "roe": 30.0,
         "mom_3m": 96.0,
         "mom_6m": 91.0,
         "upside": 11.0,
-        "forward_pe": 29.0
+        "forward_pe": 28.0
       },
       "rank": 11
     },
@@ -416,9 +416,9 @@
       "tags": [
         "ai"
       ],
-      "score": 54.8,
+      "score": 54.9,
       "subscores": {
-        "revenue_growth": 57.0,
+        "revenue_growth": 58.0,
         "earnings_growth": 67.0,
         "gross_margin": 89.0,
         "profit_margin": 20.0,
@@ -451,11 +451,11 @@
       "tags": [
         "physical_ai"
       ],
-      "score": 54.5,
+      "score": 54.8,
       "subscores": {
-        "revenue_growth": 77.0,
+        "revenue_growth": 78.0,
         "earnings_growth": 50.0,
-        "gross_margin": 18.0,
+        "gross_margin": 20.0,
         "profit_margin": 0.0,
         "roe": 7.0,
         "mom_3m": 80.0,
@@ -468,7 +468,7 @@
     {
       "ticker": "ADI",
       "price": 372.4599914550781,
-      "market_cap": null,
+      "market_cap": 181420441600.0,
       "revenue_growth": 0.372,
       "earnings_growth": 1.105,
       "gross_margin": 0.64491,
@@ -486,17 +486,17 @@
       "tags": [
         "semiconductor"
       ],
-      "score": 54.0,
+      "score": 54.3,
       "subscores": {
-        "revenue_growth": 70.0,
+        "revenue_growth": 71.0,
         "earnings_growth": 70.0,
-        "gross_margin": 58.0,
-        "profit_margin": 60.0,
-        "roe": 31.0,
+        "gross_margin": 59.0,
+        "profit_margin": 61.0,
+        "roe": 33.0,
         "mom_3m": 37.0,
         "mom_6m": 54.0,
-        "upside": 36.0,
-        "forward_pe": 53.0
+        "upside": 35.0,
+        "forward_pe": 52.0
       },
       "rank": 14
     },
@@ -522,16 +522,16 @@
         "semiconductor",
         "ai"
       ],
-      "score": 53.6,
+      "score": 53.8,
       "subscores": {
         "revenue_growth": 91.0,
         "earnings_growth": 94.0,
         "gross_margin": 4.0,
         "profit_margin": 22.0,
-        "roe": 47.0,
+        "roe": 48.0,
         "mom_3m": 15.0,
         "mom_6m": 11.0,
-        "upside": 84.0,
+        "upside": 85.0,
         "forward_pe": 91.0
       },
       "rank": 15
@@ -557,17 +557,17 @@
       "tags": [
         "ai"
       ],
-      "score": 53.4,
+      "score": 53.7,
       "subscores": {
-        "revenue_growth": 41.0,
+        "revenue_growth": 42.0,
         "earnings_growth": 58.0,
-        "gross_margin": 51.0,
-        "profit_margin": 84.0,
-        "roe": 82.0,
+        "gross_margin": 52.0,
+        "profit_margin": 85.0,
+        "roe": 83.0,
         "mom_3m": 48.0,
         "mom_6m": 37.0,
-        "upside": 38.0,
-        "forward_pe": 56.0
+        "upside": 37.0,
+        "forward_pe": 54.0
       },
       "rank": 16
     },
@@ -587,22 +587,22 @@
       "recommendation": "strong_buy",
       "num_analysts": 31.0,
       "mom_3m": 0.16649980962398625,
-      "mom_6m": 0.34569774242233464,
+      "mom_6m": 0.3456976523448305,
       "name": "Lam Research",
       "tags": [
         "semiconductor"
       ],
-      "score": 52.8,
+      "score": 53.2,
       "subscores": {
-        "revenue_growth": 48.0,
+        "revenue_growth": 49.0,
         "earnings_growth": 39.0,
-        "gross_margin": 27.0,
+        "gross_margin": 28.0,
         "profit_margin": 76.0,
         "roe": 96.0,
         "mom_3m": 63.0,
         "mom_6m": 67.0,
-        "upside": 29.0,
-        "forward_pe": 27.0
+        "upside": 28.0,
+        "forward_pe": 26.0
       },
       "rank": 17
     },
@@ -628,13 +628,13 @@
         "semiconductor",
         "ai"
       ],
-      "score": 52.1,
+      "score": 52.7,
       "subscores": {
-        "revenue_growth": 30.0,
+        "revenue_growth": 31.0,
         "earnings_growth": 42.0,
         "gross_margin": 100.0,
-        "profit_margin": 42.0,
-        "roe": 36.0,
+        "profit_margin": 43.0,
+        "roe": 37.0,
         "mom_3m": 89.0,
         "mom_6m": 100.0,
         "upside": 20.0,
@@ -658,61 +658,25 @@
       "recommendation": "strong_buy",
       "num_analysts": 40.0,
       "mom_3m": 0.3189130550587562,
-      "mom_6m": 1.3632428414842037,
+      "mom_6m": 1.3632426229065455,
       "name": "Marvell",
       "tags": [
         "semiconductor",
         "ai"
       ],
-      "score": 51.8,
+      "score": 52.2,
       "subscores": {
-        "revenue_growth": 55.0,
+        "revenue_growth": 56.0,
         "earnings_growth": 0.0,
-        "gross_margin": 31.0,
+        "gross_margin": 33.0,
         "profit_margin": 67.0,
-        "roe": 38.0,
+        "roe": 39.0,
         "mom_3m": 83.0,
         "mom_6m": 98.0,
-        "upside": 51.0,
-        "forward_pe": 42.0
+        "upside": 50.0,
+        "forward_pe": 41.0
       },
       "rank": 19
-    },
-    {
-      "ticker": "ON",
-      "price": 86.69999694824219,
-      "market_cap": null,
-      "revenue_growth": null,
-      "earnings_growth": null,
-      "gross_margin": null,
-      "profit_margin": null,
-      "roe": null,
-      "forward_pe": null,
-      "trailing_pe": null,
-      "target_mean": null,
-      "upside": null,
-      "recommendation": null,
-      "num_analysts": null,
-      "mom_3m": 0.013323976416288907,
-      "mom_6m": 0.3733564942394929,
-      "name": "onsemi",
-      "tags": [
-        "semiconductor",
-        "physical_ai"
-      ],
-      "score": 51.7,
-      "subscores": {
-        "revenue_growth": 50.0,
-        "earnings_growth": 50.0,
-        "gross_margin": 50.0,
-        "profit_margin": 50.0,
-        "roe": 50.0,
-        "mom_3m": 46.0,
-        "mom_6m": 72.0,
-        "upside": 50.0,
-        "forward_pe": 50.0
-      },
-      "rank": 20
     },
     {
       "ticker": "ASML",
@@ -725,8 +689,8 @@
       "roe": 0.53942,
       "forward_pe": 30.178736,
       "trailing_pe": 59.945538,
-      "target_mean": 2118.156,
-      "upside": 0.2180170304025284,
+      "target_mean": 2117.6724,
+      "upside": 0.21773894274708527,
       "recommendation": "strong_buy",
       "num_analysts": 15.0,
       "mom_3m": 0.18037137234532374,
@@ -735,19 +699,19 @@
       "tags": [
         "semiconductor"
       ],
-      "score": 49.9,
+      "score": 50.3,
       "subscores": {
-        "revenue_growth": 36.0,
+        "revenue_growth": 38.0,
         "earnings_growth": 24.0,
-        "gross_margin": 33.0,
-        "profit_margin": 73.0,
+        "gross_margin": 35.0,
+        "profit_margin": 74.0,
         "roe": 91.0,
         "mom_3m": 67.0,
         "mom_6m": 61.0,
-        "upside": 31.0,
-        "forward_pe": 44.0
+        "upside": 30.0,
+        "forward_pe": 43.0
       },
-      "rank": 21
+      "rank": 20
     },
     {
       "ticker": "QCOM",
@@ -765,24 +729,24 @@
       "recommendation": "hold",
       "num_analysts": 30.0,
       "mom_3m": 0.24308518682763758,
-      "mom_6m": 0.10025354316769075,
+      "mom_6m": 0.10025365162029787,
       "name": "Qualcomm",
       "tags": [
         "semiconductor"
       ],
-      "score": 49.9,
+      "score": 50.2,
       "subscores": {
         "revenue_growth": 0.0,
         "earnings_growth": 79.0,
-        "gross_margin": 38.0,
-        "profit_margin": 51.0,
+        "gross_margin": 39.0,
+        "profit_margin": 52.0,
         "roe": 78.0,
         "mom_3m": 78.0,
         "mom_6m": 46.0,
-        "upside": 53.0,
+        "upside": 52.0,
         "forward_pe": 76.0
       },
-      "rank": 22
+      "rank": 21
     },
     {
       "ticker": "MCHP",
@@ -805,52 +769,87 @@
       "tags": [
         "semiconductor"
       ],
-      "score": 48.0,
+      "score": 48.3,
       "subscores": {
-        "revenue_growth": 66.0,
+        "revenue_growth": 67.0,
         "earnings_growth": 50.0,
-        "gross_margin": 47.0,
-        "profit_margin": 27.0,
+        "gross_margin": 48.0,
+        "profit_margin": 26.0,
         "roe": 20.0,
         "mom_3m": 39.0,
         "mom_6m": 35.0,
-        "upside": 73.0,
+        "upside": 74.0,
         "forward_pe": 67.0
+      },
+      "rank": 22
+    },
+    {
+      "ticker": "MSFT",
+      "price": 402.2900085449219,
+      "market_cap": 2988385239040.0,
+      "revenue_growth": 0.183,
+      "earnings_growth": 0.234,
+      "gross_margin": 0.68309,
+      "profit_margin": 0.39341998,
+      "roe": 0.34013999,
+      "forward_pe": 20.756874,
+      "trailing_pe": 23.974373,
+      "target_mean": 557.79144,
+      "upside": 0.3865406253004515,
+      "recommendation": "strong_buy",
+      "num_analysts": 56.0,
+      "mom_3m": -0.03566073927971114,
+      "mom_6m": -0.09013190639447877,
+      "name": "Microsoft",
+      "tags": [
+        "ai"
+      ],
+      "score": 47.7,
+      "subscores": {
+        "revenue_growth": 24.0,
+        "earnings_growth": 18.0,
+        "gross_margin": 70.0,
+        "profit_margin": 89.0,
+        "roe": 72.0,
+        "mom_3m": 35.0,
+        "mom_6m": 30.0,
+        "upside": 67.0,
+        "forward_pe": 61.0
       },
       "rank": 23
     },
     {
-      "ticker": "AUR",
-      "price": 6.090000152587891,
-      "market_cap": 11943727104.0,
-      "revenue_growth": null,
-      "earnings_growth": null,
-      "gross_margin": 0.0,
-      "profit_margin": 0.0,
-      "roe": -0.44332,
-      "forward_pe": -14.385941,
-      "trailing_pe": null,
-      "target_mean": 11.21583,
-      "upside": 0.8416797568114895,
+      "ticker": "TXN",
+      "price": 284.07000732421875,
+      "market_cap": 258530066432.0,
+      "revenue_growth": 0.186,
+      "earnings_growth": 0.313,
+      "gross_margin": 0.57322,
+      "profit_margin": 0.29108,
+      "roe": 0.32347,
+      "forward_pe": 29.673,
+      "trailing_pe": 48.558975,
+      "target_mean": 303.59375,
+      "upside": 0.06872863087407222,
       "recommendation": "buy",
-      "num_analysts": 12.0,
-      "mom_3m": 0.16666674279009852,
-      "mom_6m": 0.30686702832617474,
-      "name": "Aurora Innovation",
+      "num_analysts": 32.0,
+      "mom_3m": 0.22170898449804488,
+      "mom_6m": 0.4782006280808233,
+      "name": "Texas Instruments",
       "tags": [
-        "physical_ai"
+        "semiconductor"
       ],
       "score": 47.6,
       "subscores": {
-        "revenue_growth": 50.0,
-        "earnings_growth": 50.0,
-        "gross_margin": 0.0,
-        "profit_margin": 16.0,
-        "roe": 4.0,
-        "mom_3m": 65.0,
-        "mom_6m": 63.0,
-        "upside": 96.0,
-        "forward_pe": 98.0
+        "revenue_growth": 29.0,
+        "earnings_growth": 27.0,
+        "gross_margin": 46.0,
+        "profit_margin": 70.0,
+        "roe": 65.0,
+        "mom_3m": 74.0,
+        "mom_6m": 80.0,
+        "upside": 9.0,
+        "forward_pe": 46.0
       },
       "rank": 24
     },
@@ -875,7 +874,7 @@
       "tags": [
         "ai"
       ],
-      "score": 47.3,
+      "score": 47.5,
       "subscores": {
         "revenue_growth": 64.0,
         "earnings_growth": 50.0,
@@ -890,74 +889,39 @@
       "rank": 25
     },
     {
-      "ticker": "MSFT",
-      "price": 402.2900085449219,
-      "market_cap": 2988385239040.0,
-      "revenue_growth": 0.183,
-      "earnings_growth": 0.234,
-      "gross_margin": 0.68309,
-      "profit_margin": 0.39341998,
-      "roe": 0.34013999,
-      "forward_pe": 20.756874,
-      "trailing_pe": 23.974373,
-      "target_mean": 557.79144,
-      "upside": 0.3865406253004515,
-      "recommendation": "strong_buy",
-      "num_analysts": 56.0,
-      "mom_3m": -0.03566073927971114,
-      "mom_6m": -0.09013190639447877,
-      "name": "Microsoft",
+      "ticker": "AUR",
+      "price": 6.090000152587891,
+      "market_cap": 11943727104.0,
+      "revenue_growth": null,
+      "earnings_growth": null,
+      "gross_margin": 0.0,
+      "profit_margin": 0.0,
+      "roe": -0.44332,
+      "forward_pe": -14.385941,
+      "trailing_pe": null,
+      "target_mean": 11.21583,
+      "upside": 0.8416797568114895,
+      "recommendation": "buy",
+      "num_analysts": 12.0,
+      "mom_3m": 0.16666674279009852,
+      "mom_6m": 0.30686702832617474,
+      "name": "Aurora Innovation",
       "tags": [
-        "ai"
+        "physical_ai"
       ],
-      "score": 47.2,
+      "score": 47.5,
       "subscores": {
-        "revenue_growth": 23.0,
-        "earnings_growth": 18.0,
-        "gross_margin": 69.0,
-        "profit_margin": 89.0,
-        "roe": 71.0,
-        "mom_3m": 35.0,
-        "mom_6m": 30.0,
-        "upside": 67.0,
-        "forward_pe": 62.0
+        "revenue_growth": 50.0,
+        "earnings_growth": 50.0,
+        "gross_margin": 0.0,
+        "profit_margin": 15.0,
+        "roe": 4.0,
+        "mom_3m": 65.0,
+        "mom_6m": 63.0,
+        "upside": 96.0,
+        "forward_pe": 98.0
       },
       "rank": 26
-    },
-    {
-      "ticker": "TXN",
-      "price": 284.07000732421875,
-      "market_cap": 258530066432.0,
-      "revenue_growth": 0.186,
-      "earnings_growth": 0.313,
-      "gross_margin": 0.57322,
-      "profit_margin": 0.29108,
-      "roe": 0.32347,
-      "forward_pe": 29.673,
-      "trailing_pe": 48.558975,
-      "target_mean": 303.59375,
-      "upside": 0.06872863087407222,
-      "recommendation": "buy",
-      "num_analysts": 32.0,
-      "mom_3m": 0.22170898449804488,
-      "mom_6m": 0.4782007454520074,
-      "name": "Texas Instruments",
-      "tags": [
-        "semiconductor"
-      ],
-      "score": 47.1,
-      "subscores": {
-        "revenue_growth": 27.0,
-        "earnings_growth": 27.0,
-        "gross_margin": 44.0,
-        "profit_margin": 69.0,
-        "roe": 64.0,
-        "mom_3m": 74.0,
-        "mom_6m": 80.0,
-        "upside": 9.0,
-        "forward_pe": 47.0
-      },
-      "rank": 27
     },
     {
       "ticker": "AMAT",
@@ -975,24 +939,24 @@
       "recommendation": "strong_buy",
       "num_analysts": 35.0,
       "mom_3m": 0.3440415221706168,
-      "mom_6m": 0.6203728125706662,
+      "mom_6m": 0.6203726601506747,
       "name": "Applied Materials",
       "tags": [
         "semiconductor"
       ],
-      "score": 46.2,
+      "score": 46.7,
       "subscores": {
-        "revenue_growth": 2.0,
+        "revenue_growth": 4.0,
         "earnings_growth": 30.0,
-        "gross_margin": 24.0,
-        "profit_margin": 71.0,
-        "roe": 84.0,
+        "gross_margin": 26.0,
+        "profit_margin": 72.0,
+        "roe": 85.0,
         "mom_3m": 87.0,
         "mom_6m": 87.0,
-        "upside": 27.0,
-        "forward_pe": 38.0
+        "upside": 26.0,
+        "forward_pe": 37.0
       },
-      "rank": 28
+      "rank": 27
     },
     {
       "ticker": "NXPI",
@@ -1016,19 +980,19 @@
         "semiconductor",
         "physical_ai"
       ],
-      "score": 45.9,
+      "score": 46.6,
       "subscores": {
-        "revenue_growth": 9.0,
+        "revenue_growth": 11.0,
         "earnings_growth": 73.0,
-        "gross_margin": 42.0,
-        "profit_margin": 49.0,
-        "roe": 58.0,
+        "gross_margin": 43.0,
+        "profit_margin": 50.0,
+        "roe": 59.0,
         "mom_3m": 70.0,
         "mom_6m": 50.0,
         "upside": 24.0,
         "forward_pe": 78.0
       },
-      "rank": 29
+      "rank": 28
     },
     {
       "ticker": "ORCL",
@@ -1051,19 +1015,19 @@
       "tags": [
         "ai"
       ],
-      "score": 45.8,
+      "score": 46.3,
       "subscores": {
-        "revenue_growth": 34.0,
+        "revenue_growth": 36.0,
         "earnings_growth": 15.0,
-        "gross_margin": 60.0,
-        "profit_margin": 58.0,
+        "gross_margin": 61.0,
+        "profit_margin": 59.0,
         "roe": 89.0,
         "mom_3m": 4.0,
         "mom_6m": 9.0,
         "upside": 98.0,
         "forward_pe": 89.0
       },
-      "rank": 30
+      "rank": 29
     },
     {
       "ticker": "PATH",
@@ -1087,19 +1051,19 @@
         "ai",
         "physical_ai"
       ],
-      "score": 45.4,
+      "score": 46.0,
       "subscores": {
-        "revenue_growth": 20.0,
+        "revenue_growth": 22.0,
         "earnings_growth": 50.0,
         "gross_margin": 93.0,
-        "profit_margin": 47.0,
-        "roe": 49.0,
+        "profit_margin": 48.0,
+        "roe": 50.0,
         "mom_3m": 61.0,
         "mom_6m": 26.0,
-        "upside": 16.0,
-        "forward_pe": 82.0
+        "upside": 15.0,
+        "forward_pe": 83.0
       },
-      "rank": 31
+      "rank": 30
     },
     {
       "ticker": "MPWR",
@@ -1117,24 +1081,24 @@
       "recommendation": "strong_buy",
       "num_analysts": 13.0,
       "mom_3m": -0.107342332021651,
-      "mom_6m": 0.2405350417276979,
+      "mom_6m": 0.24053490035405667,
       "name": "Monolithic Power",
       "tags": [
         "semiconductor"
       ],
-      "score": 44.7,
+      "score": 45.3,
       "subscores": {
-        "revenue_growth": 52.0,
+        "revenue_growth": 53.0,
         "earnings_growth": 33.0,
-        "gross_margin": 40.0,
-        "profit_margin": 56.0,
-        "roe": 51.0,
+        "gross_margin": 41.0,
+        "profit_margin": 57.0,
+        "roe": 52.0,
         "mom_3m": 22.0,
         "mom_6m": 59.0,
-        "upside": 58.0,
+        "upside": 59.0,
         "forward_pe": 22.0
       },
-      "rank": 32
+      "rank": 31
     },
     {
       "ticker": "SNOW",
@@ -1157,11 +1121,11 @@
       "tags": [
         "ai"
       ],
-      "score": 44.6,
+      "score": 44.8,
       "subscores": {
-        "revenue_growth": 61.0,
+        "revenue_growth": 62.0,
         "earnings_growth": 50.0,
-        "gross_margin": 64.0,
+        "gross_margin": 65.0,
         "profit_margin": 4.0,
         "roe": 0.0,
         "mom_3m": 93.0,
@@ -1169,7 +1133,7 @@
         "upside": 13.0,
         "forward_pe": 7.0
       },
-      "rank": 33
+      "rank": 32
     },
     {
       "ticker": "SERV",
@@ -1192,19 +1156,19 @@
       "tags": [
         "physical_ai"
       ],
-      "score": 44.0,
+      "score": 43.9,
       "subscores": {
         "revenue_growth": 100.0,
         "earnings_growth": 50.0,
         "gross_margin": 2.0,
-        "profit_margin": 18.0,
+        "profit_margin": 17.0,
         "roe": 2.0,
         "mom_3m": 0.0,
         "mom_6m": 0.0,
         "upside": 100.0,
         "forward_pe": 96.0
       },
-      "rank": 34
+      "rank": 33
     },
     {
       "ticker": "NOW",
@@ -1227,19 +1191,19 @@
       "tags": [
         "ai"
       ],
-      "score": 43.0,
+      "score": 43.6,
       "subscores": {
-        "revenue_growth": 43.0,
+        "revenue_growth": 44.0,
         "earnings_growth": 3.0,
-        "gross_margin": 84.0,
-        "profit_margin": 38.0,
-        "roe": 40.0,
+        "gross_margin": 85.0,
+        "profit_margin": 39.0,
+        "roe": 41.0,
         "mom_3m": 50.0,
         "mom_6m": 22.0,
-        "upside": 60.0,
-        "forward_pe": 60.0
+        "upside": 61.0,
+        "forward_pe": 59.0
       },
-      "rank": 35
+      "rank": 34
     },
     {
       "ticker": "KLAC",
@@ -1262,24 +1226,24 @@
       "tags": [
         "semiconductor"
       ],
-      "score": 42.9,
+      "score": 43.4,
       "subscores": {
-        "revenue_growth": 5.0,
+        "revenue_growth": 7.0,
         "earnings_growth": 12.0,
-        "gross_margin": 53.0,
-        "profit_margin": 82.0,
+        "gross_margin": 54.0,
+        "profit_margin": 83.0,
         "roe": 98.0,
         "mom_3m": 59.0,
         "mom_6m": 70.0,
-        "upside": 18.0,
+        "upside": 17.0,
         "forward_pe": 24.0
       },
-      "rank": 36
+      "rank": 35
     },
     {
       "ticker": "CRM",
       "price": 173.7899932861328,
-      "market_cap": null,
+      "market_cap": 142334001152.0,
       "revenue_growth": 0.133,
       "earnings_growth": 0.522,
       "gross_margin": 0.77643996,
@@ -1297,19 +1261,19 @@
       "tags": [
         "ai"
       ],
-      "score": 42.2,
+      "score": 43.0,
       "subscores": {
-        "revenue_growth": 11.0,
+        "revenue_growth": 13.0,
         "earnings_growth": 45.0,
         "gross_margin": 87.0,
-        "profit_margin": 44.0,
-        "roe": 42.0,
+        "profit_margin": 46.0,
+        "roe": 43.0,
         "mom_3m": 26.0,
         "mom_6m": 17.0,
-        "upside": 71.0,
+        "upside": 72.0,
         "forward_pe": 87.0
       },
-      "rank": 37
+      "rank": 36
     },
     {
       "ticker": "MDB",
@@ -1332,19 +1296,19 @@
       "tags": [
         "ai"
       ],
-      "score": 42.1,
+      "score": 42.2,
       "subscores": {
-        "revenue_growth": 50.0,
+        "revenue_growth": 51.0,
         "earnings_growth": 50.0,
-        "gross_margin": 71.0,
+        "gross_margin": 72.0,
         "profit_margin": 11.0,
-        "roe": 18.0,
+        "roe": 17.0,
         "mom_3m": 76.0,
         "mom_6m": 24.0,
         "upside": 33.0,
         "forward_pe": 20.0
       },
-      "rank": 38
+      "rank": 37
     },
     {
       "ticker": "AVAV",
@@ -1377,9 +1341,9 @@
         "mom_3m": 7.0,
         "mom_6m": 2.0,
         "upside": 89.0,
-        "forward_pe": 36.0
+        "forward_pe": 35.0
       },
-      "rank": 39
+      "rank": 38
     },
     {
       "ticker": "AMZN",
@@ -1390,7 +1354,7 @@
       "gross_margin": 0.50604,
       "profit_margin": 0.12224,
       "roe": 0.24285,
-      "forward_pe": 25.161367,
+      "forward_pe": 25.1923,
       "trailing_pe": 29.903112,
       "target_mean": 312.87402,
       "upside": 0.251546114344781,
@@ -1402,19 +1366,19 @@
       "tags": [
         "ai"
       ],
-      "score": 37.5,
+      "score": 38.1,
       "subscores": {
-        "revenue_growth": 18.0,
+        "revenue_growth": 20.0,
         "earnings_growth": 52.0,
-        "gross_margin": 29.0,
-        "profit_margin": 33.0,
-        "roe": 56.0,
+        "gross_margin": 30.0,
+        "profit_margin": 35.0,
+        "roe": 57.0,
         "mom_3m": 41.0,
         "mom_6m": 39.0,
-        "upside": 40.0,
-        "forward_pe": 51.0
+        "upside": 39.0,
+        "forward_pe": 50.0
       },
-      "rank": 40
+      "rank": 39
     },
     {
       "ticker": "ISRG",
@@ -1437,19 +1401,19 @@
       "tags": [
         "physical_ai"
       ],
-      "score": 37.5,
+      "score": 38.1,
       "subscores": {
-        "revenue_growth": 25.0,
+        "revenue_growth": 27.0,
         "earnings_growth": 21.0,
-        "gross_margin": 62.0,
-        "profit_margin": 64.0,
-        "roe": 44.0,
+        "gross_margin": 63.0,
+        "profit_margin": 65.0,
+        "roe": 46.0,
         "mom_3m": 11.0,
         "mom_6m": 7.0,
         "upside": 80.0,
-        "forward_pe": 49.0
+        "forward_pe": 48.0
       },
-      "rank": 41
+      "rank": 40
     },
     {
       "ticker": "COHR",
@@ -1473,17 +1437,53 @@
         "semiconductor",
         "ai"
       ],
-      "score": 36.7,
+      "score": 36.9,
       "subscores": {
-        "revenue_growth": 32.0,
+        "revenue_growth": 33.0,
         "earnings_growth": 50.0,
-        "gross_margin": 16.0,
-        "profit_margin": 29.0,
+        "gross_margin": 15.0,
+        "profit_margin": 28.0,
         "roe": 24.0,
         "mom_3m": 13.0,
         "mom_6m": 76.0,
-        "upside": 64.0,
-        "forward_pe": 31.0
+        "upside": 65.0,
+        "forward_pe": 30.0
+      },
+      "rank": 41
+    },
+    {
+      "ticker": "ON",
+      "price": 86.69999694824219,
+      "market_cap": 33742391296.0,
+      "revenue_growth": 0.047,
+      "earnings_growth": null,
+      "gross_margin": 0.42665002,
+      "profit_margin": 0.09462,
+      "roe": 0.074939996,
+      "forward_pe": 19.973093,
+      "trailing_pe": 63.749996,
+      "target_mean": 113.52,
+      "upside": 0.3093426066412517,
+      "recommendation": "buy",
+      "num_analysts": 25.0,
+      "mom_3m": 0.013323976416288907,
+      "mom_6m": 0.3733564942394929,
+      "name": "onsemi",
+      "tags": [
+        "semiconductor",
+        "physical_ai"
+      ],
+      "score": 36.1,
+      "subscores": {
+        "revenue_growth": 2.0,
+        "earnings_growth": 50.0,
+        "gross_margin": 17.0,
+        "profit_margin": 33.0,
+        "roe": 28.0,
+        "mom_3m": 46.0,
+        "mom_6m": 72.0,
+        "upside": 54.0,
+        "forward_pe": 63.0
       },
       "rank": 42
     },
@@ -1508,7 +1508,7 @@
       "tags": [
         "physical_ai"
       ],
-      "score": 36.0,
+      "score": 36.1,
       "subscores": {
         "revenue_growth": 80.0,
         "earnings_growth": 50.0,
@@ -1543,17 +1543,17 @@
       "tags": [
         "physical_ai"
       ],
-      "score": 32.1,
+      "score": 32.7,
       "subscores": {
-        "revenue_growth": 14.0,
+        "revenue_growth": 16.0,
         "earnings_growth": 6.0,
-        "gross_margin": 20.0,
-        "profit_margin": 31.0,
-        "roe": 33.0,
+        "gross_margin": 22.0,
+        "profit_margin": 30.0,
+        "roe": 35.0,
         "mom_3m": 57.0,
         "mom_6m": 41.0,
-        "upside": 42.0,
-        "forward_pe": 84.0
+        "upside": 41.0,
+        "forward_pe": 85.0
       },
       "rank": 44
     },
@@ -1573,22 +1573,22 @@
       "recommendation": "buy",
       "num_analysts": 25.0,
       "mom_3m": 0.11221898839559152,
-      "mom_6m": 0.09855528117473056,
+      "mom_6m": 0.09855536146367161,
       "name": "Rockwell Automation",
       "tags": [
         "physical_ai"
       ],
-      "score": 31.4,
+      "score": 32.2,
       "subscores": {
-        "revenue_growth": 7.0,
+        "revenue_growth": 9.0,
         "earnings_growth": 36.0,
-        "gross_margin": 22.0,
-        "profit_margin": 36.0,
-        "roe": 60.0,
+        "gross_margin": 24.0,
+        "profit_margin": 37.0,
+        "roe": 61.0,
         "mom_3m": 54.0,
         "mom_6m": 43.0,
         "upside": 7.0,
-        "forward_pe": 40.0
+        "forward_pe": 39.0
       },
       "rank": 45
     },
@@ -1613,17 +1613,17 @@
       "tags": [
         "physical_ai"
       ],
-      "score": 29.3,
+      "score": 29.5,
       "subscores": {
-        "revenue_growth": 45.0,
+        "revenue_growth": 47.0,
         "earnings_growth": 50.0,
         "gross_margin": 9.0,
         "profit_margin": 13.0,
-        "roe": 16.0,
+        "roe": 15.0,
         "mom_3m": 2.0,
         "mom_6m": 4.0,
         "upside": 87.0,
-        "forward_pe": 18.0
+        "forward_pe": 17.0
       },
       "rank": 46
     },
@@ -1649,13 +1649,13 @@
         "physical_ai",
         "ai"
       ],
-      "score": 18.8,
+      "score": 19.0,
       "subscores": {
-        "revenue_growth": 16.0,
+        "revenue_growth": 18.0,
         "earnings_growth": 9.0,
         "gross_margin": 7.0,
         "profit_margin": 24.0,
-        "roe": 27.0,
+        "roe": 26.0,
         "mom_3m": 28.0,
         "mom_6m": 28.0,
         "upside": 22.0,
