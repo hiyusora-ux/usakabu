@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24T20:23:57.374993+00:00",
+  "updated_at": "2026-07-24T22:08:57.606042+00:00",
   "stocks": [
     {
       "ticker": "MU",
@@ -375,7 +375,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 58.0,
       "mom_3m": -0.11745904841788068,
-      "mom_6m": -0.1131957559298642,
+      "mom_6m": -0.11319567528439034,
       "name": "Meta Platforms",
       "tags": [
         "ai"
@@ -405,8 +405,8 @@
       "roe": 0.17877,
       "forward_pe": 9.08929,
       "trailing_pe": 15.842106,
-      "target_mean": 38.4375,
-      "upside": 0.27699333929786385,
+      "target_mean": 37.8125,
+      "upside": 0.25622921995968717,
       "recommendation": "hold",
       "num_analysts": 16.0,
       "mom_3m": 0.035075669203567195,
@@ -688,8 +688,8 @@
       "roe": 0.53942,
       "forward_pe": 30.240738,
       "trailing_pe": 60.526695,
-      "target_mean": 2109.9658,
-      "upside": 0.20082969059295963,
+      "target_mean": 2110.4458,
+      "upside": 0.20110286954755918,
       "recommendation": "strong_buy",
       "num_analysts": 15.0,
       "mom_3m": 0.20801804245445332,
@@ -1116,7 +1116,7 @@
       "recommendation": "buy",
       "num_analysts": 41.0,
       "mom_3m": -0.33408333059402084,
-      "mom_6m": -0.3653088436595646,
+      "mom_6m": -0.36530889711413717,
       "name": "Oracle",
       "tags": [
         "ai"
@@ -1144,7 +1144,7 @@
       "gross_margin": 0.74776,
       "profit_margin": 0.11336,
       "roe": 0.14244,
-      "forward_pe": 19.739576,
+      "forward_pe": 19.707716,
       "trailing_pe": 61.7375,
       "target_mean": 140.25282,
       "upside": 0.4198503921159731,
@@ -1291,7 +1291,7 @@
       "recommendation": "buy",
       "num_analysts": 28.0,
       "mom_3m": 0.08934729121896146,
-      "mom_6m": 0.367845170588051,
+      "mom_6m": 0.36784503497529597,
       "name": "KLA Corp",
       "tags": [
         "semiconductor"
