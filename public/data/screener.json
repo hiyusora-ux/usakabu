@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-29T21:01:09.687539+00:00",
+  "updated_at": "2026-07-29T22:04:49.038735+00:00",
   "stocks": [
     {
       "ticker": "MU",
@@ -759,8 +759,8 @@
       "roe": 0.53942,
       "forward_pe": 26.787987,
       "trailing_pe": 53.527443,
-      "target_mean": 2130.6123,
-      "upside": 0.373976991214533,
+      "target_mean": 2129.879,
+      "upside": 0.37350410493313047,
       "recommendation": "strong_buy",
       "num_analysts": 15.0,
       "mom_3m": 0.11378671026215326,
@@ -870,7 +870,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 35.0,
       "mom_3m": 0.1421955647339863,
-      "mom_6m": 0.35746343230258604,
+      "mom_6m": 0.35746330345633326,
       "name": "Applied Materials",
       "tags": [
         "semiconductor"
@@ -975,7 +975,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 54.0,
       "mom_3m": -0.07792043099308321,
-      "mom_6m": -0.08833765006788019,
+      "mom_6m": -0.0883377150139002,
       "name": "Microsoft",
       "tags": [
         "ai"
