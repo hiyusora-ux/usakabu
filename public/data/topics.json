@@ -1,61 +1,26 @@
 {
-  "updated_at": "2026-07-31T15:23:16.327981+00:00",
+  "updated_at": "2026-07-31T17:43:20.248503+00:00",
   "items": [
     {
-      "ticker": "TSLA",
-      "title": "SpaceX's first earnings are coming: What investors need to watch",
-      "link": "https://finance.yahoo.com/video/spacexs-first-earnings-coming-investors-151215384.html",
-      "publisher": "Yahoo Finance Video",
-      "time": 1785510735,
+      "ticker": "NVDA",
+      "title": "Amazon's 14.9% Jump Lifts the Dow While Apple Drags It Back",
+      "link": "https://www.fool.com/investing/2026/07/31/amazons-149-jump-lifts-the-dow-while-apple-drags/",
+      "publisher": "Motley Fool",
+      "time": 1785519090,
       "title_ja": null,
       "summary_ja": null,
       "tags": [
-        "physical_ai",
-        "ai"
+        "semiconductor",
+        "ai",
+        "physical_ai"
       ]
     },
     {
       "ticker": "AMZN",
-      "title": "Amazon Earnings Reset AI Spending Debate",
-      "link": "https://finance.yahoo.com/technology/ai/articles/amazon-earnings-reset-ai-spending-150643080.html",
-      "publisher": "GuruFocus.com",
-      "time": 1785510403,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Alliant Energy Q2 Earnings Call Highlights",
-      "link": "https://www.marketbeat.com/instant-alerts/alliant-energy-q2-earnings-call-highlights-2026-07-31/?utm_source=yahoofinance&utm_medium=yahoofinance",
-      "publisher": "MarketBeat",
-      "time": 1785510267,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Fed hawks push yields higher, stocks give back gains",
-      "link": "https://finance.yahoo.com/markets/world-indices/articles/asia-stocks-surge-yen-spotlight-013146618.html",
-      "publisher": "Reuters",
-      "time": 1785510238,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Analysts Warm to Amazon's AWS Surge",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/analysts-warm-amazons-aws-surge-150237430.html",
-      "publisher": "GuruFocus.com",
-      "time": 1785510157,
+      "title": "Sector Update: Tech Stocks Rise Friday Afternoon",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-rise-friday-172905869.html",
+      "publisher": "MT Newswires",
+      "time": 1785518945,
       "title_ja": null,
       "summary_ja": null,
       "tags": [
@@ -64,14 +29,391 @@
     },
     {
       "ticker": "META",
-      "title": "Meta Dropped, Amazon and Microsoft Rallied: Don’t Panic, Accumulate",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/meta-dropped-amazon-microsoft-rallied-150037870.html",
-      "publisher": "Insider Monkey",
-      "time": 1785510037,
+      "title": "Meta Faces India Legal Scrutiny",
+      "link": "https://finance.yahoo.com/technology/articles/meta-faces-india-legal-scrutiny-171355742.html",
+      "publisher": "GuruFocus.com",
+      "time": 1785518035,
       "title_ja": null,
       "summary_ja": null,
       "tags": [
         "ai"
+      ]
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Beyond Mega IPOs: ICR Capital President & Chairman Don Duffy, Live from NYSE",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/beyond-mega-ipos-icr-capital-171237618.html",
+      "publisher": "IPO-Edge.com",
+      "time": 1785517957,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "ticker": "AMD",
+      "title": "Marvell Technology Is Betting More Of Its Revenue On One End Market",
+      "link": "https://www.trefis.com/articles/609667/marvell-technology-is-betting-more-of-its-revenue-on-one-end-market/2026-07-31",
+      "publisher": "Trefis",
+      "time": 1785517769,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "semiconductor",
+        "ai"
+      ]
+    },
+    {
+      "ticker": "NXPI",
+      "title": "NXP in talks to buy chip developer Ambarella, FT reports",
+      "link": "https://finance.yahoo.com/technology/articles/nxp-talks-buy-chip-developer-170639271.html",
+      "publisher": "Reuters",
+      "time": 1785517599,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "semiconductor",
+        "physical_ai"
+      ]
+    },
+    {
+      "ticker": "META",
+      "title": "Why Wall Street Likes Apple's AI Strategy Despite Friday's Stock Tumble",
+      "link": "https://www.investors.com/news/technology/apple-ai-strategy-wall-street-advantage/?src=A00220&yptr=yahoo",
+      "publisher": "Investor's Business Daily",
+      "time": 1785517365,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "ticker": "MU",
+      "title": "'Big Short' Investor Takes Fresh Aim at Nvidia",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/big-short-investor-takes-fresh-165230526.html",
+      "publisher": "GuruFocus.com",
+      "time": 1785516750,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "semiconductor",
+        "ai"
+      ]
+    },
+    {
+      "ticker": "AMD",
+      "title": "Nvidia’s Valuation Gap With AMD Just Got Bigger",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-valuation-gap-amd-just-165127905.html",
+      "publisher": "Insider Monkey",
+      "time": 1785516687,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "semiconductor",
+        "ai"
+      ]
+    },
+    {
+      "ticker": "ASML",
+      "title": "European stocks notch monthly gain on earnings optimism",
+      "link": "https://finance.yahoo.com/markets/world-indices/articles/tech-shares-power-europes-stoxx-071854089.html",
+      "publisher": "Reuters",
+      "time": 1785516673,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "semiconductor"
+      ]
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Palantir Reports Earnings Soon; This Options Trade Capitalizes On The High Volatility",
+      "link": "https://www.investors.com/research/options/palantir-pltr-stock-reports-earnings-options-trade-volatility/?src=A00220&yptr=yahoo",
+      "publisher": "Investor's Business Daily",
+      "time": 1785516649,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "ticker": "TSLA",
+      "title": "Elon Musk Responds to Major Tesla Report",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-responds-major-tesla-164927929.html",
+      "publisher": "GuruFocus.com",
+      "time": 1785516567,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "physical_ai",
+        "ai"
+      ]
+    },
+    {
+      "ticker": "MU",
+      "title": "Why Micron Stock Keeps Falling?",
+      "link": "https://www.fool.com/investing/2026/07/31/why-micron-stock-keeps-falling/",
+      "publisher": "Motley Fool",
+      "time": 1785516480,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "semiconductor",
+        "ai"
+      ]
+    },
+    {
+      "ticker": "TSLA",
+      "title": "Rivian Stock Reverses After Earnings. The R2 Rollout Is Paying Off.",
+      "link": "https://www.barrons.com/articles/rivian-earnings-stock-price-ba825004?siteid=yhoof2&yptr=yahoo",
+      "publisher": "Barrons.com",
+      "time": 1785516480,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "physical_ai",
+        "ai"
+      ]
+    },
+    {
+      "ticker": "DDOG",
+      "title": "Datadog (DDOG) Jumped 7.7% Following Upward PT Revisions—the Real Story Is Who’s Driving Its Growth",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/datadog-ddog-jumped-7-7-164116524.html",
+      "publisher": "Insider Monkey",
+      "time": 1785516076,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "ticker": "TSLA",
+      "title": "Is This EV Stock The Next Tesla?",
+      "link": "https://www.fool.com/investing/2026/07/31/is-rivian-stock-the-next-tesla/",
+      "publisher": "Motley Fool",
+      "time": 1785516073,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "physical_ai",
+        "ai"
+      ]
+    },
+    {
+      "ticker": "META",
+      "title": "Stock Market Rises Amid Apple, Amazon, Meta, Microsoft Earnings, Soaring Yields: Weekly Review",
+      "link": "https://www.investors.com/news/stock-market-rises-amid-apple-amazon-meta-microsoft-earnings-soaring-yields-weekly-review/?src=A00220&yptr=yahoo",
+      "publisher": "Investor's Business Daily",
+      "time": 1785515910,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "ticker": "AMD",
+      "title": "Amazon, Apple, Microsoft, Micron, Roblox, Reddit, SK Hynix, and More Stocks That Explain Today’s Market",
+      "link": "https://www.barrons.com/articles/stock-movers-e7d1ed18?siteid=yhoof2&yptr=yahoo",
+      "publisher": "Barrons.com",
+      "time": 1785515880,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "semiconductor",
+        "ai"
+      ]
+    },
+    {
+      "ticker": "MU",
+      "title": "Michael Burry Sends Fresh Warning on Nvidia and Micron Stocks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-sends-fresh-warning-162112665.html",
+      "publisher": "GuruFocus.com",
+      "time": 1785514872,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "semiconductor",
+        "ai"
+      ]
+    },
+    {
+      "ticker": "AMD",
+      "title": "AMD CEO doubles down on AI and the stock market",
+      "link": "https://www.thestreet.com/investing/stocks/amd-ceo-doubles-down-on-ai-stock-market-cpu-meaningful-work",
+      "publisher": "TheStreet",
+      "time": 1785514620,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "semiconductor",
+        "ai"
+      ]
+    },
+    {
+      "ticker": "ARM",
+      "title": "Delivering Measurable AI Strategies: ICR CEO Anton Nicholas, Live at Nasdaq",
+      "link": "https://finance.yahoo.com/technology/ai/articles/delivering-measurable-ai-strategies-icr-160414289.html",
+      "publisher": "IPO-Edge.com",
+      "time": 1785513854,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "semiconductor",
+        "ai"
+      ]
+    },
+    {
+      "ticker": "QCOM",
+      "title": "Qualcomm’s Next Growth Engine Could Send Shares Much Higher",
+      "link": "https://247wallst.com/investing/2026/07/31/qualcomms-next-growth-engine-could-send-shares-much-higher/",
+      "publisher": "24/7 Wall St.",
+      "time": 1785513613,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "semiconductor"
+      ]
+    },
+    {
+      "ticker": "KLAC",
+      "title": "KLA (KLAC) Upgraded to Strong Buy: What Does It Mean for the Stock?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/kla-klac-upgraded-strong-buy-160004390.html",
+      "publisher": "Zacks",
+      "time": 1785513604,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "semiconductor"
+      ]
+    },
+    {
+      "ticker": "ASML",
+      "title": "What Makes ASML (ASML) a New Strong Buy Stock",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/makes-asml-asml-strong-buy-160003944.html",
+      "publisher": "Zacks",
+      "time": 1785513603,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "semiconductor"
+      ]
+    },
+    {
+      "ticker": "PTC",
+      "title": "PTC's AI-Led Lifecycle Strategy Reshapes Its Long-Term Growth Outlook",
+      "link": "https://finance.yahoo.com/technology/ai/articles/ptcs-ai-led-lifecycle-strategy-155700241.html",
+      "publisher": "Zacks",
+      "time": 1785513420,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "physical_ai",
+        "ai"
+      ]
+    },
+    {
+      "ticker": "PTC",
+      "title": "PTC Rides AI, Cloud and Product Data Trends Across Industrial Markets",
+      "link": "https://finance.yahoo.com/technology/ai/articles/ptc-rides-ai-cloud-product-155600232.html",
+      "publisher": "Zacks",
+      "time": 1785513360,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "physical_ai",
+        "ai"
+      ]
+    },
+    {
+      "ticker": "PTC",
+      "title": "Is PTC Stock Attractive After Its Sharp Pullback and Mixed Earnings?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/ptc-stock-attractive-sharp-pullback-155500984.html",
+      "publisher": "Zacks",
+      "time": 1785513300,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "physical_ai",
+        "ai"
+      ]
+    },
+    {
+      "ticker": "AVGO",
+      "title": "AMD is Down 10% Over a Month: Did Microsoft’s Catalyst Just Spark the 155% Upside Expected By Wall Street Pro?",
+      "link": "https://247wallst.com/investing/2026/07/31/amd-is-down-10-over-a-month-did-microsofts-catalyst-just-spark-the-155-upside-expected-by-wall-street-pro/",
+      "publisher": "24/7 Wall St.",
+      "time": 1785513040,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "semiconductor",
+        "ai"
+      ]
+    },
+    {
+      "ticker": "ORCL",
+      "title": "3 Wall Street Analysts Have Oracle Going to $400: An Alphabet Partnership Just Jump Started That 200% Upside",
+      "link": "https://247wallst.com/investing/2026/07/31/3-wall-street-analysts-have-oracle-going-to-400-an-alphabet-partnership-just-jump-started-that-200-upside/",
+      "publisher": "24/7 Wall St.",
+      "time": 1785512991,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "ticker": "DDOG",
+      "title": "Datadog (DDOG) Rose on Accelerating Growth and AI-Driven Demand",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/datadog-ddog-rose-accelerating-growth-152322798.html",
+      "publisher": "Insider Monkey",
+      "time": 1785511402,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "ticker": "AVGO",
+      "title": "Should You Buy AMD Stock Ahead of Q2 Earnings? Here's What to Know",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/buy-amd-stock-ahead-q2-152100876.html",
+      "publisher": "Zacks",
+      "time": 1785511260,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "semiconductor",
+        "ai"
+      ]
+    },
+    {
+      "ticker": "MPWR",
+      "title": "Why Are Monolithic Power Systems (MPWR) Shares Soaring Today",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/why-monolithic-power-systems-mpwr-151557289.html",
+      "publisher": "StockStory",
+      "time": 1785510957,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "semiconductor"
+      ]
+    },
+    {
+      "ticker": "QCOM",
+      "title": "Rivian Sinks 8% Despite Q2 Beat and Raised Guidance; Lucid Falls 6%",
+      "link": "https://247wallst.com/investing/2026/07/31/rivian-sinks-8-despite-q2-beat-and-raised-guidance-lucid-falls-6/",
+      "publisher": "24/7 Wall St.",
+      "time": 1785510869,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "semiconductor"
       ]
     },
     {
@@ -88,7 +430,7 @@
       ]
     },
     {
-      "ticker": "AMD",
+      "ticker": "ALAB",
       "title": "AMD Stock Rebounds With Chips Ahead Of Q2 Report; SpaceX Earnings, Lockup Expiration Loom Large",
       "link": "https://www.investors.com/research/earnings-preview/amd-stock-rebounds-chips-q2-earnings-shop-ddog-net-software-earnings/?src=A00220&yptr=yahoo",
       "publisher": "Investor's Business Daily",
@@ -101,30 +443,52 @@
       ]
     },
     {
-      "ticker": "NVDA",
-      "title": "Lemonade's Full-Year In-Force Premium Outlook Misses Expectations. Is the Growth Story Slowing or Just Repricing?",
-      "link": "https://www.fool.com/investing/2026/07/31/lemonade-cut-its-full-year-in-force-premium-outloo/",
-      "publisher": "Motley Fool",
-      "time": 1785509239,
+      "ticker": "AVGO",
+      "title": "Broadcom No Longer Sells Itself As A Chip Cycle Story",
+      "link": "https://www.trefis.com/articles/609671/broadcom-no-longer-sells-itself-as-a-chip-cycle-story/2026-07-31",
+      "publisher": "Trefis",
+      "time": 1785509905,
       "title_ja": null,
       "summary_ja": null,
       "tags": [
         "semiconductor",
-        "ai",
-        "physical_ai"
+        "ai"
       ]
     },
     {
-      "ticker": "TSLA",
-      "title": "Tesla Stock Steady as Regulator Probes 1.2 Million Vehicles",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-stock-steady-regulator-probes-144216511.html",
-      "publisher": "GuruFocus.com",
-      "time": 1785508936,
+      "ticker": "GOOGL",
+      "title": "Apple stock plunges: CEO Tim Cook explains weak revenue forecast",
+      "link": "https://finance.yahoo.com/video/apple-stock-plunges-ceo-tim-145105241.html",
+      "publisher": "Yahoo Finance Video",
+      "time": 1785509465,
       "title_ja": null,
       "summary_ja": null,
       "tags": [
-        "physical_ai",
         "ai"
+      ]
+    },
+    {
+      "ticker": "ORCL",
+      "title": "The $2.3 Trillion Reason Amazon, Alphabet, and Microsoft May Still Be the Smartest AI Investments",
+      "link": "https://247wallst.com/investing/2026/07/31/the-2-3-trillion-reason-amazon-alphabet-and-microsoft-may-still-be-the-smartest-ai-investments/",
+      "publisher": "24/7 Wall St.",
+      "time": 1785509255,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "ticker": "ROK",
+      "title": "Rockwell Automation Set to Report Q3 Earnings: What's in Store?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/rockwell-automation-set-report-q3-144500530.html",
+      "publisher": "Zacks",
+      "time": 1785509100,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "physical_ai"
       ]
     },
     {
@@ -154,20 +518,7 @@
       ]
     },
     {
-      "ticker": "ALAB",
-      "title": "Stock Market Today: Dow Turns Lower As Apple Dives On Soft View; Amazon Surges On Earnings (Live Coverage)",
-      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-apple-earnings-aapl-stock-amazon-stock-amzn/?src=A00220&yptr=yahoo",
-      "publisher": "Investor's Business Daily",
-      "time": 1785508316,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "semiconductor",
-        "ai"
-      ]
-    },
-    {
-      "ticker": "AMD",
+      "ticker": "QCOM",
       "title": "Qualcomm Stock's Biggest Risk Is The Gap Between Pain And Payoff",
       "link": "https://www.trefis.com/articles/609669/qualcomm-stocks-biggest-risk-is-the-gap-between-pain-and-payoff/2026-07-31",
       "publisher": "Trefis",
@@ -175,21 +526,7 @@
       "title_ja": null,
       "summary_ja": null,
       "tags": [
-        "semiconductor",
-        "ai"
-      ]
-    },
-    {
-      "ticker": "AMD",
-      "title": "AMD Stock Is Up Big, and Wall Street Is Underestimating It",
-      "link": "https://247wallst.com/investing/2026/07/31/amd-stock-is-up-big-and-wall-street-is-underestimating-it/",
-      "publisher": "24/7 Wall St.",
-      "time": 1785508232,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "semiconductor",
-        "ai"
+        "semiconductor"
       ]
     },
     {
@@ -229,20 +566,7 @@
       ]
     },
     {
-      "ticker": "TSLA",
-      "title": "Tesla Stock Falls More Than Twice As Far As The Market In A Shock",
-      "link": "https://www.trefis.com/articles/609668/tesla-stock-falls-more-than-twice-as-far-as-the-market-in-a-shock/2026-07-31",
-      "publisher": "Trefis",
-      "time": 1785507097,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "physical_ai",
-        "ai"
-      ]
-    },
-    {
-      "ticker": "AMD",
+      "ticker": "MRVL",
       "title": "Marvell Down Huge This Month: The Pros See 120% Returns in 12 Months",
       "link": "https://247wallst.com/investing/2026/07/31/marvell-down-huge-this-month-the-pros-see-120-returns-in-12-months/",
       "publisher": "24/7 Wall St.",
@@ -291,7 +615,7 @@
       ]
     },
     {
-      "ticker": "MU",
+      "ticker": "MRVL",
       "title": "Stocks to Watch: Apple, Amazon, SK Hynix, Roblox",
       "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-31-2026/card/stocks-to-watch-apple-amazon-sk-hynix-samsung-roblox-UVBiwSE6WbBhfL3eozHj?siteid=yhoof2&yptr=yahoo",
       "publisher": "The Wall Street Journal",
@@ -341,19 +665,6 @@
       ]
     },
     {
-      "ticker": "MRVL",
-      "title": "Apple, Amazon, Reddit, Micron, SK Hynix, Roblox, and More Stocks That Explain Today’s Market",
-      "link": "https://www.barrons.com/articles/stock-movers-e7d1ed18?siteid=yhoof2&yptr=yahoo",
-      "publisher": "Barrons.com",
-      "time": 1785506220,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "semiconductor",
-        "ai"
-      ]
-    },
-    {
       "ticker": "RKLB",
       "title": "Rocket Lab Lands Launch Contract, Space Force Taps Vendors For $981 Million Program",
       "link": "https://www.investors.com/news/rocket-lab-stock-launch-contract-electron-space-force-15-awards-981m/?src=A00220&yptr=yahoo",
@@ -366,20 +677,7 @@
       ]
     },
     {
-      "ticker": "AVGO",
-      "title": "Intel Stock's Operating Margin Turned Positive While Its Foundry Kept Losing Money",
-      "link": "https://www.trefis.com/articles/609663/intel-stocks-operating-margin-turned-positive-while-its-foundry-kept-losing-money/2026-07-31",
-      "publisher": "Trefis",
-      "time": 1785505801,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "semiconductor",
-        "ai"
-      ]
-    },
-    {
-      "ticker": "ORCL",
+      "ticker": "NOW",
       "title": "What the Options Market Is Signaling About the Size of the Next Move in Salesforce Stock",
       "link": "https://www.trefis.com/articles/609648/what-the-options-market-is-signaling-about-the-size-of-the-next-move-in-salesforce-stock/2026-07-31",
       "publisher": "Trefis",
@@ -403,41 +701,14 @@
       ]
     },
     {
-      "ticker": "AVGO",
-      "title": "Sterling Infrastructure and Tractor Supply Company have been highlighted as Zacks Bull and Bear of the Day",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/sterling-infrastructure-tractor-supply-company-134100217.html",
-      "publisher": "Zacks",
-      "time": 1785505260,
+      "ticker": "AMZN",
+      "title": "Amazon's surging cloud business is growing at a breakneck pace: Chart",
+      "link": "https://finance.yahoo.com/technology/article/amazons-surging-cloud-business-is-growing-at-a-breakneck-pace-chart-133005998.html",
+      "publisher": "Yahoo Finance",
+      "time": 1785504605,
       "title_ja": null,
       "summary_ja": null,
       "tags": [
-        "semiconductor",
-        "ai"
-      ]
-    },
-    {
-      "ticker": "MU",
-      "title": "Micron Stock Is Rising on What Apple’s Tim Cook Didn’t Say",
-      "link": "https://www.barrons.com/articles/micron-stock-price-apple-cook-8ea028d6?siteid=yhoof2&yptr=yahoo",
-      "publisher": "Barrons.com",
-      "time": 1785505260,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "semiconductor",
-        "ai"
-      ]
-    },
-    {
-      "ticker": "MU",
-      "title": "Memory Stocks Are Crashing—Analysts’ Lofty Targets Might Not Survive This Drop",
-      "link": "https://247wallst.com/investing/2026/07/31/memory-stocks-are-crashing-analysts-lofty-targets-might-not-survive-this-drop/",
-      "publisher": "24/7 Wall St.",
-      "time": 1785504813,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "semiconductor",
         "ai"
       ]
     },
@@ -454,20 +725,7 @@
       ]
     },
     {
-      "ticker": "AVGO",
-      "title": "Arista Networks vs. BigBear.ai: Which Tech Stock Is a Better Buy in 2026?",
-      "link": "https://www.fool.com/coverage/better-buy/2026/07/31/arista-networks-vs-bigbearai-which-technology-stock-is-a-better-buy-in-2026/",
-      "publisher": "Motley Fool",
-      "time": 1785503401,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "semiconductor",
-        "ai"
-      ]
-    },
-    {
-      "ticker": "ORCL",
+      "ticker": "CRM",
       "title": "How Blackbaud Is Turning Agentic AI Into a Social Impact Platform",
       "link": "https://finance.yahoo.com/technology/ai/articles/blackbaud-turning-agentic-ai-social-131000227.html",
       "publisher": "Zacks",
@@ -560,6 +818,18 @@
       "summary_ja": null,
       "tags": [
         "semiconductor",
+        "ai"
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Amazon stock soars as e-commerce giant's AWS cloud business booms in 'home run' quarter",
+      "link": "https://finance.yahoo.com/markets/stocks/article/amazon-stock-soars-as-e-commerce-giants-aws-cloud-business-booms-in-home-run-quarter-122456315.html",
+      "publisher": "Yahoo Finance",
+      "time": 1785500696,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
         "ai"
       ]
     },
@@ -687,7 +957,7 @@
       ]
     },
     {
-      "ticker": "META",
+      "ticker": "GOOGL",
       "title": "Apple is growing without the AI spending spree engulfing Big Tech: Chart of the Day",
       "link": "https://finance.yahoo.com/markets/article/apple-is-growing-without-the-ai-spending-spree-engulfing-big-tech-chart-of-the-day-100000942.html",
       "publisher": "Yahoo Finance",
@@ -711,18 +981,6 @@
       ]
     },
     {
-      "ticker": "QCOM",
-      "title": "QCOM Q2 Deep Dive: Data Center and Automotive Growth Offset Smartphone Headwinds",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/qcom-q2-deep-dive-data-095135497.html",
-      "publisher": "StockStory",
-      "time": 1785491495,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "semiconductor"
-      ]
-    },
-    {
       "ticker": "PLTR",
       "title": "Prediction: Palantir Stock Is Going to Plunge on Aug. 4",
       "link": "https://www.fool.com/investing/2026/07/31/prediction-palantir-stock-is-going-to-plunge-aug-4/",
@@ -732,18 +990,6 @@
       "summary_ja": null,
       "tags": [
         "ai"
-      ]
-    },
-    {
-      "ticker": "ASML",
-      "title": "Chip Stocks Climb as AI Rally Regains Strength",
-      "link": "https://www.barrons.com/livecoverage/stock-market-news-today-073126/card/chip-stocks-climb-as-ai-rally-regains-strength-GaO09IIlFWkjwS03jPPl?siteid=yhoof2&yptr=yahoo",
-      "publisher": "Barrons.com",
-      "time": 1785488818,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "semiconductor"
       ]
     },
     {
@@ -760,35 +1006,11 @@
       ]
     },
     {
-      "ticker": "ASML",
-      "title": "European stocks hit record high on tech, earnings boost; eye monthly gain",
-      "link": "https://finance.yahoo.com/markets/world-indices/articles/tech-shares-power-europes-stoxx-071854089.html",
-      "publisher": "Reuters",
-      "time": 1785488048,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "semiconductor"
-      ]
-    },
-    {
       "ticker": "MSFT",
       "title": "Stock market today: Dow, S&P 500, Nasdaq seesaw as 10-year yield surges, Big Tech's AI spending ramps up",
       "link": "https://finance.yahoo.com/markets/live/stock-market-today-friday-july-31-dow-sp-500-nasdaq-081227738.html",
       "publisher": "Yahoo Finance",
       "time": 1785485547,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "ticker": "PLTR",
-      "title": "EMCOR Group Q2 Earnings Call Highlights",
-      "link": "https://www.marketbeat.com/instant-alerts/emcor-group-q2-earnings-call-highlights-2026-07-31/?utm_source=yahoofinance&utm_medium=yahoofinance",
-      "publisher": "MarketBeat",
-      "time": 1785481434,
       "title_ja": null,
       "summary_ja": null,
       "tags": [
@@ -808,19 +1030,7 @@
       ]
     },
     {
-      "ticker": "PLTR",
-      "title": "Is Wall Street Bullish or Bearish on Palantir Technologies Stock?",
-      "link": "https://www.barchart.com/story/news/3569375/is-wall-street-bullish-or-bearish-on-palantir-technologies-stock",
-      "publisher": "Barchart",
-      "time": 1785480218,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "ticker": "QCOM",
+      "ticker": "ARM",
       "title": "The Zacks Analyst Blog Highlights Arm Holdings, NVIDIA and Qualcomm",
       "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-arm-063600954.html",
       "publisher": "Zacks",
@@ -828,7 +1038,8 @@
       "title_ja": null,
       "summary_ja": null,
       "tags": [
-        "semiconductor"
+        "semiconductor",
+        "ai"
       ]
     },
     {
@@ -850,18 +1061,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/monolithic-power-systems-inc-mpwr-050152116.html",
       "publisher": "GuruFocus.com",
       "time": 1785474112,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "semiconductor"
-      ]
-    },
-    {
-      "ticker": "MPWR",
-      "title": "Monolithic Power Systems (MPWR) Posts Strong Q2 Results, Where Does Fair Value Sit?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/monolithic-power-systems-mpwr-posts-042917726.html",
-      "publisher": "Simply Wall St.",
-      "time": 1785472157,
       "title_ja": null,
       "summary_ja": null,
       "tags": [
@@ -930,18 +1129,6 @@
       ]
     },
     {
-      "ticker": "QCOM",
-      "title": "The AI secret behind Qualcomm's price hike",
-      "link": "https://www.thestreet.com/technology/qualcomm-chip-price-increase-earnings",
-      "publisher": "TheStreet",
-      "time": 1785456180,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "semiconductor"
-      ]
-    },
-    {
       "ticker": "AVAV",
       "title": "The U.S. Just Took A Big Step to Break China's Magnet Dominance",
       "link": "https://finance.yahoo.com/energy/articles/u-just-took-big-step-000000238.html",
@@ -988,19 +1175,6 @@
       "tags": [
         "semiconductor",
         "physical_ai"
-      ]
-    },
-    {
-      "ticker": "MRVL",
-      "title": "Marvell (MRVL) Stock Looks Stretched After A 206% Five Year Run",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/marvell-mrvl-stock-looks-stretched-221121829.html",
-      "publisher": "Simply Wall St.",
-      "time": 1785449481,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "semiconductor",
-        "ai"
       ]
     },
     {
@@ -1115,18 +1289,6 @@
       ]
     },
     {
-      "ticker": "AMZN",
-      "title": "Amazon earnings: AWS's growth rate 'no doubt' justifies the big AI spending",
-      "link": "https://finance.yahoo.com/video/amazon-earnings-awss-growth-rate-211204681.html",
-      "publisher": "Yahoo Finance Video",
-      "time": 1785445924,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
       "ticker": "TSM",
       "title": "What is the Current U.S. Macro Set-Up?",
       "link": "https://finance.yahoo.com/economy/articles/current-u-macro-set-205100393.html",
@@ -1139,24 +1301,23 @@
       ]
     },
     {
-      "ticker": "ARM",
-      "title": "Update: US Equity Indexes Surge as Microsoft Triggers Rebound in Chipmakers While Inflation Rate Falls in June",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-surge-microsoft-204930306.html",
-      "publisher": "MT Newswires",
-      "time": 1785444570,
+      "ticker": "AMZN",
+      "title": "Amazon Q2 earnings results beat Wall Street's estimates, as AWS continues to boom",
+      "link": "https://finance.yahoo.com/video/amazon-q2-earnings-results-beat-202007846.html",
+      "publisher": "Yahoo Finance Video",
+      "time": 1785442807,
       "title_ja": null,
       "summary_ja": null,
       "tags": [
-        "semiconductor",
         "ai"
       ]
     },
     {
-      "ticker": "ARM",
-      "title": "Arm Stock Rises 4% After Revenue and Profit Forecast Beats",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/arm-stock-rises-4-revenue-195844073.html",
+      "ticker": "SMCI",
+      "title": "Palantir Holds the Edge Ahead of Earnings",
+      "link": "https://finance.yahoo.com/technology/ai/articles/palantir-holds-edge-ahead-earnings-200321010.html",
       "publisher": "GuruFocus.com",
-      "time": 1785441524,
+      "time": 1785441801,
       "title_ja": null,
       "summary_ja": null,
       "tags": [
@@ -1217,18 +1378,6 @@
       ]
     },
     {
-      "ticker": "NOW",
-      "title": "Exclusive: ServiceNow to cut up to 1K jobs as part of planned rightsizing",
-      "link": "https://finance.yahoo.com/technology/articles/exclusive-servicenow-cut-1k-jobs-183242920.html",
-      "publisher": "Investing.com",
-      "time": 1785436362,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
       "ticker": "TXN",
       "title": "Should You Buy, Sell or Hold onsemi Stock Before Q2 Earnings?",
       "link": "https://finance.yahoo.com/markets/stocks/articles/buy-sell-hold-onsemi-stock-181700170.html",
@@ -1265,18 +1414,6 @@
       ]
     },
     {
-      "ticker": "CRM",
-      "title": "Meet the Spectacular ETF With Big Positions in Stocks Like Palantir, Microsoft, and Salesforce. It Could be a Brilliant Buy as the AI Trade Unwinds.",
-      "link": "https://www.fool.com/investing/2026/07/30/meet-etf-stocks-palantir-microsoft-salesforce-ai/",
-      "publisher": "Motley Fool",
-      "time": 1785433380,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
       "ticker": "CRDO",
       "title": "Prediction: Where Will Rambus End The Year?",
       "link": "https://247wallst.com/investing/2026/07/30/prediction-where-will-rambus-end-the-year/",
@@ -1286,18 +1423,6 @@
       "summary_ja": null,
       "tags": [
         "semiconductor",
-        "ai"
-      ]
-    },
-    {
-      "ticker": "META",
-      "title": "Meta's & Microsoft's massive AI spending: Why only one is getting rewarded",
-      "link": "https://finance.yahoo.com/video/metas-microsofts-massive-ai-spending-173000471.html",
-      "publisher": "Yahoo Finance Video",
-      "time": 1785432600,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
         "ai"
       ]
     },
@@ -1364,18 +1489,6 @@
       ]
     },
     {
-      "ticker": "GOOGL",
-      "title": "Vertiv CEO: How Google, Meta, Microsoft earnings are 'reinforcing' data center acceleration",
-      "link": "https://finance.yahoo.com/video/vertiv-ceo-google-meta-microsoft-162820263.html",
-      "publisher": "Yahoo Finance Video",
-      "time": 1785428900,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
       "ticker": "TXN",
       "title": "The Market Thinks Texas Instruments (TXN) Is a Boring Analog Chipmaker; AI Data Centers Disagree",
       "link": "https://finance.yahoo.com/markets/stocks/articles/market-thinks-texas-instruments-txn-161524238.html",
@@ -1385,18 +1498,6 @@
       "summary_ja": null,
       "tags": [
         "semiconductor"
-      ]
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Meta stock poised for a new losing streak: Earnings call takeaways",
-      "link": "https://finance.yahoo.com/video/meta-stock-poised-losing-streak-161106585.html",
-      "publisher": "Yahoo Finance Video",
-      "time": 1785427866,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "ai"
       ]
     },
     {
@@ -1446,18 +1547,6 @@
       "tags": [
         "semiconductor",
         "physical_ai"
-      ]
-    },
-    {
-      "ticker": "KLAC",
-      "title": "Why Lam Research Stock Is Having Its Best Day Since 1999",
-      "link": "https://www.barrons.com/articles/lam-research-earnings-stock-price-8b30e6e8?siteid=yhoof2&yptr=yahoo",
-      "publisher": "Barrons.com",
-      "time": 1785427020,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "semiconductor"
       ]
     },
     {
@@ -1576,18 +1665,6 @@
       ]
     },
     {
-      "ticker": "DDOG",
-      "title": "Datadog (DDOG) Reports Next Week: Wall Street Expects Earnings Growth",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/datadog-ddog-reports-next-week-140028420.html",
-      "publisher": "Zacks",
-      "time": 1785420028,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
       "ticker": "ADI",
       "title": "TENB Q2 Earnings Beat on Tenable One Momentum, Outlook Raised",
       "link": "https://finance.yahoo.com/markets/stocks/articles/tenb-q2-earnings-beat-tenable-134400010.html",
@@ -1609,18 +1686,6 @@
       "summary_ja": null,
       "tags": [
         "physical_ai",
-        "ai"
-      ]
-    },
-    {
-      "ticker": "DDOG",
-      "title": "Datadog Fetches Sales Growth From AI Complexity",
-      "link": "https://www.investors.com/research/the-new-america/datadog-stock-ddog-near-buy-point-q2-earnings/?src=A00220&yptr=yahoo",
-      "publisher": "Investor's Business Daily",
-      "time": 1785417945,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
         "ai"
       ]
     },
@@ -1650,15 +1715,14 @@
       ]
     },
     {
-      "ticker": "PTC",
-      "title": "PTC Inc. Q3 2026 Earnings Call Summary",
-      "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-ptc-inc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
-      "publisher": "Moby",
-      "time": 1785414600,
+      "ticker": "GOOGL",
+      "title": "Microsoft stock surges on strong quarter, record cloud revenue",
+      "link": "https://finance.yahoo.com/markets/stocks/article/microsoft-stock-surges-on-strong-quarter-record-cloud-revenue-123002444.html",
+      "publisher": "Yahoo Finance",
+      "time": 1785414602,
       "title_ja": null,
       "summary_ja": null,
       "tags": [
-        "physical_ai",
         "ai"
       ]
     },
@@ -1674,32 +1738,6 @@
         "semiconductor",
         "ai",
         "physical_ai"
-      ]
-    },
-    {
-      "ticker": "PTC",
-      "title": "Carrier (CARR) Appoints Neil Barua To Board As Tech Focus Comes Into View",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/carrier-carr-appoints-neil-barua-060831955.html",
-      "publisher": "Simply Wall St.",
-      "time": 1785391711,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "physical_ai",
-        "ai"
-      ]
-    },
-    {
-      "ticker": "PTC",
-      "title": "PTC Inc (PTC) (Q3 2026) Earnings Call Highlights: Strong ARR Growth and Raised Guidance Signal ...",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/ptc-inc-ptc-q3-2026-050147697.html",
-      "publisher": "GuruFocus.com",
-      "time": 1785387707,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "physical_ai",
-        "ai"
       ]
     },
     {
@@ -1788,19 +1826,6 @@
       ]
     },
     {
-      "ticker": "SMCI",
-      "title": "Top Performing Leveraged/Inverse ETFs: 07/26/2026",
-      "link": "https://finance.yahoo.com/markets/options/articles/top-performing-leveraged-inverse-etfs-161544295.html",
-      "publisher": "ETF Trends",
-      "time": 1785341744,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "semiconductor",
-        "ai"
-      ]
-    },
-    {
       "ticker": "NXPI",
       "title": "NXP Semiconductors Q2 Earnings Beat Estimates, Revenues Rise Y/Y",
       "link": "https://finance.yahoo.com/markets/stocks/articles/nxp-semiconductors-q2-earnings-beat-155600195.html",
@@ -1882,19 +1907,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/exploring-analyst-estimates-semiconductor-corp-131523174.html",
       "publisher": "Zacks",
       "time": 1785330923,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "semiconductor",
-        "physical_ai"
-      ]
-    },
-    {
-      "ticker": "NXPI",
-      "title": "NXP Semiconductors N.V. Q2 2026 Earnings Call Summary",
-      "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-nxp-semiconductors-nv-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
-      "publisher": "Moby",
-      "time": 1785328200,
       "title_ja": null,
       "summary_ja": null,
       "tags": [
@@ -1993,18 +2005,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/honeywell-vs-rockwell-industrial-automation-155700377.html",
       "publisher": "Zacks",
       "time": 1785254220,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "physical_ai"
-      ]
-    },
-    {
-      "ticker": "ROK",
-      "title": "Rockwell Automation (ROK) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/rockwell-automation-rok-earnings-expected-140019327.html",
-      "publisher": "Zacks",
-      "time": 1785247219,
       "title_ja": null,
       "summary_ja": null,
       "tags": [
