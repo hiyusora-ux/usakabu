@@ -1,6 +1,223 @@
 {
-  "updated_at": "2026-08-07T19:03:29.477768+00:00",
+  "updated_at": "2026-08-07T19:55:48.241605+00:00",
   "items": [
+    {
+      "ticker": "META",
+      "title": "Meta Stock Rises 1.2% Despite $942 Million Child-Safety Judgment",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/meta-stock-rises-1-2-195317524.html",
+      "publisher": "GuruFocus.com",
+      "time": 1786132397,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "ticker": "MU",
+      "title": "Micron Stock Falls After Citi Slashes Price Target on Memory Risks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/micron-stock-falls-citi-slashes-195133579.html",
+      "publisher": "GuruFocus.com",
+      "time": 1786132293,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "semiconductor",
+        "ai"
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "title": "Nvidia Faces New Pressure From U.S. Government",
+      "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-faces-pressure-u-government-194927746.html",
+      "publisher": "GuruFocus.com",
+      "time": 1786132167,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "semiconductor",
+        "ai",
+        "physical_ai"
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "title": "Pfizer's Next Weight-Loss Weapon: How Berobenatide Stacks Up Against Novo Nordisk's Wegovy and Eli Lilly's Zepbound",
+      "link": "https://www.fool.com/investing/2026/08/07/pfizers-next-weight-loss-weapon-how-berobenatide-s/",
+      "publisher": "Motley Fool",
+      "time": 1786132080,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "semiconductor",
+        "ai",
+        "physical_ai"
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "title": "Michael Burry Sounds Alarm on Major AI Stocks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-sounds-alarm-major-194738677.html",
+      "publisher": "GuruFocus.com",
+      "time": 1786132058,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "semiconductor",
+        "ai",
+        "physical_ai"
+      ]
+    },
+    {
+      "ticker": "RKLB",
+      "title": "Why Rocket Lab Stock Took Flight on Friday",
+      "link": "https://www.fool.com/investing/2026/08/07/why-rocket-lab-stock-took-flight-on-friday/",
+      "publisher": "Motley Fool",
+      "time": 1786131760,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "physical_ai"
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Explainer-How could New Mexico's $567 million ruling change Meta?",
+      "link": "https://finance.yahoo.com/news/explainer-could-mexicos-567-million-193540756.html",
+      "publisher": "Reuters",
+      "time": 1786131578,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "ticker": "MU",
+      "title": "Michael Burry issues blunt warning as he bets against 2 AI favorites",
+      "link": "https://www.thestreet.com/investing/stocks/orcl-oracle-nbis-nebius-michael-burry-shorts",
+      "publisher": "TheStreet",
+      "time": 1786131420,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "semiconductor",
+        "ai"
+      ]
+    },
+    {
+      "ticker": "COHR",
+      "title": "Stock Market Today: Nasdaq Pops As Fed Rate-Hike Odds Fall; Sezzle Loses Its Sizzle (Live Coverage)",
+      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-july-jobs-report-cloudflare-stock/?src=A00220&yptr=yahoo",
+      "publisher": "Investor's Business Daily",
+      "time": 1786131262,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "semiconductor",
+        "ai"
+      ]
+    },
+    {
+      "ticker": "MU",
+      "title": "Micron Stock Slips as Citi Cuts Target by $250",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/micron-stock-slips-citi-cuts-193230636.html",
+      "publisher": "GuruFocus.com",
+      "time": 1786131150,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "semiconductor",
+        "ai"
+      ]
+    },
+    {
+      "ticker": "TSLA",
+      "title": "Tesla Stock Jumps Nearly 4% as $16.8 Billion Terafab Breaks Ground",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-stock-jumps-nearly-4-192926948.html",
+      "publisher": "GuruFocus.com",
+      "time": 1786130966,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "physical_ai",
+        "ai"
+      ]
+    },
+    {
+      "ticker": "NET",
+      "title": "Cloudflare Stock Jumps 8.2% as AI Demand Lifts Forecast",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/cloudflare-stock-jumps-8-2-192828719.html",
+      "publisher": "GuruFocus.com",
+      "time": 1786130908,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "ticker": "AMD",
+      "title": "Nvidia, Microsoft Partner Tests Breakout. Three Clues Bode Well.",
+      "link": "https://www.investors.com/research/ibd-stock-analysis/dell-stock-rises-ai-collaboration-with-nvidia-microsoft-amd/?src=A00220&yptr=yahoo",
+      "publisher": "Investor's Business Daily",
+      "time": 1786130276,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "semiconductor",
+        "ai"
+      ]
+    },
+    {
+      "ticker": "TSLA",
+      "title": "Tesla Jumps as Rate Fears Ease",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-jumps-rate-fears-ease-191404427.html",
+      "publisher": "GuruFocus.com",
+      "time": 1786130044,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "physical_ai",
+        "ai"
+      ]
+    },
+    {
+      "ticker": "DDOG",
+      "title": "Datadog (DDOG) Is Down 14.6% After Mixed Q2 Beat And Cautious Q3 Guidance Has The Bull Case Changed?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/datadog-ddog-down-14-6-191142229.html",
+      "publisher": "Simply Wall St.",
+      "time": 1786129902,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "ticker": "RKLB",
+      "title": "Why Is Rocket Lab Stock Jumping Today",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/why-rocket-lab-stock-jumping-190829177.html",
+      "publisher": "GuruFocus.com",
+      "time": 1786129709,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "physical_ai"
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Trade Desk's Downbeat Guidance Indicates Macro, Structural Issues, Wedbush Says",
+      "link": "https://finance.yahoo.com/media-advertising/articles/trade-desk-apos-downbeat-guidance-185852903.html",
+      "publisher": "MT Newswires",
+      "time": 1786129132,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "ai"
+      ]
+    },
     {
       "ticker": "AMZN",
       "title": "‘Your refund: $0’: Companies claim billions in tariff refunds, months after Trump floated $2,000 checks",
@@ -14,20 +231,6 @@
       ]
     },
     {
-      "ticker": "NVDA",
-      "title": "AI Stock Jumps After Unusual Nvidia Hedge Fund Deal",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/ai-stock-jumps-unusual-nvidia-184956126.html",
-      "publisher": "GuruFocus.com",
-      "time": 1786128596,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "semiconductor",
-        "ai",
-        "physical_ai"
-      ]
-    },
-    {
       "ticker": "MU",
       "title": "China opens formal probe into Palo Alto just as stock hits highs",
       "link": "https://www.thestreet.com/technology/china-probe-palo-alto-networks",
@@ -38,34 +241,6 @@
       "tags": [
         "semiconductor",
         "ai"
-      ]
-    },
-    {
-      "ticker": "NVDA",
-      "title": "Why Kevin Warsh's Job Just Got a Lot Harder. And What It Means for the Stock Market.",
-      "link": "https://www.fool.com/investing/2026/08/07/why-kevin-warsh-job-got-harder-means-stock-market/",
-      "publisher": "Motley Fool",
-      "time": 1786128163,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "semiconductor",
-        "ai",
-        "physical_ai"
-      ]
-    },
-    {
-      "ticker": "NVDA",
-      "title": "Why Wix.com Stock Rebounded 21.3% in July",
-      "link": "https://www.fool.com/investing/2026/08/07/why-wixcom-stock-rebounded-213-in-july/",
-      "publisher": "Motley Fool",
-      "time": 1786128004,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "semiconductor",
-        "ai",
-        "physical_ai"
       ]
     },
     {
@@ -130,6 +305,18 @@
       ]
     },
     {
+      "ticker": "CRM",
+      "title": "Is SOUN Worth Buying as Growth Collides With a Premium Valuation?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/soun-worth-buying-growth-collides-182700598.html",
+      "publisher": "Zacks",
+      "time": 1786127220,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
       "ticker": "PLTR",
       "title": "Jim Cramer’s Post Earnings Palantir Technologies Inc. (NASDAQ:PLTR) Worry Didn’t Materialize",
       "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-post-earnings-palantir-182440005.html",
@@ -147,32 +334,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-shares-reasons-behind-182404118.html",
       "publisher": "Insider Monkey",
       "time": 1786127044,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "semiconductor",
-        "ai"
-      ]
-    },
-    {
-      "ticker": "COHR",
-      "title": "Stock Market Today: Nasdaq Jumps As Fed Rate-Hike Odds Slide; Atlassian Spikes After Earnings (Live Coverage)",
-      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-july-jobs-report-cloudflare-stock/?src=A00220&yptr=yahoo",
-      "publisher": "Investor's Business Daily",
-      "time": 1786126757,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "semiconductor",
-        "ai"
-      ]
-    },
-    {
-      "ticker": "MU",
-      "title": "Why SK Hynix’s $38 Billion Memory Splurge Is No Problem for Micron Stock",
-      "link": "https://www.barrons.com/articles/micron-stock-price-sk-hynix-memory-a6ba5523?siteid=yhoof2&yptr=yahoo",
-      "publisher": "Barrons.com",
-      "time": 1786126620,
       "title_ja": null,
       "summary_ja": null,
       "tags": [
@@ -217,7 +378,20 @@
       ]
     },
     {
-      "ticker": "MU",
+      "ticker": "COHR",
+      "title": "Should You Hold on to Applied Optoelectronics Stock Post Q2 Earnings?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/hold-applied-optoelectronics-stock-post-180700125.html",
+      "publisher": "Zacks",
+      "time": 1786126020,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "semiconductor",
+        "ai"
+      ]
+    },
+    {
+      "ticker": "COHR",
       "title": "SpaceX, Doximity, Trade Desk, Rigetti, Coherent, and More Stocks That Explain Today’s Market",
       "link": "https://www.barrons.com/articles/stock-movers-85c510af?siteid=yhoof2&yptr=yahoo",
       "publisher": "Barrons.com",
@@ -267,7 +441,7 @@
       ]
     },
     {
-      "ticker": "AMD",
+      "ticker": "AVGO",
       "title": "How To Earn 11% On NVDA Stock And Set A 30% Safety Net",
       "link": "https://www.trefis.com/articles/610545/how-to-earn-11-on-nvda-stock-and-set-a-30-safety-net/2026-08-07",
       "publisher": "Trefis",
@@ -316,35 +490,11 @@
       ]
     },
     {
-      "ticker": "MSFT",
-      "title": "Nvidia, Microsoft Partner Tests Breakout. Three Clues Bode Well.",
-      "link": "https://www.investors.com/research/ibd-stock-analysis/dell-stock-rises-ai-collaboration-with-nvidia-microsoft-amd/?src=A00220&yptr=yahoo",
-      "publisher": "Investor's Business Daily",
-      "time": 1786124205,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
       "ticker": "META",
       "title": "Meta was just slapped with a $942-million bill for harming kids — it makes that back in roughly five days",
       "link": "https://finance.yahoo.com/media-advertising/articles/meta-just-slapped-942-million-173500875.html",
       "publisher": "Moneywise",
       "time": 1786124100,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Elon Musk Has a Message for Jeff Bezos' Blue Origin After It Solved the New Glenn Mystery— 'Hope You...'",
-      "link": "https://finance.yahoo.com/technology/articles/elon-musk-message-jeff-bezos-173024691.html",
-      "publisher": "Benzinga",
-      "time": 1786123824,
       "title_ja": null,
       "summary_ja": null,
       "tags": [
@@ -361,18 +511,6 @@
       "summary_ja": null,
       "tags": [
         "semiconductor"
-      ]
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Greg Abel concentrates 63% of Berkshire's $355B portfolio in 5 stocks",
-      "link": "https://qz.com/berkshire-hathaway-greg-abel-portfolio-concentration-five-stocks-080726",
-      "publisher": "Quartz",
-      "time": 1786123324,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "ai"
       ]
     },
     {
@@ -447,32 +585,6 @@
       "title_ja": null,
       "summary_ja": null,
       "tags": [
-        "ai"
-      ]
-    },
-    {
-      "ticker": "MU",
-      "title": "Silvaco Group Q2 Earnings Call Highlights",
-      "link": "https://www.marketbeat.com/instant-alerts/silvaco-group-q2-earnings-call-highlights-2026-08-07/?utm_source=yahoofinance&utm_medium=yahoofinance",
-      "publisher": "MarketBeat",
-      "time": 1786122245,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "semiconductor",
-        "ai"
-      ]
-    },
-    {
-      "ticker": "TSLA",
-      "title": "Musk's SpaceX, Tesla to build $16.8B Terafab chip factory in Texas",
-      "link": "https://www.usatoday.com/story/news/state/texas/2026/08/07/elon-musk-spacex-tesla-terafab-texas-16-billion-chip-factory-investment/91212702007/",
-      "publisher": "USA TODAY",
-      "time": 1786121863,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "physical_ai",
         "ai"
       ]
     },
@@ -577,6 +689,18 @@
       ]
     },
     {
+      "ticker": "MSFT",
+      "title": "Microsoft Is Winning the AI Cash Flow Test",
+      "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-winning-ai-cash-flow-163832703.html",
+      "publisher": "GuruFocus.com",
+      "time": 1786120712,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
       "ticker": "TSM",
       "title": "BTQ and ITRI clear first milestone in quantum-security chip roadmap",
       "link": "https://www.thestreet.com/crypto/innovation/btq-and-itri-clear-first-milestone-in-quantum-security-chip-roadmap",
@@ -597,19 +721,6 @@
       "title_ja": null,
       "summary_ja": null,
       "tags": [
-        "ai"
-      ]
-    },
-    {
-      "ticker": "TSLA",
-      "title": "Elon Musk Says AI Needs More Power Than the Grid Can Handle. Is He Right?",
-      "link": "https://www.fool.com/investing/2026/08/07/elon-musk-says-ai-needs-more-power-than-the-grid-c/",
-      "publisher": "Motley Fool",
-      "time": 1786120500,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "physical_ai",
         "ai"
       ]
     },
@@ -711,36 +822,11 @@
       ]
     },
     {
-      "ticker": "AVGO",
-      "title": "Meet the Low-Cost Vanguard ETF That Just Gained 11% Over 4 Days, Thanks to a Combined 33% Weighting in Nvidia, Microsoft, Micron, and Broadcom. Here's Why It's Still a Top Buy Now.",
-      "link": "https://www.fool.com/investing/2026/08/07/meet-the-low-cost-vanguard-etf-that-just-gained-11/",
-      "publisher": "Motley Fool",
-      "time": 1786117620,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "semiconductor",
-        "ai"
-      ]
-    },
-    {
       "ticker": "SNOW",
       "title": "ZETA Jumps 12.9% in One Week as AI Momentum Builds: Is There More?",
       "link": "https://finance.yahoo.com/markets/stocks/articles/zeta-jumps-12-9-one-154500761.html",
       "publisher": "Zacks",
       "time": 1786117500,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "ticker": "NET",
-      "title": "Cloudflare Jumps 16% as AI Demand Pushes Its Outlook Higher",
-      "link": "https://finance.yahoo.com/technology/ai/articles/cloudflare-jumps-16-ai-demand-154319344.html",
-      "publisher": "GuruFocus.com",
-      "time": 1786117399,
       "title_ja": null,
       "summary_ja": null,
       "tags": [
@@ -766,18 +852,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/datadog-q2-earnings-revenues-surpass-153400969.html",
       "publisher": "Zacks",
       "time": 1786116840,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "ticker": "DDOG",
-      "title": "2 Stocks Positioned for the Rise as AI Self‑Healing Systems Move From Concept to Core Infrastructure",
-      "link": "https://247wallst.com/investing/2026/08/07/2-stocks-positioned-for-the-rise-as-ai-self%e2%80%91healing-systems-move-from-concept-to-core-infrastructure/",
-      "publisher": "24/7 Wall St.",
-      "time": 1786116768,
       "title_ja": null,
       "summary_ja": null,
       "tags": [
@@ -830,30 +904,6 @@
       "summary_ja": null,
       "tags": [
         "semiconductor"
-      ]
-    },
-    {
-      "ticker": "RKLB",
-      "title": "Is SPCX Worth Buying as Starlink Growth Battles Heavy AI Spending?",
-      "link": "https://finance.yahoo.com/technology/ai/articles/spcx-worth-buying-starlink-growth-152100902.html",
-      "publisher": "Zacks",
-      "time": 1786116060,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "physical_ai"
-      ]
-    },
-    {
-      "ticker": "RKLB",
-      "title": "SPCX Fell 24.5% in the Past Month: Is the Sell-Off an Opportunity?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/spcx-fell-24-5-past-152000232.html",
-      "publisher": "Zacks",
-      "time": 1786116000,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "physical_ai"
       ]
     },
     {
@@ -1017,19 +1067,6 @@
       ]
     },
     {
-      "ticker": "COHR",
-      "title": "Applied Optoelectronics Zooms 13% Higher on Pivotal Quarterly Print; Coherent Advances 13%, Lumentum Adds 8%",
-      "link": "https://247wallst.com/investing/2026/08/07/applied-optoelectronics-zooms-13-higher-on-pivotal-quarterly-print-coherent-advances-13-lumentum-adds-8/",
-      "publisher": "24/7 Wall St.",
-      "time": 1786111800,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "semiconductor",
-        "ai"
-      ]
-    },
-    {
       "ticker": "AMZN",
       "title": "What we know about OpenAI's upcoming handheld device: Bloomberg",
       "link": "https://finance.yahoo.com/video/know-openais-upcoming-handheld-device-140247594.html",
@@ -1087,19 +1124,6 @@
       "summary_ja": null,
       "tags": [
         "semiconductor"
-      ]
-    },
-    {
-      "ticker": "COHR",
-      "title": "H&R Block Gears Up to Report Q4 Earnings: What's in the Cards?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/h-r-block-gears-report-133200197.html",
-      "publisher": "Zacks",
-      "time": 1786109520,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "semiconductor",
-        "ai"
       ]
     },
     {
@@ -1263,7 +1287,7 @@
       ]
     },
     {
-      "ticker": "META",
+      "ticker": "MSFT",
       "title": "Big Tech is borrowing its way through the AI boom: Chart of the Day",
       "link": "https://finance.yahoo.com/markets/article/big-tech-is-borrowing-its-way-through-the-ai-boom-chart-of-the-day-100000605.html",
       "publisher": "Yahoo Finance",
@@ -1446,18 +1470,6 @@
       ]
     },
     {
-      "ticker": "MSFT",
-      "title": "Alphabet's $25B debt sale underscores hyperscalers' AI arms race",
-      "link": "https://finance.yahoo.com/video/alphabets-25b-debt-sale-underscores-191800525.html",
-      "publisher": "Yahoo Finance Video",
-      "time": 1786043880,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
       "ticker": "ALAB",
       "title": "Astera Labs Beat And Guided Higher, Then Fell Because The Rally Came First",
       "link": "https://www.trefis.com/articles/610418/astera-labs-beat-and-guided-higher-then-fell-because-the-rally-came-first/2026-08-06",
@@ -1480,18 +1492,6 @@
       "summary_ja": null,
       "tags": [
         "physical_ai"
-      ]
-    },
-    {
-      "ticker": "CRM",
-      "title": "What Microsoft Stock's Thin Earnings Premium Is Actually Buying",
-      "link": "https://www.trefis.com/articles/610415/what-microsoft-stocks-thin-earnings-premium-is-actually-buying/2026-08-06",
-      "publisher": "Trefis",
-      "time": 1786041396,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "ai"
       ]
     },
     {
