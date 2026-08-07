@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-08-07T20:46:42.095831+00:00",
+  "updated_at": "2026-08-07T21:42:59.682328+00:00",
   "stocks": [
     {
       "ticker": "MU",
       "price": 877.5700073242188,
-      "market_cap": null,
+      "market_cap": 991121571840.0,
       "revenue_growth": 3.457,
       "earnings_growth": 13.685,
       "gross_margin": 0.72569,
       "profit_margin": 0.55906,
       "roe": 0.66638,
-      "forward_pe": 5.641249,
+      "forward_pe": 5.659457,
       "trailing_pe": 19.83209,
       "target_mean": 1507.7906,
       "upside": 0.7181428118736355,
       "recommendation": "strong_buy",
       "num_analysts": 43.0,
       "mom_3m": 0.17527217304311238,
-      "mom_6m": 1.2896316273199209,
+      "mom_6m": 1.289631445014539,
       "name": "Micron",
       "tags": [
         "semiconductor",
@@ -233,7 +233,7 @@
       "recommendation": "buy",
       "num_analysts": 15.0,
       "mom_3m": 0.0547107164229057,
-      "mom_6m": 0.22451498862746222,
+      "mom_6m": 0.2245151092654345,
       "name": "Teradyne",
       "tags": [
         "semiconductor",
@@ -269,7 +269,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 18.0,
       "mom_3m": 0.022696511297172428,
-      "mom_6m": 0.18795211586318472,
+      "mom_6m": 0.18795201333170142,
       "name": "TSMC",
       "tags": [
         "semiconductor"
@@ -574,7 +574,7 @@
     {
       "ticker": "ADI",
       "price": 389.92999267578125,
-      "market_cap": null,
+      "market_cap": 189929848832.0,
       "revenue_growth": 0.372,
       "earnings_growth": 1.105,
       "gross_margin": 0.64491,
@@ -609,7 +609,7 @@
     {
       "ticker": "MPWR",
       "price": 1401.5400390625,
-      "market_cap": 68874477568.0,
+      "market_cap": 68857659392.0,
       "revenue_growth": 0.476,
       "earnings_growth": 0.858,
       "gross_margin": 0.55195,
@@ -650,7 +650,7 @@
       "gross_margin": 0.52733004,
       "profit_margin": 0.30114,
       "roe": 0.53942,
-      "forward_pe": 29.294855,
+      "forward_pe": 29.378746,
       "trailing_pe": 59.37892,
       "target_mean": 2178.0366,
       "upside": 0.2510333845783852,
@@ -926,7 +926,7 @@
     {
       "ticker": "ZBRA",
       "price": 376.489990234375,
-      "market_cap": 17811990528.0,
+      "market_cap": 17933494272.0,
       "revenue_growth": 0.204,
       "earnings_growth": 1.215,
       "gross_margin": 0.49581,
@@ -996,7 +996,7 @@
     {
       "ticker": "CRM",
       "price": 192.74000549316406,
-      "market_cap": null,
+      "market_cap": 157854056448.0,
       "revenue_growth": 0.133,
       "earnings_growth": 0.522,
       "gross_margin": 0.77643996,
@@ -1114,7 +1114,7 @@
       "recommendation": "buy",
       "num_analysts": 24.0,
       "mom_3m": -0.1410327412317034,
-      "mom_6m": 0.15060104341451863,
+      "mom_6m": 0.15060092415105708,
       "name": "Microchip",
       "tags": [
         "semiconductor"
@@ -1595,7 +1595,7 @@
     {
       "ticker": "ROK",
       "price": 441.0400085449219,
-      "market_cap": 49076264960.0,
+      "market_cap": 48976908288.0,
       "revenue_growth": 0.079,
       "earnings_growth": 0.404,
       "gross_margin": 0.49091998,
