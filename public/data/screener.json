@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-10T20:47:53.822796+00:00",
+  "updated_at": "2026-08-10T21:45:57.273384+00:00",
   "stocks": [
     {
       "ticker": "MU",
@@ -269,7 +269,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 18.0,
       "mom_3m": 0.036856646308248475,
-      "mom_6m": 0.12441377439622237,
+      "mom_6m": 0.1244136821947166,
       "name": "TSMC",
       "tags": [
         "semiconductor"
@@ -410,7 +410,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 55.0,
       "mom_3m": -0.0795246993208486,
-      "mom_6m": 0.15122641441759077,
+      "mom_6m": 0.1512265275458935,
       "name": "Alphabet",
       "tags": [
         "ai"
@@ -617,8 +617,8 @@
       "roe": 0.53942,
       "forward_pe": 29.165205,
       "trailing_pe": 58.92182,
-      "target_mean": 2175.0188,
-      "upside": 0.25471238462866674,
+      "target_mean": 2175.27,
+      "upside": 0.25485729544553815,
       "recommendation": "strong_buy",
       "num_analysts": 15.0,
       "mom_3m": 0.10851370292668205,
@@ -728,7 +728,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 53.0,
       "mom_3m": 0.22899254781376666,
-      "mom_6m": 0.2570507859138167,
+      "mom_6m": 0.257050881205223,
       "name": "Microsoft",
       "tags": [
         "ai"
