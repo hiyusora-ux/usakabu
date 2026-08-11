@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-11T20:51:17.407362+00:00",
+  "updated_at": "2026-08-11T21:53:23.587149+00:00",
   "stocks": [
     {
       "ticker": "MU",
@@ -375,7 +375,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 55.0,
       "mom_3m": -0.11190050569533971,
-      "mom_6m": 0.1140695104404108,
+      "mom_6m": 0.11406962061180081,
       "name": "Alphabet",
       "tags": [
         "ai"
@@ -622,7 +622,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 13.0,
       "mom_3m": -0.12208077393288619,
-      "mom_6m": 0.21725098732673698,
+      "mom_6m": 0.21725085832718594,
       "name": "Monolithic Power",
       "tags": [
         "semiconductor"
@@ -939,7 +939,7 @@
       "recommendation": "buy",
       "num_analysts": 27.0,
       "mom_3m": 0.10815621575759438,
-      "mom_6m": 0.38530303156514445,
+      "mom_6m": 0.38530288549542346,
       "name": "KLA Corp",
       "tags": [
         "semiconductor"
@@ -1495,7 +1495,7 @@
       "gross_margin": 0.54226,
       "profit_margin": 0.21013,
       "roe": 0.33754003,
-      "forward_pe": 15.848197,
+      "forward_pe": 15.916609,
       "trailing_pe": 18.570774,
       "target_mean": 194.76666,
       "upside": 0.19723794423919716,
