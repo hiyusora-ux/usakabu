@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-12T20:56:56.065832+00:00",
+  "updated_at": "2026-08-12T21:51:42.568584+00:00",
   "stocks": [
     {
       "ticker": "MU",
@@ -82,7 +82,7 @@
       "gross_margin": 0.74144995,
       "profit_margin": 0.62966,
       "roe": 1.14288,
-      "forward_pe": 17.384214,
+      "forward_pe": 17.484507,
       "trailing_pe": 34.369633,
       "target_mean": 302.82758,
       "upside": 0.35136590186465155,
@@ -552,7 +552,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 13.0,
       "mom_3m": -0.10847784750722123,
-      "mom_6m": 0.2207206505361372,
+      "mom_6m": 0.2207207781872984,
       "name": "Monolithic Power",
       "tags": [
         "semiconductor"
@@ -617,8 +617,8 @@
       "roe": 0.53942,
       "forward_pe": 30.485722,
       "trailing_pe": 61.713943,
-      "target_mean": 2169.563,
-      "upside": 0.19860727175099324,
+      "target_mean": 2169.3127,
+      "upside": 0.19846898980199268,
       "recommendation": "strong_buy",
       "num_analysts": 15.0,
       "mom_3m": 0.14594961748336566,
@@ -1009,7 +1009,7 @@
       "recommendation": "buy",
       "num_analysts": 53.0,
       "mom_3m": 0.168710589380888,
-      "mom_6m": 0.024160295618365746,
+      "mom_6m": 0.024160378408611516,
       "name": "Salesforce",
       "tags": [
         "ai"
@@ -1253,7 +1253,7 @@
       "upside": 0.17136288644848618,
       "recommendation": "buy",
       "num_analysts": 20.0,
-      "mom_3m": 0.009137481435052441,
+      "mom_3m": 0.05099075391704755,
       "mom_6m": -0.05600560400596488,
       "name": "PTC Inc",
       "tags": [
@@ -1572,7 +1572,7 @@
       "recommendation": "buy",
       "num_analysts": 24.0,
       "mom_3m": -0.00485182862281508,
-      "mom_6m": 0.1521026695395078,
+      "mom_6m": 0.15210275927836148,
       "name": "Rockwell Automation",
       "tags": [
         "physical_ai"
