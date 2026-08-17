@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T20:31:36.362589+00:00",
+  "updated_at": "2026-08-17T21:30:11.067208+00:00",
   "stocks": [
     {
       "ticker": "MU",
@@ -657,7 +657,7 @@
       "recommendation": "buy",
       "num_analysts": 30.0,
       "mom_3m": -0.06505559575633757,
-      "mom_6m": 0.1333959733661103,
+      "mom_6m": 0.13339607381314944,
       "name": "Analog Devices",
       "tags": [
         "semiconductor"
@@ -758,8 +758,8 @@
       "roe": 0.53942,
       "forward_pe": 31.65546,
       "trailing_pe": 64.22646,
-      "target_mean": 2177.603,
-      "upside": 0.15638037174815667,
+      "target_mean": 2177.855,
+      "upside": 0.15651419221666285,
       "recommendation": "strong_buy",
       "num_analysts": 15.0,
       "mom_3m": 0.2806086380480548,
@@ -938,7 +938,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 40.0,
       "mom_3m": 0.38748494005157985,
-      "mom_6m": 1.96504170100964,
+      "mom_6m": 1.9650419872453613,
       "name": "Marvell",
       "tags": [
         "semiconductor",
@@ -1031,7 +1031,7 @@
     {
       "ticker": "ZBRA",
       "price": 371.260009765625,
-      "market_cap": 17564555264.0,
+      "market_cap": 17684373504.0,
       "revenue_growth": 0.204,
       "earnings_growth": 1.215,
       "gross_margin": 0.49581,
@@ -1502,7 +1502,7 @@
       "recommendation": "hold",
       "num_analysts": 30.0,
       "mom_3m": -0.20065309732383518,
-      "mom_6m": 0.14370366353081399,
+      "mom_6m": 0.14370354046150258,
       "name": "Qualcomm",
       "tags": [
         "semiconductor"
@@ -1559,7 +1559,7 @@
     {
       "ticker": "ROK",
       "price": 444.6000061035156,
-      "market_cap": 49472401408.0,
+      "market_cap": 49372241920.0,
       "revenue_growth": 0.079,
       "earnings_growth": 0.404,
       "gross_margin": 0.49091998,
