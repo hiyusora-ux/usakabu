@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18T20:30:05.639289+00:00",
+  "updated_at": "2026-08-18T21:28:36.270988+00:00",
   "stocks": [
     {
       "ticker": "MU",
@@ -59,14 +59,14 @@
         "semiconductor",
         "ai"
       ],
-      "score": 76.5,
+      "score": 76.2,
       "subscores": {
         "revenue_growth": 96.0,
         "earnings_growth": 88.0,
         "gross_margin": 70.0,
         "profit_margin": 80.0,
         "roe": 70.0,
-        "mom_3m": 93.0,
+        "mom_3m": 91.0,
         "mom_6m": 85.0,
         "upside": 24.0,
         "forward_pe": 46.0
@@ -96,14 +96,14 @@
         "ai",
         "physical_ai"
       ],
-      "score": 75.2,
+      "score": 74.9,
       "subscores": {
         "revenue_growth": 80.0,
         "earnings_growth": 76.0,
         "gross_margin": 78.0,
         "profit_margin": 100.0,
         "roe": 100.0,
-        "mom_3m": 41.0,
+        "mom_3m": 39.0,
         "mom_6m": 48.0,
         "upside": 80.0,
         "forward_pe": 72.0
@@ -197,7 +197,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 45.0,
       "mom_3m": -0.07412018910140994,
-      "mom_6m": 0.1419497970335153,
+      "mom_6m": 0.14194990176096578,
       "name": "Broadcom",
       "tags": [
         "semiconductor",
@@ -325,41 +325,6 @@
       "rank": 9
     },
     {
-      "ticker": "OUST",
-      "price": 42.9900016784668,
-      "market_cap": 3100109568.0,
-      "revenue_growth": 0.559,
-      "earnings_growth": null,
-      "gross_margin": 0.46623,
-      "profit_margin": -0.26025,
-      "roe": -0.18006,
-      "forward_pe": -4299.0005,
-      "trailing_pe": null,
-      "target_mean": 57.83333,
-      "upside": 0.34527396468951643,
-      "recommendation": "strong_buy",
-      "num_analysts": 6.0,
-      "mom_3m": 0.44650076284320495,
-      "mom_6m": 1.2531447510675107,
-      "name": "Ouster",
-      "tags": [
-        "physical_ai"
-      ],
-      "score": 57.1,
-      "subscores": {
-        "revenue_growth": 76.0,
-        "earnings_growth": 50.0,
-        "gross_margin": 20.0,
-        "profit_margin": 0.0,
-        "roe": 7.0,
-        "mom_3m": 91.0,
-        "mom_6m": 91.0,
-        "upside": 72.0,
-        "forward_pe": 100.0
-      },
-      "rank": 10
-    },
-    {
       "ticker": "GOOGL",
       "price": 344.20001220703125,
       "market_cap": 4209543741440.0,
@@ -391,6 +356,41 @@
         "mom_6m": 33.0,
         "upside": 54.0,
         "forward_pe": 57.0
+      },
+      "rank": 10
+    },
+    {
+      "ticker": "OUST",
+      "price": 42.9900016784668,
+      "market_cap": 3100109568.0,
+      "revenue_growth": 0.559,
+      "earnings_growth": null,
+      "gross_margin": 0.46623,
+      "profit_margin": -0.26025,
+      "roe": -0.18006,
+      "forward_pe": -4299.0005,
+      "trailing_pe": null,
+      "target_mean": 57.83333,
+      "upside": 0.34527396468951643,
+      "recommendation": "strong_buy",
+      "num_analysts": 6.0,
+      "mom_3m": 0.44650076284320495,
+      "mom_6m": 1.2531447510675107,
+      "name": "Ouster",
+      "tags": [
+        "physical_ai"
+      ],
+      "score": 56.8,
+      "subscores": {
+        "revenue_growth": 76.0,
+        "earnings_growth": 50.0,
+        "gross_margin": 20.0,
+        "profit_margin": 0.0,
+        "roe": 7.0,
+        "mom_3m": 89.0,
+        "mom_6m": 91.0,
+        "upside": 72.0,
+        "forward_pe": 100.0
       },
       "rank": 11
     },
@@ -663,14 +663,14 @@
         "ai",
         "physical_ai"
       ],
-      "score": 50.3,
+      "score": 50.1,
       "subscores": {
         "revenue_growth": 13.0,
         "earnings_growth": 50.0,
         "gross_margin": 93.0,
         "profit_margin": 46.0,
         "roe": 48.0,
-        "mom_3m": 96.0,
+        "mom_3m": 93.0,
         "mom_6m": 74.0,
         "upside": 0.0,
         "forward_pe": 70.0
@@ -758,8 +758,8 @@
       "roe": 0.53942,
       "forward_pe": 30.294155,
       "trailing_pe": 61.3676,
-      "target_mean": 2176.8467,
-      "upside": 0.20736043859679998,
+      "target_mean": 2177.603,
+      "upside": 0.20777991080846792,
       "recommendation": "strong_buy",
       "num_analysts": 15.0,
       "mom_3m": 0.23698938635493771,
@@ -888,41 +888,6 @@
       "rank": 25
     },
     {
-      "ticker": "AMZN",
-      "price": 259.45001220703125,
-      "market_cap": 2798509096960.0,
-      "revenue_growth": 0.196,
-      "earnings_growth": 2.423,
-      "gross_margin": 0.5077,
-      "profit_margin": 0.1744,
-      "roe": 0.30558002,
-      "forward_pe": 24.939299,
-      "trailing_pe": 20.856112,
-      "target_mean": 327.004,
-      "upside": 0.260373808497119,
-      "recommendation": "strong_buy",
-      "num_analysts": 60.0,
-      "mom_3m": 0.00042421481720578136,
-      "mom_6m": 0.26647472143920936,
-      "name": "Amazon",
-      "tags": [
-        "ai"
-      ],
-      "score": 47.8,
-      "subscores": {
-        "revenue_growth": 22.0,
-        "earnings_growth": 82.0,
-        "gross_margin": 30.0,
-        "profit_margin": 41.0,
-        "roe": 61.0,
-        "mom_3m": 43.0,
-        "mom_6m": 61.0,
-        "upside": 59.0,
-        "forward_pe": 52.0
-      },
-      "rank": 26
-    },
-    {
       "ticker": "MRVL",
       "price": 216.0,
       "market_cap": 193869594624.0,
@@ -955,6 +920,41 @@
         "mom_6m": 100.0,
         "upside": 37.0,
         "forward_pe": 28.0
+      },
+      "rank": 26
+    },
+    {
+      "ticker": "AMZN",
+      "price": 259.45001220703125,
+      "market_cap": 2798509096960.0,
+      "revenue_growth": 0.196,
+      "earnings_growth": 2.423,
+      "gross_margin": 0.5077,
+      "profit_margin": 0.1744,
+      "roe": 0.30558002,
+      "forward_pe": 24.939299,
+      "trailing_pe": 20.856112,
+      "target_mean": 327.004,
+      "upside": 0.260373808497119,
+      "recommendation": "strong_buy",
+      "num_analysts": 60.0,
+      "mom_3m": 0.00042421481720578136,
+      "mom_6m": 0.26647472143920936,
+      "name": "Amazon",
+      "tags": [
+        "ai"
+      ],
+      "score": 47.5,
+      "subscores": {
+        "revenue_growth": 22.0,
+        "earnings_growth": 82.0,
+        "gross_margin": 30.0,
+        "profit_margin": 41.0,
+        "roe": 61.0,
+        "mom_3m": 41.0,
+        "mom_6m": 61.0,
+        "upside": 59.0,
+        "forward_pe": 52.0
       },
       "rank": 27
     },
@@ -1009,7 +1009,7 @@
       "recommendation": "buy",
       "num_analysts": 24.0,
       "mom_3m": -0.14407534427337954,
-      "mom_6m": 0.024431470881203232,
+      "mom_6m": 0.024431573282325036,
       "name": "Microchip",
       "tags": [
         "semiconductor"
@@ -1043,20 +1043,20 @@
       "upside": 0.1061452299191521,
       "recommendation": "buy",
       "num_analysts": 16.0,
-      "mom_3m": 0.41968231213747065,
+      "mom_3m": 0.48258151922595127,
       "mom_6m": 0.45554939791913385,
       "name": "Zebra Technologies",
       "tags": [
         "physical_ai"
       ],
-      "score": 46.1,
+      "score": 46.9,
       "subscores": {
         "revenue_growth": 24.0,
         "earnings_growth": 68.0,
         "gross_margin": 26.0,
         "profit_margin": 26.0,
         "roe": 39.0,
-        "mom_3m": 89.0,
+        "mom_3m": 96.0,
         "mom_6m": 78.0,
         "upside": 9.0,
         "forward_pe": 78.0
@@ -1172,7 +1172,7 @@
     {
       "ticker": "CRM",
       "price": 196.13999938964844,
-      "market_cap": null,
+      "market_cap": 160638664704.0,
       "revenue_growth": 0.133,
       "earnings_growth": 0.522,
       "gross_margin": 0.77643996,
@@ -1254,21 +1254,21 @@
       "upside": 0.18343804653326612,
       "recommendation": "buy",
       "num_analysts": 20.0,
-      "mom_3m": 0.047407860812791025,
+      "mom_3m": 0.008884863037683433,
       "mom_6m": -0.05129532695613437,
       "name": "PTC Inc",
       "tags": [
         "physical_ai",
         "ai"
       ],
-      "score": 42.1,
+      "score": 41.8,
       "subscores": {
         "revenue_growth": 0.0,
         "earnings_growth": 12.0,
         "gross_margin": 96.0,
         "profit_margin": 89.0,
         "roe": 72.0,
-        "mom_3m": 46.0,
+        "mom_3m": 43.0,
         "mom_6m": 15.0,
         "upside": 35.0,
         "forward_pe": 76.0
@@ -1607,20 +1607,20 @@
       "upside": 0.10270095970028925,
       "recommendation": "buy",
       "num_analysts": 24.0,
-      "mom_3m": -0.044228794041362485,
+      "mom_3m": 0.03011177008886623,
       "mom_6m": 0.10744850253048166,
       "name": "Rockwell Automation",
       "tags": [
         "physical_ai"
       ],
-      "score": 28.2,
+      "score": 28.9,
       "subscores": {
         "revenue_growth": 4.0,
         "earnings_growth": 38.0,
         "gross_margin": 22.0,
         "profit_margin": 37.0,
         "roe": 63.0,
-        "mom_3m": 39.0,
+        "mom_3m": 46.0,
         "mom_6m": 28.0,
         "upside": 7.0,
         "forward_pe": 39.0
