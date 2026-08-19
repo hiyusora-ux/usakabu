@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19T20:32:47.163095+00:00",
+  "updated_at": "2026-08-19T21:29:21.052436+00:00",
   "stocks": [
     {
       "ticker": "MU",
@@ -410,7 +410,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 55.0,
       "mom_3m": -0.11309585687908696,
-      "mom_6m": 0.09584329297864036,
+      "mom_6m": 0.09584318666709102,
       "name": "Alphabet",
       "tags": [
         "ai"
@@ -516,7 +516,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 31.0,
       "mom_3m": 0.05236872557888228,
-      "mom_6m": 0.2565518210821778,
+      "mom_6m": 0.25655189951576673,
       "name": "Lam Research",
       "tags": [
         "semiconductor"
@@ -687,8 +687,8 @@
       "roe": 0.53942,
       "forward_pe": 29.410421,
       "trailing_pe": 59.60293,
-      "target_mean": 2196.1694,
-      "upside": 0.253714570445567,
+      "target_mean": 2196.4258,
+      "upside": 0.25386094003611936,
       "recommendation": "strong_buy",
       "num_analysts": 15.0,
       "mom_3m": 0.13151509316594368,
@@ -796,7 +796,7 @@
       "upside": 0.14277077710039943,
       "recommendation": "buy",
       "num_analysts": 31.0,
-      "mom_3m": 0.38904486794064086,
+      "mom_3m": 0.4118899575052348,
       "mom_6m": 0.6477362870526753,
       "name": "Cloudflare",
       "tags": [
@@ -1071,7 +1071,7 @@
       "gross_margin": 0.77643996,
       "profit_margin": 0.18733,
       "roe": 0.16908,
-      "forward_pe": 13.279577,
+      "forward_pe": 13.280526,
       "trailing_pe": 23.880648,
       "target_mean": 242.74352,
       "upside": 0.177852027334771,
@@ -1608,7 +1608,7 @@
       "recommendation": "buy",
       "num_analysts": 24.0,
       "mom_3m": -0.028512512765946574,
-      "mom_6m": 0.09696613808164867,
+      "mom_6m": 0.0969660533242016,
       "name": "Rockwell Automation",
       "tags": [
         "physical_ai"
