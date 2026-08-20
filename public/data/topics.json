@@ -1,12 +1,38 @@
 {
-  "updated_at": "2026-08-20T20:33:20.633977+00:00",
+  "updated_at": "2026-08-20T21:32:36.278982+00:00",
   "items": [
     {
+      "ticker": "MU",
+      "title": "How Much of Your Portfolio Should Actually Be in DRAM",
+      "link": "https://247wallst.com/investing/etf/2026/08/20/how-much-of-your-portfolio-should-actually-be-in-dram/",
+      "publisher": "24/7 Wall St.",
+      "time": 1787261131,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "semiconductor",
+        "ai"
+      ]
+    },
+    {
+      "ticker": "MU",
+      "title": "The Biggest Risk Facing the Roundhill Memory ETF (DRAM) Right Now",
+      "link": "https://247wallst.com/investing/2026/08/20/the-biggest-risk-facing-the-roundhill-memory-etf-dram-right-now/",
+      "publisher": "24/7 Wall St.",
+      "time": 1787260832,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "semiconductor",
+        "ai"
+      ]
+    },
+    {
       "ticker": "NVDA",
-      "title": "Billionaire Investor David Tepper Recently Dumped Appaloosa Management's Stake in Sandisk and Initiated a New Position In a Stock That Some Wall Street Experts Think Could Eventually Be Worth $10 Trillion",
-      "link": "https://www.fool.com/investing/2026/08/20/billionaire-investor-david-tepper-recently-dumped/",
-      "publisher": "Motley Fool",
-      "time": 1787257500,
+      "title": "Your Muni Income Is Invisible to One Tax Break and Fatal to Another",
+      "link": "https://247wallst.com/investing/2026/08/20/your-muni-income-is-invisible-to-one-tax-break-and-fatal-to-another/",
+      "publisher": "24/7 Wall St.",
+      "time": 1787260535,
       "title_ja": null,
       "summary_ja": null,
       "tags": [
@@ -16,11 +42,50 @@
       ]
     },
     {
-      "ticker": "AMZN",
-      "title": "Dow Giant Walmart Sinks To A 9-Month Low; Ross Stores Stock Jumps",
-      "link": "https://www.investors.com/news/walmart-earnings-the-biggest-and-most-influential-retail-report/?src=A00220&yptr=yahoo",
+      "ticker": "NVDA",
+      "title": "How Much of Your Portfolio Should Actually Be in FTXL",
+      "link": "https://247wallst.com/investing/etf/2026/08/20/how-much-of-your-portfolio-should-actually-be-in-ftxl/",
+      "publisher": "24/7 Wall St.",
+      "time": 1787260532,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "semiconductor",
+        "ai",
+        "physical_ai"
+      ]
+    },
+    {
+      "ticker": "AMAT",
+      "title": "The Biggest Risk Facing the First Trust Nasdaq Semiconductor ETF (FTXL) Right Now",
+      "link": "https://247wallst.com/investing/2026/08/20/the-biggest-risk-facing-the-first-trust-nasdaq-semiconductor-etf-ftxl-right-now/",
+      "publisher": "24/7 Wall St.",
+      "time": 1787260239,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "semiconductor"
+      ]
+    },
+    {
+      "ticker": "MU",
+      "title": "Dow Jones Futures: Market Triggers This Bearish Signal As Walmart, SpaceX, CrowdStrike Tumble",
+      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-triggers-bearish-signal-walmart-spacex-crowdstrike/?src=A00220&yptr=yahoo",
       "publisher": "Investor's Business Daily",
-      "time": 1787257449,
+      "time": 1787259810,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "semiconductor",
+        "ai"
+      ]
+    },
+    {
+      "ticker": "DDOG",
+      "title": "Dynatrace Buys Arize for $915M to Expand AI Observability Reach",
+      "link": "https://www.marketbeat.com/instant-alerts/dynatrace-buys-arize-for-915m-to-expand-ai-observability-reach-2026-08-20/?utm_source=yahoofinance&utm_medium=yahoofinance",
+      "publisher": "MarketBeat",
+      "time": 1787259718,
       "title_ja": null,
       "summary_ja": null,
       "tags": [
@@ -28,7 +93,121 @@
       ]
     },
     {
-      "ticker": "NVDA",
+      "ticker": "AMAT",
+      "title": "Applied Materials (AMAT) Q3 2026 Earnings Call Transcript",
+      "link": "https://www.fool.com/earnings/call-transcripts/2026/08/20/applied-materials-amat-q3-2026-earnings-call-transcript/",
+      "publisher": "Motley Fool",
+      "time": 1787259675,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "semiconductor"
+      ]
+    },
+    {
+      "ticker": "TSLA",
+      "title": "Prediction: Cybercab Adds Less Than 5% to Tesla's Revenue in Its First Full Year",
+      "link": "https://www.fool.com/investing/2026/08/20/prediction-cybercab-adds-less-than-5-to-tesla-s-revenue-in-its-first-full-year/",
+      "publisher": "Motley Fool",
+      "time": 1787259661,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "physical_ai",
+        "ai"
+      ]
+    },
+    {
+      "ticker": "TSLA",
+      "title": "Elon Musk points to one country as AI's biggest threat",
+      "link": "https://www.thestreet.com/crypto/markets/elon-musk-points-to-one-country-as-ais-biggest-threat",
+      "publisher": "TheStreet",
+      "time": 1787259300,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "physical_ai",
+        "ai"
+      ]
+    },
+    {
+      "ticker": "AVGO",
+      "title": "Broadcom repoirtedly seeking to raise over $60 billion for AI chip deal",
+      "link": "https://finance.yahoo.com/technology/ai/articles/broadcom-repoirtedly-seeking-raise-over-204953745.html",
+      "publisher": "Investing.com",
+      "time": 1787258993,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "semiconductor",
+        "ai"
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Warren Buffett’s Empire Just Made a Massive AI Bet Nobody Saw Coming",
+      "link": "https://finance.yahoo.com/technology/ai/articles/warren-buffett-empire-just-made-204728050.html",
+      "publisher": "Insider Monkey",
+      "time": 1787258848,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "ticker": "TSLA",
+      "title": "Einride targets 1,500 trucks by 2028 with Tesla and DAF deals",
+      "link": "https://finance.yahoo.com/technology/articles/einride-targets-1-500-trucks-204613883.html",
+      "publisher": "FreightWaves",
+      "time": 1787258773,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "physical_ai",
+        "ai"
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Dow Giant Walmart Sinks To A 9-Month Low; Ross Stores Stock Jumps",
+      "link": "https://www.investors.com/news/walmart-earnings-the-biggest-and-most-influential-retail-report/?src=A00220&yptr=yahoo",
+      "publisher": "Investor's Business Daily",
+      "time": 1787258706,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "ticker": "AVGO",
+      "title": "Broadcom seeks more than $60 billion in latest AI debt deal, Bloomberg News reports",
+      "link": "https://finance.yahoo.com/technology/ai/articles/broadcom-seeks-more-60-billion-203818587.html",
+      "publisher": "Reuters",
+      "time": 1787258298,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "semiconductor",
+        "ai"
+      ]
+    },
+    {
+      "ticker": "AMD",
+      "title": "AMD Just Split Two of Wall Street’s Biggest Contrarian Investors",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/amd-just-split-two-wall-203344035.html",
+      "publisher": "Insider Monkey",
+      "time": 1787258024,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "semiconductor",
+        "ai"
+      ]
+    },
+    {
+      "ticker": "AVGO",
       "title": "Billionaire Stanley Druckenmiller Sold Broadcom and Bought the Same Artificial Intelligence (AI) Stock Berkshire Piled $17 Billion Into",
       "link": "https://www.fool.com/investing/2026/08/20/billionaire-stanley-druckenmiller-sold-broadcom-an/",
       "publisher": "Motley Fool",
@@ -37,8 +216,7 @@
       "summary_ja": null,
       "tags": [
         "semiconductor",
-        "ai",
-        "physical_ai"
+        "ai"
       ]
     },
     {
@@ -70,6 +248,18 @@
       "title": "Billionaire investor makes Amazon his biggest stock bet",
       "link": "https://www.thestreet.com/investing/billionaire-investor-makes-amazon-his-biggest-stock-bet",
       "publisher": "TheStreet",
+      "time": 1787256420,
+      "title_ja": null,
+      "summary_ja": null,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "ticker": "CRM",
+      "title": "Top Stock Reports for Salesforce, Seagate Technology & AT&T",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/top-stock-reports-salesforce-seagate-200700265.html",
+      "publisher": "Zacks",
       "time": 1787256420,
       "title_ja": null,
       "summary_ja": null,
@@ -301,7 +491,7 @@
       ]
     },
     {
-      "ticker": "AMD",
+      "ticker": "MRVL",
       "title": "AMD Falls as Google Expands Its $120 Billion Custom-Chip Push",
       "link": "https://finance.yahoo.com/technology/articles/amd-falls-google-expands-120-192101116.html",
       "publisher": "GuruFocus.com",
@@ -338,7 +528,7 @@
       ]
     },
     {
-      "ticker": "AVGO",
+      "ticker": "MRVL",
       "title": "Marvell vs. Broadcom: One AI Stock Is a Better Buy After Google's Deal",
       "link": "https://finance.yahoo.com/markets/stocks/articles/marvell-vs-broadcom-one-ai-190000071.html",
       "publisher": "Zacks",
@@ -375,19 +565,6 @@
       ]
     },
     {
-      "ticker": "AVGO",
-      "title": "Broadcom vs. AMD vs. Nvidia: Three Different AI Chip Strategies, Three Very Different Valuations. Here's the Metric That Explains the Gap.",
-      "link": "https://www.fool.com/investing/2026/08/20/broadcom-vs-amd-vs-nvidia-three-different-ai-chip/",
-      "publisher": "Motley Fool",
-      "time": 1787251980,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "semiconductor",
-        "ai"
-      ]
-    },
-    {
       "ticker": "QCOM",
       "title": "We Told You to Forget SCHD. It Just Beat the S&P by 12 Points, Its Biggest Win Ever",
       "link": "https://247wallst.com/investing/2026/08/20/we-told-you-to-forget-schd-it-just-beat-the-sp-by-12-points-its-biggest-win-ever/",
@@ -397,19 +574,6 @@
       "summary_ja": null,
       "tags": [
         "semiconductor"
-      ]
-    },
-    {
-      "ticker": "TSLA",
-      "title": "Ford Drops 4% as Bronco Pickup Rally Fades, Tesla Slips, General Motors Inches Higher: What’s Behind the Auto Stock Differential?",
-      "link": "https://247wallst.com/investing/2026/08/20/ford-drops-4-as-bronco-pickup-rally-fades-tesla-slips-general-motors-inches-higher-whats-behind-the-auto-stock-differential/",
-      "publisher": "24/7 Wall St.",
-      "time": 1787250859,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "physical_ai",
-        "ai"
       ]
     },
     {
@@ -438,20 +602,7 @@
       ]
     },
     {
-      "ticker": "MU",
-      "title": "Micron Quietly Pours $10 Billion Into Next Big Move",
-      "link": "https://finance.yahoo.com/technology/ai/articles/micron-quietly-pours-10-billion-182903705.html",
-      "publisher": "GuruFocus.com",
-      "time": 1787250543,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "semiconductor",
-        "ai"
-      ]
-    },
-    {
-      "ticker": "AVGO",
+      "ticker": "MRVL",
       "title": "MaxLinear Stock Drops 23% in a Month: Should You Buy it on the Dip?",
       "link": "https://finance.yahoo.com/markets/stocks/articles/maxlinear-stock-drops-23-month-182800588.html",
       "publisher": "Zacks",
@@ -460,19 +611,6 @@
       "summary_ja": null,
       "tags": [
         "semiconductor",
-        "ai"
-      ]
-    },
-    {
-      "ticker": "TSLA",
-      "title": "Tesla Looks 30% Overvalued as Earnings Keep Shrinking",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-looks-30-overvalued-earnings-182751529.html",
-      "publisher": "GuruFocus.com",
-      "time": 1787250471,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "physical_ai",
         "ai"
       ]
     },
@@ -499,19 +637,6 @@
       "summary_ja": null,
       "tags": [
         "semiconductor",
-        "ai"
-      ]
-    },
-    {
-      "ticker": "TSLA",
-      "title": "Moderna, Walmart, Coinbase, Deere, SpaceX, Tesla, and More Stocks That Explain Today’s Market",
-      "link": "https://www.barrons.com/articles/stock-movers-dee21e98?siteid=yhoof2&yptr=yahoo",
-      "publisher": "Barrons.com",
-      "time": 1787249880,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "physical_ai",
         "ai"
       ]
     },
@@ -553,19 +678,6 @@
       ]
     },
     {
-      "ticker": "MRVL",
-      "title": "Broadcom Shareholders Should Be Paying Attention to What Just Happened With Marvell and Google",
-      "link": "https://247wallst.com/investing/2026/08/20/broadcom-shareholders-should-be-paying-attention-to-what-just-happened-with-marvell-and-google/",
-      "publisher": "24/7 Wall St.",
-      "time": 1787249419,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "semiconductor",
-        "ai"
-      ]
-    },
-    {
       "ticker": "ORCL",
       "title": "CoreWeave Stock Fell While The Price Of Its Compute Went Up",
       "link": "https://www.trefis.com/articles/612238/coreweave-stock-fell-while-the-price-of-its-compute-went-up/2026-08-20",
@@ -587,19 +699,6 @@
       "summary_ja": null,
       "tags": [
         "physical_ai"
-      ]
-    },
-    {
-      "ticker": "MRVL",
-      "title": "2 AI Stocks, 1 Winner: Which Has More Upside?",
-      "link": "https://247wallst.com/investing/2026/08/20/2-ai-stocks-1-winner-which-has-more-upside/",
-      "publisher": "24/7 Wall St.",
-      "time": 1787248808,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "semiconductor",
-        "ai"
       ]
     },
     {
@@ -637,32 +736,6 @@
       "summary_ja": null,
       "tags": [
         "semiconductor"
-      ]
-    },
-    {
-      "ticker": "MU",
-      "title": "Billionaire Stanley Druckenmiller Sells Micron and Is Piling Into This Other Unstoppable Artificial Intelligence (AI) Chip Stock Instead",
-      "link": "https://www.fool.com/investing/2026/08/20/billionaire-stanley-druckenmiller-sells-micron-and/",
-      "publisher": "Motley Fool",
-      "time": 1787247300,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "semiconductor",
-        "ai"
-      ]
-    },
-    {
-      "ticker": "MU",
-      "title": "Billionaire George Soros makes sevenfold move on AI chip stock in latest 13F",
-      "link": "https://www.thestreet.com/investing/stocks/mu-micron-stock-billionaire-george-soros-soros-fund-management-llc-buys-more-micron-in-q2-2026-13f-filing",
-      "publisher": "TheStreet",
-      "time": 1787247180,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "semiconductor",
-        "ai"
       ]
     },
     {
@@ -751,7 +824,7 @@
       ]
     },
     {
-      "ticker": "MRVL",
+      "ticker": "RKLB",
       "title": "Cathie Wood Puts $41 Million Behind Major Tech Stocks",
       "link": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-puts-41-million-170356247.html",
       "publisher": "GuruFocus.com",
@@ -759,8 +832,7 @@
       "title_ja": null,
       "summary_ja": null,
       "tags": [
-        "semiconductor",
-        "ai"
+        "physical_ai"
       ]
     },
     {
@@ -849,18 +921,6 @@
       ]
     },
     {
-      "ticker": "RKLB",
-      "title": "SpaceX Drops 6%, Dips Below Its IPO Price as 319M Shares Unlock; Rocket Lab Falls 4%",
-      "link": "https://247wallst.com/investing/2026/08/20/spacex-drops-6-dips-below-its-ipo-price-as-319m-shares-unlock-rocket-lab-falls-4/",
-      "publisher": "24/7 Wall St.",
-      "time": 1787239702,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "physical_ai"
-      ]
-    },
-    {
       "ticker": "AMAT",
       "title": "Can Applied Materials Sustain Its Growth Amid AI-Driven Demand?",
       "link": "https://finance.yahoo.com/technology/ai/articles/applied-materials-sustain-growth-amid-152200842.html",
@@ -882,18 +942,6 @@
       "summary_ja": null,
       "tags": [
         "semiconductor"
-      ]
-    },
-    {
-      "ticker": "CRM",
-      "title": "Why Salesforce Stock Could Pop On August 26th",
-      "link": "https://247wallst.com/investing/2026/08/20/why-salesforce-stock-could-pop-on-august-26th/",
-      "publisher": "24/7 Wall St.",
-      "time": 1787238943,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "ai"
       ]
     },
     {
@@ -1081,18 +1129,6 @@
       ]
     },
     {
-      "ticker": "AMAT",
-      "title": "Time to Accumulate Applied Materials Before Foundry Ramps Hit?",
-      "link": "https://247wallst.com/investing/2026/08/20/time-to-accumulate-applied-materials-before-foundry-ramps-hit/",
-      "publisher": "24/7 Wall St.",
-      "time": 1787231680,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "semiconductor"
-      ]
-    },
-    {
       "ticker": "TSM",
       "title": "This Stock Is Riding an AI Wave That Shows No Signs of Slowing",
       "link": "https://247wallst.com/investing/2026/08/20/this-stock-is-riding-an-ai-wave-that-shows-no-signs-of-slowing/",
@@ -1247,18 +1283,6 @@
       "link": "https://www.fool.com/investing/2026/08/20/taiwan-semiconductor-vs-asml-which-semiconductor-t/",
       "publisher": "Motley Fool",
       "time": 1787216100,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
-        "semiconductor"
-      ]
-    },
-    {
-      "ticker": "AMAT",
-      "title": "The Zacks Analyst Blog Highlights NVIDIA, Applied Materials and ConocoPhillips",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-nvidia-085200309.html",
-      "publisher": "Zacks",
-      "time": 1787215920,
       "title_ja": null,
       "summary_ja": null,
       "tags": [
@@ -2147,18 +2171,6 @@
       "summary_ja": null,
       "tags": [
         "semiconductor",
-        "ai"
-      ]
-    },
-    {
-      "ticker": "DDOG",
-      "title": "Looking Beyond CrowdStrike? 3 AI Security Stocks Stand Out",
-      "link": "https://www.marketbeat.com/articles/looking-beyond-crowdstrike-3-ai-security-stocks-stand-out/?utm_source=yahoofinance&utm_medium=yahoofinance",
-      "publisher": "MarketBeat",
-      "time": 1786978200,
-      "title_ja": null,
-      "summary_ja": null,
-      "tags": [
         "ai"
       ]
     },

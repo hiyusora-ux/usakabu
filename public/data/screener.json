@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T20:33:14.210060+00:00",
+  "updated_at": "2026-08-20T21:32:28.055541+00:00",
   "stocks": [
     {
       "ticker": "MU",
@@ -17,7 +17,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 44.0,
       "mom_3m": 0.27867719891326126,
-      "mom_6m": 1.315816281122173,
+      "mom_6m": 1.3158164491001005,
       "name": "Micron",
       "tags": [
         "semiconductor",
@@ -269,7 +269,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 18.0,
       "mom_3m": 0.024129247080460825,
-      "mom_6m": 0.1300107459503319,
+      "mom_6m": 0.13001065227573227,
       "name": "TSMC",
       "tags": [
         "semiconductor"
@@ -586,7 +586,7 @@
       "recommendation": "none",
       "num_analysts": 13.0,
       "mom_3m": -0.11688538687958383,
-      "mom_6m": 0.10517445886371957,
+      "mom_6m": 0.1051745726268738,
       "name": "Monolithic Power",
       "tags": [
         "semiconductor"
@@ -762,7 +762,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 57.0,
       "mom_3m": -0.10050392779231021,
-      "mom_6m": -0.14193225500433548,
+      "mom_6m": -0.14193233733578425,
       "name": "Meta Platforms",
       "tags": [
         "ai"
@@ -1396,7 +1396,7 @@
       "recommendation": "none",
       "num_analysts": 29.0,
       "mom_3m": -0.2527010809847151,
-      "mom_6m": -0.02713517374276775,
+      "mom_6m": -0.027135238513470328,
       "name": "NXP Semiconductors",
       "tags": [
         "semiconductor",
