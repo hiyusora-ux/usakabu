@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21T20:30:12.944387+00:00",
+  "updated_at": "2026-08-21T21:29:01.718743+00:00",
   "stocks": [
     {
       "ticker": "MU",
@@ -17,7 +17,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 44.0,
       "mom_3m": 0.2875215850577266,
-      "mom_6m": 1.2978714144457393,
+      "mom_6m": 1.2978712477694558,
       "name": "Micron",
       "tags": [
         "semiconductor",
@@ -269,7 +269,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 18.0,
       "mom_3m": 0.038097320834564075,
-      "mom_6m": 0.13802398212738787,
+      "mom_6m": 0.13802407646626924,
       "name": "TSMC",
       "tags": [
         "semiconductor"
@@ -551,7 +551,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 31.0,
       "mom_3m": 0.029052475600245042,
-      "mom_6m": 0.29854150033911253,
+      "mom_6m": 0.29854158228027416,
       "name": "Lam Research",
       "tags": [
         "semiconductor"
@@ -692,7 +692,7 @@
       "recommendation": "none",
       "num_analysts": 13.0,
       "mom_3m": -0.17078869217669002,
-      "mom_6m": 0.10996432621257535,
+      "mom_6m": 0.10996421195637907,
       "name": "Monolithic Power",
       "tags": [
         "semiconductor"
@@ -757,8 +757,8 @@
       "roe": 0.53942,
       "forward_pe": 29.231853,
       "trailing_pe": 59.97144,
-      "target_mean": 2196.4258,
-      "upside": 0.2453087652734962,
+      "target_mean": 2195.9126,
+      "upside": 0.24501779598223306,
       "recommendation": "strong_buy",
       "num_analysts": 15.0,
       "mom_3m": 0.08153658248673468,
