@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T20:34:48.333476+00:00",
+  "updated_at": "2026-08-24T21:33:54.893958+00:00",
   "stocks": [
     {
       "ticker": "MU",
@@ -309,7 +309,7 @@
       "tags": [
         "ai"
       ],
-      "score": 60.1,
+      "score": 59.9,
       "subscores": {
         "revenue_growth": 59.0,
         "earnings_growth": 100.0,
@@ -318,7 +318,7 @@
         "roe": 22.0,
         "mom_3m": 70.0,
         "mom_6m": 91.0,
-        "upside": 50.0,
+        "upside": 48.0,
         "forward_pe": 11.0
       },
       "rank": 9
@@ -339,7 +339,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 54.0,
       "mom_3m": -0.10443351045640148,
-      "mom_6m": 0.11381613937333412,
+      "mom_6m": 0.11381603059987921,
       "name": "Alphabet",
       "tags": [
         "ai"
@@ -511,8 +511,8 @@
       "roe": 0.12227,
       "forward_pe": 22.7199,
       "trailing_pe": 44.029655,
-      "target_mean": 463.21875,
-      "upside": 0.24799615605312697,
+      "target_mean": 470.25,
+      "upside": 0.266939631403053,
       "recommendation": "strong_buy",
       "num_analysts": 32.0,
       "mom_3m": -0.11371459822393126,
@@ -521,7 +521,7 @@
       "tags": [
         "semiconductor"
       ],
-      "score": 53.1,
+      "score": 53.8,
       "subscores": {
         "revenue_growth": 67.0,
         "earnings_growth": 71.0,
@@ -530,7 +530,7 @@
         "roe": 33.0,
         "mom_3m": 41.0,
         "mom_6m": 28.0,
-        "upside": 43.0,
+        "upside": 50.0,
         "forward_pe": 57.0
       },
       "rank": 15
@@ -622,7 +622,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 57.0,
       "mom_3m": -0.08622967969894912,
-      "mom_6m": -0.14329855606409403,
+      "mom_6m": -0.14329847593103195,
       "name": "Meta Platforms",
       "tags": [
         "ai"
@@ -697,7 +697,7 @@
       "tags": [
         "semiconductor"
       ],
-      "score": 50.2,
+      "score": 50.0,
       "subscores": {
         "revenue_growth": 28.0,
         "earnings_growth": 26.0,
@@ -706,7 +706,7 @@
         "roe": 91.0,
         "mom_3m": 78.0,
         "mom_6m": 52.0,
-        "upside": 48.0,
+        "upside": 46.0,
         "forward_pe": 37.0
       },
       "rank": 20
@@ -872,7 +872,7 @@
       "tags": [
         "semiconductor"
       ],
-      "score": 48.3,
+      "score": 48.1,
       "subscores": {
         "revenue_growth": 35.0,
         "earnings_growth": 44.0,
@@ -881,7 +881,7 @@
         "roe": 74.0,
         "mom_3m": 24.0,
         "mom_6m": 61.0,
-        "upside": 46.0,
+        "upside": 43.0,
         "forward_pe": 50.0
       },
       "rank": 25
@@ -1002,12 +1002,12 @@
       "roe": 0.16028,
       "forward_pe": 36.677242,
       "trailing_pe": 78.52397,
-      "target_mean": 263.9407,
-      "upside": 0.1511217572876209,
+      "target_mean": 266.35535,
+      "upside": 0.1616527445557252,
       "recommendation": "strong_buy",
       "num_analysts": 41.0,
       "mom_3m": 0.10125113217792014,
-      "mom_6m": 1.8356569962046247,
+      "mom_6m": 1.8356572637592157,
       "name": "Marvell",
       "tags": [
         "semiconductor",
@@ -1537,7 +1537,7 @@
       "recommendation": "hold",
       "num_analysts": 30.0,
       "mom_3m": -0.36051959473275186,
-      "mom_6m": 0.09818337257874887,
+      "mom_6m": 0.09818348865901272,
       "name": "Qualcomm",
       "tags": [
         "semiconductor"
