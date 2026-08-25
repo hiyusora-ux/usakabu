@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T20:33:35.472206+00:00",
+  "updated_at": "2026-08-25T21:32:48.410574+00:00",
   "stocks": [
     {
       "ticker": "MU",
@@ -197,7 +197,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 46.0,
       "mom_3m": -0.1530256061877756,
-      "mom_6m": 0.11300620778675974,
+      "mom_6m": 0.11300631375933379,
       "name": "Broadcom",
       "tags": [
         "semiconductor",
@@ -261,7 +261,7 @@
       "gross_margin": 0.59242,
       "profit_margin": 0.25766,
       "roe": 0.36465,
-      "forward_pe": 31.71722,
+      "forward_pe": 31.446552,
       "trailing_pe": 50.19589,
       "target_mean": 449.8,
       "upside": 0.22751960535606286,
@@ -652,8 +652,8 @@
       "roe": 0.53942,
       "forward_pe": 28.886719,
       "trailing_pe": 58.60753,
-      "target_mean": 2196.1694,
-      "upside": 0.25915590138659583,
+      "target_mean": 2195.6562,
+      "upside": 0.25886166233172503,
       "recommendation": "strong_buy",
       "num_analysts": 15.0,
       "mom_3m": 0.09296485141259248,
@@ -727,7 +727,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 14.0,
       "mom_3m": -0.19382543881538883,
-      "mom_6m": 0.10898918217266895,
+      "mom_6m": 0.1089890670563014,
       "name": "Monolithic Power",
       "tags": [
         "semiconductor"
@@ -1043,7 +1043,7 @@
       "recommendation": "buy",
       "num_analysts": 25.0,
       "mom_3m": -0.23652848648688063,
-      "mom_6m": -0.008758997913348443,
+      "mom_6m": -0.00875909990419721,
       "name": "Microchip",
       "tags": [
         "semiconductor"
@@ -1078,7 +1078,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 41.0,
       "mom_3m": 0.2100619788734608,
-      "mom_6m": 2.0339216276495824,
+      "mom_6m": 2.033921919795951,
       "name": "Marvell",
       "tags": [
         "semiconductor",
@@ -1396,7 +1396,7 @@
       "recommendation": "none",
       "num_analysts": 29.0,
       "mom_3m": -0.3150516961208564,
-      "mom_6m": -0.02388694988661777,
+      "mom_6m": -0.023886885199077668,
       "name": "NXP Semiconductors",
       "tags": [
         "semiconductor",
@@ -1573,7 +1573,7 @@
       "recommendation": "buy",
       "num_analysts": 24.0,
       "mom_3m": -0.05559827300396125,
-      "mom_6m": 0.05045327769370256,
+      "mom_6m": 0.050453199271058846,
       "name": "Rockwell Automation",
       "tags": [
         "physical_ai"
