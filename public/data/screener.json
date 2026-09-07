@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T18:10:47.349988+00:00",
+  "updated_at": "2026-09-07T21:56:54.019051+00:00",
   "stocks": [
     {
       "ticker": "MU",
@@ -53,7 +53,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 57.0,
       "mom_3m": 0.10410276689149933,
-      "mom_6m": 0.25799590741665535,
+      "mom_6m": 0.2579960122432532,
       "name": "NVIDIA",
       "tags": [
         "semiconductor",
@@ -481,7 +481,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 32.0,
       "mom_3m": -0.10036478924349201,
-      "mom_6m": 0.10502537557404223,
+      "mom_6m": 0.10502527270465967,
       "name": "Analog Devices",
       "tags": [
         "semiconductor"
@@ -692,7 +692,7 @@
       "recommendation": "buy",
       "num_analysts": 31.0,
       "mom_3m": -0.10703595892469298,
-      "mom_6m": 0.31873467800669997,
+      "mom_6m": 0.3187347806841845,
       "name": "Texas Instruments",
       "tags": [
         "semiconductor"
@@ -727,7 +727,7 @@
       "recommendation": "buy",
       "num_analysts": 54.0,
       "mom_3m": 0.4237144193914604,
-      "mom_6m": 0.2937538780865152,
+      "mom_6m": 0.29375377956341087,
       "name": "Salesforce",
       "tags": [
         "ai"
@@ -1113,7 +1113,7 @@
       "recommendation": "buy",
       "num_analysts": 42.0,
       "mom_3m": -0.2477934876322756,
-      "mom_6m": 0.03294066098912607,
+      "mom_6m": 0.03294055845345478,
       "name": "Oracle",
       "tags": [
         "ai"
@@ -1425,7 +1425,7 @@
       "gross_margin": 0.66679,
       "profit_margin": 0.28445998,
       "roe": 0.17423001,
-      "forward_pe": 30.37902,
+      "forward_pe": 30.376406,
       "trailing_pe": 42.004585,
       "target_mean": 478.00934,
       "upside": 0.3035432890308327,
@@ -1572,7 +1572,7 @@
       "recommendation": "hold",
       "num_analysts": 29.0,
       "mom_3m": -0.2209286245023696,
-      "mom_6m": 0.24295630984481242,
+      "mom_6m": 0.24295617013925308,
       "name": "Qualcomm",
       "tags": [
         "semiconductor"
