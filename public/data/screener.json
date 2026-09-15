@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T21:02:45.307142+00:00",
+  "updated_at": "2026-09-15T23:30:39.333872+00:00",
   "stocks": [
     {
       "ticker": "MU",
@@ -233,7 +233,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 20.0,
       "mom_3m": -0.02836809748769442,
-      "mom_6m": 0.22237172803758165,
+      "mom_6m": 0.22237161782818826,
       "name": "TSMC",
       "tags": [
         "semiconductor"
@@ -268,7 +268,7 @@
       "recommendation": "buy",
       "num_analysts": 15.0,
       "mom_3m": -0.18656933089337602,
-      "mom_6m": 0.11678552814943677,
+      "mom_6m": 0.11678564250073387,
       "name": "Teradyne",
       "tags": [
         "semiconductor",
@@ -517,7 +517,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 32.0,
       "mom_3m": -0.1287236530287308,
-      "mom_6m": 0.1689300810876393,
+      "mom_6m": 0.16892996568944185,
       "name": "Analog Devices",
       "tags": [
         "semiconductor"
@@ -693,7 +693,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 15.0,
       "mom_3m": -0.23657192191443843,
-      "mom_6m": 0.06412735374410317,
+      "mom_6m": 0.0641272327522211,
       "name": "Monolithic Power",
       "tags": [
         "semiconductor"
@@ -1144,12 +1144,12 @@
       "roe": 0.53942,
       "forward_pe": 26.540617,
       "trailing_pe": 54.021725,
-      "target_mean": 2146.5107,
-      "upside": 0.348751304661572,
+      "target_mean": 2147.0063,
+      "upside": 0.34906271291431956,
       "recommendation": "strong_buy",
       "num_analysts": 16.0,
       "mom_3m": -0.11661008864116518,
-      "mom_6m": 0.16099532784434145,
+      "mom_6m": 0.1609954312322761,
       "name": "ASML",
       "tags": [
         "semiconductor"
