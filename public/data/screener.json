@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T21:05:04.728264+00:00",
+  "updated_at": "2026-09-16T23:38:33.166120+00:00",
   "stocks": [
     {
       "ticker": "MU",
@@ -53,7 +53,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 58.0,
       "mom_3m": 0.04636868493435564,
-      "mom_6m": 0.1784143829913365,
+      "mom_6m": 0.17841428392973846,
       "name": "NVIDIA",
       "tags": [
         "semiconductor",
@@ -227,7 +227,7 @@
       "profit_margin": 0.49923,
       "roe": 0.39969003,
       "forward_pe": 19.052135,
-      "trailing_pe": 30.96516,
+      "trailing_pe": 30.669603,
       "target_mean": 551.2594,
       "upside": 0.3196863889424848,
       "recommendation": "strong_buy",
@@ -268,7 +268,7 @@
       "recommendation": "buy",
       "num_analysts": 15.0,
       "mom_3m": -0.16467336239953623,
-      "mom_6m": 0.14031369124792037,
+      "mom_6m": 0.14031380756765932,
       "name": "Teradyne",
       "tags": [
         "semiconductor",
@@ -326,7 +326,7 @@
     {
       "ticker": "SMCI",
       "price": 36.849998474121094,
-      "market_cap": 23837270016.0,
+      "market_cap": 24209172480.0,
       "revenue_growth": 0.932,
       "earnings_growth": 4.347,
       "gross_margin": 0.108219996,
@@ -405,8 +405,8 @@
       "roe": -0.45639,
       "forward_pe": -14.133334,
       "trailing_pe": null,
-      "target_mean": 11.21583,
-      "upside": 0.7634952459981106,
+      "target_mean": 11.54917,
+      "upside": 0.81590719458337,
       "recommendation": "buy",
       "num_analysts": 12.0,
       "mom_3m": 0.05123965834815736,
@@ -510,7 +510,7 @@
       "profit_margin": 0.21031,
       "roe": 0.20027,
       "forward_pe": 14.800096,
-      "trailing_pe": 20.343283,
+      "trailing_pe": 21.296875,
       "target_mean": 16.85176,
       "upside": 0.2363726968824924,
       "recommendation": "hold",
@@ -762,7 +762,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 42.0,
       "mom_3m": -0.20644239559141309,
-      "mom_6m": 1.5320156462724048,
+      "mom_6m": 1.5320154333394442,
       "name": "Marvell",
       "tags": [
         "semiconductor",
@@ -855,7 +855,7 @@
     {
       "ticker": "ZBRA",
       "price": 341.17999267578125,
-      "market_cap": 16251559936.0,
+      "market_cap": 16141450240.0,
       "revenue_growth": 0.204,
       "earnings_growth": 1.215,
       "gross_margin": 0.49581,
@@ -995,7 +995,7 @@
     {
       "ticker": "MDB",
       "price": 376.3399963378906,
-      "market_cap": 30316574720.0,
+      "market_cap": 30269751296.0,
       "revenue_growth": 0.305,
       "earnings_growth": null,
       "gross_margin": 0.72688,
@@ -1144,8 +1144,8 @@
       "roe": 0.53942,
       "forward_pe": 26.719725,
       "trailing_pe": 54.423233,
-      "target_mean": 2133.7087,
-      "upside": 0.33172020010687686,
+      "target_mean": 2134.1985,
+      "upside": 0.332025900952551,
       "recommendation": "strong_buy",
       "num_analysts": 16.0,
       "mom_3m": -0.14109303020600272,
@@ -1524,7 +1524,7 @@
     {
       "ticker": "ROK",
       "price": 414.9200134277344,
-      "market_cap": 46076317696.0,
+      "market_cap": 46169788416.0,
       "revenue_growth": 0.079,
       "earnings_growth": 0.404,
       "gross_margin": 0.49091998,
