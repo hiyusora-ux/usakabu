@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-11-25T22:14:18.141036+00:00",
+  "updated_at": "2026-11-26T22:11:43.423545+00:00",
   "stocks": [
     {
       "ticker": "MU",
       "price": 601.25,
-      "market_cap": 680268201984.0,
+      "market_cap": 682379247616.0,
       "revenue_growth": 3.793,
       "earnings_growth": 10.595,
       "gross_margin": 0.80716,
@@ -17,7 +17,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 45.0,
       "mom_3m": -0.3553752614341469,
-      "mom_6m": -0.3286633374977477,
+      "mom_6m": -0.3286632917462061,
       "name": "Micron",
       "tags": [
         "semiconductor",
@@ -53,7 +53,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 47.0,
       "mom_3m": -0.18271151048874756,
-      "mom_6m": -0.2846499689401941,
+      "mom_6m": -0.2846500208468207,
       "name": "Broadcom",
       "tags": [
         "semiconductor",
@@ -154,11 +154,11 @@
       "gross_margin": 0.65846,
       "profit_margin": 0.51116,
       "roe": 0.4186,
-      "forward_pe": 14.639117,
+      "forward_pe": 14.662347,
       "trailing_pe": 22.18665,
       "target_mean": 586.693,
       "upside": 0.7137728757259558,
-      "recommendation": "strong_buy",
+      "recommendation": "none",
       "num_analysts": 20.0,
       "mom_3m": -0.17786354984979502,
       "mom_6m": -0.16554557294872652,
@@ -189,14 +189,14 @@
       "gross_margin": 0.81034,
       "profit_margin": 0.31145,
       "roe": 0.32264,
-      "forward_pe": 17.09565,
-      "trailing_pe": 20.808258,
+      "forward_pe": 17.151987,
+      "trailing_pe": 20.121742,
       "target_mean": 842.53656,
       "upside": 0.38145655735267003,
       "recommendation": "strong_buy",
       "num_analysts": 58.0,
       "mom_3m": 0.055969198162237666,
-      "mom_6m": -0.002291175027220649,
+      "mom_6m": -0.002291274644831476,
       "name": "Meta Platforms",
       "tags": [
         "ai"
@@ -226,12 +226,12 @@
       "roe": 0.65636003,
       "forward_pe": 20.553543,
       "trailing_pe": 32.063976,
-      "target_mean": 2112.6443,
-      "upside": 0.6212698922915032,
+      "target_mean": 2111.7168,
+      "upside": 0.6205581170886922,
       "recommendation": "strong_buy",
       "num_analysts": 17.0,
       "mom_3m": -0.2307335149527594,
-      "mom_6m": -0.19947153035719511,
+      "mom_6m": -0.19947147032384382,
       "name": "ASML",
       "tags": [
         "semiconductor"
@@ -324,21 +324,21 @@
     },
     {
       "ticker": "ADI",
-      "price": 333.1050109863281,
+      "price": 333.1099853515625,
       "market_cap": 160781926400.0,
       "revenue_growth": 0.422,
-      "earnings_growth": 1.133,
+      "earnings_growth": 1.125,
       "gross_margin": 0.67363,
       "profit_margin": 0.32923,
       "roe": 0.14758,
       "forward_pe": 16.776022,
       "trailing_pe": 32.62537,
       "target_mean": 441.34375,
-      "upside": 0.32493878940210363,
+      "upside": 0.32491900395663054,
       "recommendation": "strong_buy",
       "num_analysts": 32.0,
-      "mom_3m": -0.07645557526239133,
-      "mom_6m": -0.20218340027253212,
+      "mom_3m": -0.07644178367377119,
+      "mom_6m": -0.20217148621832648,
       "name": "Analog Devices",
       "tags": [
         "semiconductor"
@@ -372,7 +372,7 @@
       "upside": 0.9102050985574672,
       "recommendation": "buy",
       "num_analysts": 16.0,
-      "mom_3m": -0.40173448634138476,
+      "mom_3m": -0.4017345378280712,
       "mom_6m": -0.4542676321081408,
       "name": "Teradyne",
       "tags": [
@@ -571,7 +571,7 @@
     },
     {
       "ticker": "MCHP",
-      "price": 57.654998779296875,
+      "price": 57.65999984741211,
       "market_cap": 31377211392.0,
       "revenue_growth": 0.422,
       "earnings_growth": 25.418,
@@ -581,11 +581,11 @@
       "forward_pe": 13.005249,
       "trailing_pe": 43.34962,
       "target_mean": 85.28,
-      "upside": 0.4791432105731461,
+      "upside": 0.4790149189330519,
       "recommendation": "strong_buy",
       "num_analysts": 25.0,
-      "mom_3m": -0.20290562999564687,
-      "mom_6m": -0.4035507916514305,
+      "mom_3m": -0.20283648901354545,
+      "mom_6m": -0.40349905488651183,
       "name": "Microchip",
       "tags": [
         "semiconductor"
@@ -620,7 +620,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 54.0,
       "mom_3m": -0.0441134896362636,
-      "mom_6m": 0.18212744600357778,
+      "mom_6m": 0.1821275330487464,
       "name": "Microsoft",
       "tags": [
         "ai"
@@ -655,7 +655,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 40.0,
       "mom_3m": -0.3088220557892406,
-      "mom_6m": -0.4580600467041419,
+      "mom_6m": -0.4580600035631116,
       "name": "Oracle",
       "tags": [
         "ai"
@@ -756,8 +756,8 @@
       "roe": 0.19381,
       "forward_pe": 12.318696,
       "trailing_pe": 18.043001,
-      "target_mean": 284.44208,
-      "upside": 0.44233086717905823,
+      "target_mean": 282.3666,
+      "upside": 0.4318066547692323,
       "recommendation": "buy",
       "num_analysts": 53.0,
       "mom_3m": -0.228293146447356,
@@ -766,7 +766,7 @@
       "tags": [
         "ai"
       ],
-      "score": 51.4,
+      "score": 51.2,
       "subscores": {
         "revenue_growth": 11.0,
         "earnings_growth": 69.0,
@@ -775,7 +775,7 @@
         "roe": 46.0,
         "mom_3m": 50.0,
         "mom_6m": 85.0,
-        "upside": 35.0,
+        "upside": 33.0,
         "forward_pe": 85.0
       },
       "rank": 22
@@ -933,10 +933,10 @@
       "roe": 0.28674,
       "forward_pe": 13.247388,
       "trailing_pe": 19.115658,
-      "target_mean": 302.63333,
-      "upside": 0.24560965441695015,
+      "target_mean": 302.2069,
+      "upside": 0.2438545095856357,
       "recommendation": "buy",
-      "num_analysts": 30.0,
+      "num_analysts": 29.0,
       "mom_3m": 0.09157038792138072,
       "mom_6m": -0.2638916601404847,
       "name": "NXP Semiconductors",
@@ -1037,7 +1037,7 @@
       "gross_margin": 0.6703,
       "profit_margin": -0.20071,
       "roe": -0.48063,
-      "forward_pe": 86.90853,
+      "forward_pe": 86.64498,
       "trailing_pe": null,
       "target_mean": 428.5534,
       "upside": 0.6007522712010933,
@@ -1079,7 +1079,7 @@
       "recommendation": "hold",
       "num_analysts": 28.0,
       "mom_3m": 0.032815211206014494,
-      "mom_6m": -0.31595427310508173,
+      "mom_6m": -0.31595423077215845,
       "name": "Qualcomm",
       "tags": [
         "semiconductor"
@@ -1114,7 +1114,7 @@
       "recommendation": "strong_buy",
       "num_analysts": 39.0,
       "mom_3m": -0.39544547299653277,
-      "mom_6m": -0.3710221805475503,
+      "mom_6m": -0.37102222665292495,
       "name": "Marvell",
       "tags": [
         "semiconductor",
@@ -1143,7 +1143,7 @@
       "gross_margin": 0.66642,
       "profit_margin": 0.25542,
       "roe": 0.17932,
-      "forward_pe": 34.259995,
+      "forward_pe": 34.257908,
       "trailing_pe": 51.654167,
       "target_mean": 487.71805,
       "upside": 0.14171557273789648,
@@ -1241,6 +1241,41 @@
       "rank": 35
     },
     {
+      "ticker": "MDB",
+      "price": 313.5299987792969,
+      "market_cap": 25217822720.0,
+      "revenue_growth": 0.305,
+      "earnings_growth": null,
+      "gross_margin": 0.72688,
+      "profit_margin": 0.02116,
+      "roe": 0.01989,
+      "forward_pe": 39.480244,
+      "trailing_pe": 435.4583,
+      "target_mean": 449.13422,
+      "upside": 0.4325079633485376,
+      "recommendation": "buy",
+      "num_analysts": 38.0,
+      "mom_3m": -0.29799381530817826,
+      "mom_6m": 0.02010734521898727,
+      "name": "MongoDB",
+      "tags": [
+        "ai"
+      ],
+      "score": 43.1,
+      "subscores": {
+        "revenue_growth": 46.0,
+        "earnings_growth": 50.0,
+        "gross_margin": 74.0,
+        "profit_margin": 17.0,
+        "roe": 15.0,
+        "mom_3m": 37.0,
+        "mom_6m": 83.0,
+        "upside": 35.0,
+        "forward_pe": 20.0
+      },
+      "rank": 36
+    },
+    {
       "ticker": "SERV",
       "price": 2.2899999618530273,
       "market_cap": 200517808.0,
@@ -1273,41 +1308,6 @@
         "upside": 100.0,
         "forward_pe": 98.0
       },
-      "rank": 36
-    },
-    {
-      "ticker": "MDB",
-      "price": 313.5299987792969,
-      "market_cap": 25217822720.0,
-      "revenue_growth": 0.305,
-      "earnings_growth": null,
-      "gross_margin": 0.72688,
-      "profit_margin": 0.02116,
-      "roe": 0.01989,
-      "forward_pe": 39.569134,
-      "trailing_pe": 435.4583,
-      "target_mean": 449.13422,
-      "upside": 0.4325079633485376,
-      "recommendation": "buy",
-      "num_analysts": 38.0,
-      "mom_3m": -0.29799381530817826,
-      "mom_6m": 0.02010734521898727,
-      "name": "MongoDB",
-      "tags": [
-        "ai"
-      ],
-      "score": 42.9,
-      "subscores": {
-        "revenue_growth": 46.0,
-        "earnings_growth": 50.0,
-        "gross_margin": 74.0,
-        "profit_margin": 17.0,
-        "roe": 15.0,
-        "mom_3m": 37.0,
-        "mom_6m": 83.0,
-        "upside": 33.0,
-        "forward_pe": 20.0
-      },
       "rank": 37
     },
     {
@@ -1319,7 +1319,7 @@
       "gross_margin": 0.48904,
       "profit_margin": 0.15675001,
       "roe": 0.38734,
-      "forward_pe": 22.994997,
+      "forward_pe": 23.000273,
       "trailing_pe": 30.694578,
       "target_mean": 446.08,
       "upside": 0.1589202560492251,
@@ -1356,8 +1356,8 @@
       "roe": 0.15515,
       "forward_pe": 52.047253,
       "trailing_pe": 475.25003,
-      "target_mean": 56.52875,
-      "upside": 0.48681613149367675,
+      "target_mean": 56.59125,
+      "upside": 0.4884600031203863,
       "recommendation": "buy",
       "num_analysts": 16.0,
       "mom_3m": -0.04652036469558185,
@@ -1494,7 +1494,7 @@
       "gross_margin": 0.73080003,
       "profit_margin": 0.09364,
       "roe": 0.11846,
-      "forward_pe": 19.190805,
+      "forward_pe": 19.179262,
       "trailing_pe": 66.30216,
       "target_mean": 154.88391,
       "upside": 0.680597914989872,
